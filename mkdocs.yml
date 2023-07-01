@@ -1,7 +1,10 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 site_name: Architalia 🇮🇹
+repo_url: https://github.com/architalia/mkdocs-material
+repo_name: architalia/mkdocs-material
 theme:
+  icon:
+    repo: fontawesome/brands/github
   logo: assets/logo.png
   favicon: images/logo.png
   name: material
@@ -31,7 +34,6 @@ theme:
         name: Switch to light mode
 
 extra:
-  homepage: /home/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ArchItalia
@@ -41,6 +43,7 @@ extra:
       link: https://  
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@ArchItalia
+      
 extra_css:
   - stylesheets/extra.css
       
