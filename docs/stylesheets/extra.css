@@ -1,0 +1,21 @@
+ [data-md-color-scheme=light] {
+  --md-primary-fg-color:#587d8d;
+  --md-default-fg-color:#434343;
+  --md-default-bg-color:#f2f4f5;
+  --md-code-bg-color:#c4d9ff;
+  --md-code-fg-color:#222;
+  --md-typeset-a-color:#06c;
+ 
+}
+
+ [data-md-color-scheme=slate] {
+  --md-primary-fg-color:#161c28;
+  
+ 
+ 
+}
+
+.md-typeset code {
+font-size: 1em;
+padding:5px
+}

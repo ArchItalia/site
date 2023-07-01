@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Architalia 🇮🇹
+theme:
+  logo: assets/logo.png
+  favicon: images/logo.png
+  name: material
+  language: it
+  font:
+    text: Ubuntu 
+    code: Ubuntu mono
+  features:
+    - navigation.footer
+    - navigation.tabs
+    
+    
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  homepage: /home/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ArchItalia
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/architalia
+    - icon: fontawesome/brands/mastodon
+      link: https://  
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ArchItalia
+extra_css:
+  - stylesheets/extra.css
+      
+    
+copyright: Copyright &copy; 2023 Architalia
+  
+
+
+
+
+
