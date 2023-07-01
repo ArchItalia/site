@@ -2,6 +2,8 @@
 site_name: Architalia 🇮🇹
 repo_url: https://github.com/architalia/mkdocs-material
 repo_name: architalia/mkdocs-material
+edit_uri: edit/main/docs/
+
 theme:
   icon:
     repo: fontawesome/brands/github
