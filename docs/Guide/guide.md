@@ -373,18 +373,98 @@ Configuriamo il file sudoers per il gruppo wheel
 <br><br><br><br>
 
 
+### mkinitcpio per lvm
+
+aggiungere **lvm2** a hooks in **/etc/mkinitcpio.conf**
+
+`HOOKS="base udev ... block lvm2 filesystems"`
+
+quindi usare il comando:
+
+`# mkinitcpio -p linux`
 
 
+<br><br><br><br>
 
 
+## Bootloader
+
+### GRUB (Bios-MBR)
+
+- `# pacman -S grub`
+- `# grub-install --target=i386-pc /dev/sda`
+- `# grub-mkconfig -o /boot/grub/grub.cfg`
+
+<br><br><br><br>
 
 
+### GRUB (UEFI)
+
+- `# pacman -S grub`
+- `# grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
+- `# grub-mkconfig -o /boot/grub/grub.cfg`
+
+GRUB supporta completamente l'avvio protetto utilizzando chiavi CA o shim, tuttavia il comando di installazione è diverso a seconda di quale si intende utilizzare.
+
+Per utilizzare le chiavi CA il comando è:
+
+`# grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="tpm" --disable-shim-lock`
 
 
+Per utilizzare shim-lock il comando è:
+
+`# grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="normal test efi_gop efi_uga search echo linux all_video gfxmenu gfxterm_background gfxterm_menu gfxterm loadenv configfile tpm"`
+
+<br><br><br><br>
+
+### Systemd-boot (EXT4)
+
+- `# pacman -S efibootmgr`
+- `# bootctl --path=/boot install`
+- `# echo "deafult arch-*" >> /boot/loader/loader.conf`
+- `# vim /boot/loader/entries/arch.conf`
+
+adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' importante scrivere la partizione di avvio della root corretta ad esempio `root=/dev/sdax` dove `x` sta per il numero di partizione della root.
+
+- `title   Arch Linux`
+- `linux   /vmlinuz-linux`
+- `initrd  /initramfs-linux.img`
+- `options root=/dev/sdax rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
+
+<br><br><br><br>
 
 
+### Systemd-boot (BTRFS)
 
+- `# pacman -S efibootmgr`
+- `# bootctl --path=/boot install`
+- `# echo "deafult arch-*" >> /boot/loader/loader.conf`
+- `# vim /boot/loader/entries/arch.conf`
 
+adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' importante scrivere la partizione di avvio della root corretta ad esempio `root=/dev/sdax` dove `x` sta per il numero di partizione della root, aggiungiamo il flag per il sottovolume **@**.
+
+- `title   Arch Linux`
+- `linux   /vmlinuz-linux`
+- `initrd  /initramfs-linux.img`
+- `options root=/dev/sdax rootflags=subvol=@ rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
+
+<br><br><br><br>
+
+### Systemd-boot (LVM)
+
+- `# pacman -S efibootmgr`
+- `# bootctl --path=/boot install`
+- `# echo "deafult arch-*" >> /boot/loader/loader.conf`
+- `# vim /boot/loader/entries/arch.conf`
+
+adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' importante scrivere la partizione di avvio della root corretta ad esempio per **lvm** `root=/dev/mapper/lvm-root`.
+
+- `title   Arch Linux (LVM)`
+- `linux   /vmlinuz-linux`
+- `initrd  /initramfs-linux.img`
+- `options root=/dev/mapper/lvm-root rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
+
+<br><br><br><br>
 
 
 
