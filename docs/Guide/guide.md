@@ -2,6 +2,7 @@
 
 Guide all'installazione di Arch Linux: 
 
+* [Verifica Firma](#verifica-firma)
 * [Configurazione iniziale](#configurazione-iniziale)
 * [Connessione Internet](#connessione-internet)
 * [Preparazione del disco](#preparazione-del-disco)
@@ -16,6 +17,19 @@ Guide all'installazione di Arch Linux:
 * [zram](#zram)
 
 <br><br><br><br>
+
+## Verifica Firma
+
+Si consiglia di verificare la firma dell'immagine prima dell'uso, in particolare durante il download da un mirror HTTP, dove i download sono generalmente soggetti a essere intercettati per fornire immagini dannose.
+
+Su un sistema con *GnuPG* installato, scarica la firma [ISO PGP](https://archlinux.org/download/#checksums)  nella directory ISO e verificala con:
+
+`$ gpg --keyserver-options auto-key-retrieve --verify archlinux-version-x86_64.iso.sig`
+
+In alternativa, da un'installazione esistente di Arch Linux eseguire:
+
+`$ pacman-key -v archlinux-version-x86_64.iso.sig`
+
 
 ## Configurazione iniziale
 
@@ -274,3 +288,60 @@ Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo st
 `# reflector --verbose -c it -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
 
 <br><br><br><br>
+
+## Pacstrap
+
+Installiamo il **kernel linux** e i pacchetti base per creare il nostro arch, aggiungiamo anche un editor ad esempio **vim**, se stai seguendo l'installazione per **lvm** aggiungi al comando che segue il pacchetto `lvm2`:
+
+`# pacstrap -K /mnt base base-devel linux linux-firmware vim` 
+
+<br><br><br><br>
+
+
+
+## Generiamo Fstab
+
+Il file /etc/fstab vi permette di controllare quali filesystem sono montati in fase di avvio sul vostro sistema Linux, comprese le partizioni di Windows e le condivisioni di rete:
+
+`# genfstab -U /mnt > /mnt/etc/fstab`
+
+<br><br><br><br>
+
+
+## chroot
+ 
+Passiamo in chroot e configuriamo i seguenti passaggi: Configurazione del localtime, del systemclock, lingua, keyboard mappings, localhost, Password Root, Creazione User e password.
+
+entriamo in chroot:
+
+`# arch-chroot /mnt`
+
+<br><br><br><br>
+
+
+### Localtime
+
+`# ln -sf /usr/share/zoneinfo/Europe/Italy /etc/localtime`
+
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
