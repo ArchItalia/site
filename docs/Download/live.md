@@ -18,12 +18,13 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 ### Download ISO
 
-- `[Architalia] 1.59 GB [Beta 3.0]`
+- `[architalia-2023.07.03-x86_64.iso] 1.59 GB [Beta 3.0]`
 - `linux-6.4.1-arch1-1`
 
+<br>
 [Download presto disponibile]()
 
-
+<br><br>
 
 ### Bugs
 
