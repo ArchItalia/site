@@ -4,6 +4,7 @@ Guide all'installazione di Arch Linux:
 
 * [Configurazione iniziale](#configurazione-iniziale)
 * [Connessione Internet](#connessione-internet)
+* [Preparazione del disco](#preparazione-del-disco)
 
 <br><br><br><br>
 
