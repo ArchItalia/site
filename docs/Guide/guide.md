@@ -86,8 +86,8 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 #### Montaggio delle Partizioni
 
-- `# mount /dev/sda2 /mnt Montiamo la partizione root`
-- `# swapon /dev/sda1 Montiamo la partizione di swap`
+- `# mount /dev/sda2 /mnt` Montiamo la partizione root
+- `# swapon /dev/sda1` Montiamo la partizione di swap
 
 
 <br><br><br><br>
