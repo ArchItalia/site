@@ -83,7 +83,7 @@ Riprovare `# iwctl` e procedere come sopra.
 * [Bios-MBR ext4](#bios-mbr)
 * [UEFI ext4](#uefi-ext4)
 * [UEFI btrfs](#uefi-btrfs)
-* [UEFI lvm](#uefi-lvm)
+* [UEFI lvm EXT4](#uefi-lvm-ext4)
 
 
 <br><br><br><br>
@@ -209,7 +209,7 @@ Creiamo i sottovolumi **@** e **@home**
 
 <br><br><br><br>
 
-### UEFI lvm
+### UEFI lvm-ext4
 
 #### Partizionamento
 Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: in caso di **SSD /dev/sda** oppure nel caso di **M.2 /dev/nvme0n1** infine il **Disco Virtuale /dev/vda**.
