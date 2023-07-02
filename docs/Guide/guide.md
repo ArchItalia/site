@@ -511,8 +511,41 @@ cinnamon con display manager Lightdm
 <br><br><br><br>
 
 
+## Servizi
 
+Se hai abilitato il servizio per il display manager puoi passare ad abilitare gli altri servizi necessari.
 
+- `# systemctl enable NetworkManager` Fai attenzione e' case sensitive.
+- `# systemctl enable bluetooth`
+- `# systemctl enable reflector`
+- `# systemctl enable cronie`
+- `# systemctl enable firewalld` 
+
+<br><br><br><br>
+
+## Zram
+
+L'esempio seguente descrive come configurare lo scambio su *zram* automaticamente all'avvio con una singola regola *udev*. Non dovrebbe essere necessario alcun pacchetto aggiuntivo per farlo funzionare.
+
+Carica esplicitamente il modulo all'avvio:
+
+- `# vim /etc/modules-load.d/zram.conf`
+
+- `zram`
+
+Crea la seguente regola *udev* regolando l'attributo disksize come necessario per la misura della swap in questo esempio e' *16G*:
+
+- `# vim /etc/udev/rules.d/99-zram.rules`
+
+- `ACTION=="add", KERNEL=="zram0", ATTR{comp_algorithm}="zstd", ATTR{disksize}="16G", RUN="/usr/bin/mkswap -U clear /dev/%k" , TAG+="systemd"`
+
+Aggiungi **/dev/zram** al tuo fstab con una priorità superiore a quella predefinita:
+
+- `# vim /etc/fstab`
+
+- `/dev/zram0 none swap defaults,pri=100 0 0 `
+
+<br><br><br><br>
 
 
 
