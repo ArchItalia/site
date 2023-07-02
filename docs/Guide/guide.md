@@ -9,7 +9,7 @@ Guide all'installazione di Arch Linux:
 * [Mirrorlist](#mirrorlist)
 * [Pacstrap](#pacstrap)
 * [Generare Fstab](#generare-fstab)
-* [chroot](#chroot)
+* [Chroot](#chroot)
 * [Bootloader](#bootloader)
 * [Pacchetti Base](#pacchetti-base)
 * [Ambiente Grafico](#ambiente-grafico)
@@ -320,13 +320,21 @@ entriamo in chroot:
 <br><br><br><br>
 
 
-### Localtime
+### Time zone
 
-`# ln -sf /usr/share/zoneinfo/Europe/Italy /etc/localtime`
+- `# ln -sf /usr/share/zoneinfo/Europe/Italy /etc/localtime`
+- `# hwclock --systohc`
 
 <br><br><br><br>
 
+### Localizzazione
 
+- `# echo "it_IT.UTF-8 UTF-8" >> /etc/locale.gen`
+- `# locale-gen`
+- `# echo "LANG=it_IT.UTF-8" >> /etc/locale.conf`
+- `# echo "KEYMAP=it" >> /etc/vconsole.conf`
+
+<br><br><br><br>
 
 
 
