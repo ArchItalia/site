@@ -337,6 +337,56 @@ entriamo in chroot:
 <br><br><br><br>
 
 
+### Hostname e Hosts
+
+- `# echo "NOMETUAMACCHINA" > /etc/hostname`
+- `# echo "127.0.0.1 localhost" >> /etc/hosts`
+- `# echo "::1       localhost" >> /etc/hosts`
+
+<br><br><br><br>
+
+
+### Utente e Root
+
+Configuriamo la password di Root, fai attenzione!
+
+`# passwd`
+
+Configuriamo un nuovo utente in minuscolo creando con `-m` la directory `/home/NOMEUTENTE`, con `-G` il gruppo `wheel` e infine con `-s` la shell:
+
+`# useradd -mG wheel -s /bin/bash NOMEUTENTE`
+
+
+Configuriamo il nome reale (quello che appare in grafica con l'iniziale maiuscola ad esempio **"Alessio"**) 
+
+`# usermod -c 'NOMEREALE' NOMEUTENTE`
+
+Configuriamo una password per l'utente appena aggiunto, fai attenzione!
+
+`# passwd NOMEUTENTE`
+
+Configuriamo il file sudoers per il gruppo wheel
+
+`# echo "NOMEUTENTE ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/NOMEUTENTE`
+
+
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
