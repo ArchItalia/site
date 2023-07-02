@@ -477,31 +477,37 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 
 Scegli tra alcuni dei piu famosi ambienti desktop suggeriti:
 
+### Gnome
 Gnome completo con display manager GDM
 
 - `# pacman -S gnome gnome-extra gdm` 
 - `# systemctl enable gdm`
 
+### Xfce4
 xfce4 con display manager Lightdm
 
 - `# pacman -S xfce4 xfce4-goodies lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings`
 - `# systemctl enable lightdm`
 
+### lxde
 lxde con display manger lightdm
 
 - `# pacman -S lxde lxde-common lxsession openbox`
 - `# systemctl enable lightdm`
 
+### Mate
 mate con display manger lightdm
 
 - `# pacman -S mate mate-extra`
 - `# systemctl enable lightdm`
 
+### Plasma
 plasma kde con display manager SDDM
 
 - `# pacman -S plasma kde-applications sddm`
 - `# systemctl enable sddm`
 
+### Cinnamon
 cinnamon con display manager Lightdm
 
 - `# pacman -S cinnamon nemo-fileroller gnome-terminal lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs-gtk`
