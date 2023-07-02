@@ -2,23 +2,23 @@
 
 Guide all'installazione di Arch Linux: 
 
-1.  [Verifica Firma](#verifica-firma)
-2.  [Configurazione iniziale](#configurazione-iniziale)
-3.  [Connessione Internet](#connessione-internet)
-4.  [Preparazione del disco](#preparazione-del-disco)
-5.  [Mirrorlist](#mirrorlist)
-6.  [Pacstrap](#pacstrap)
-7.  [Generare Fstab](#generare-fstab)
-8.  [Chroot](#chroot)
-9.  [Bootloader](#bootloader)
-10. [Pacchetti Base](#pacchetti-base)
-11. [Ambiente Grafico](#ambiente-grafico)
-12. [Servizi](#servizi)
-13. [zram](#zram)
+1.  [Verifica Firma](#1-verifica-firma)
+2.  [Configurazione iniziale](#2-configurazione-iniziale)
+3.  [Connessione Internet](#3-connessione-internet)
+4.  [Preparazione del disco](#4-preparazione-del-disco)
+5.  [Mirrorlist](#5-mirrorlist)
+6.  [Pacstrap](#6-pacstrap)
+7.  [Generare Fstab](#7-generare-fstab)
+8.  [Chroot](#8-chroot)
+9.  [Bootloader](#9-bootloader)
+10. [Pacchetti Base](#10-pacchetti-base)
+11. [Ambiente Grafico](#11-ambiente-grafico)
+12. [Servizi](#12-servizi)
+13. [zram](#13-zram)
 
 <br><br><br><br>
 
-## Verifica Firma
+## 1. Verifica Firma
 
 Si consiglia di verificare la firma dell'immagine prima dell'uso, in particolare durante il download da un mirror HTTP, dove i download sono generalmente soggetti a essere intercettati per fornire immagini dannose.
 
@@ -32,7 +32,7 @@ In alternativa, da un'installazione esistente di Arch Linux eseguire:
 
 <br><br><br><br>
 
-## Configurazione iniziale
+## 2. Configurazione iniziale
 
 Per iniziare dobbiamo definire la lingua della tastiera, la lingua predefinita senza immettere il comando e' `US`. I layout disponibili possono essere elencati con: 
 
@@ -49,7 +49,7 @@ I caratteri della console si trovano in **/usr/share/kbd/consolefonts/** e posso
 
 <br><br><br><br>
 
-## Connessione Internet
+## 3. Connessione Internet
 Se avete connesso la machina a internet mediante cavo o macchina virtuale, possiamo verificare il nostro indirizzo ip acquisito attraverso questo comando :
 
 `# ip a`
@@ -78,7 +78,7 @@ Riprovare `# iwctl` e procedere come sopra.
 
 <br><br><br><br>
 
-## Preparazione del disco
+## 4. Preparazione del disco
 
 * [Bios-MBR ext4](#bios-mbr)
 * [UEFI ext4](#uefi-ext4)
@@ -282,7 +282,7 @@ Se in futuro vorrete aggiungere un nuovo volume fisico al gruppo vediamo quale c
 
 <br><br><br><br>
 
-## Mirrorlist
+## 5. Mirrorlist
 
 Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo strumento **reflector**, specificare il paese dove sincronizzare i server ad esempio **it**, e' possibile aggiungere piu paesi usando la virgola ad esempio **it,us**:
 
@@ -290,7 +290,7 @@ Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo st
 
 <br><br><br><br>
 
-## Pacstrap
+## 6. Pacstrap
 
 Installiamo il **kernel linux** e i pacchetti base per creare il nostro arch, aggiungiamo anche un editor ad esempio **vim**, se stai seguendo l'installazione per **lvm** aggiungi al comando che segue il pacchetto `lvm2`:
 
@@ -300,7 +300,7 @@ Installiamo il **kernel linux** e i pacchetti base per creare il nostro arch, ag
 
 
 
-## Generare Fstab
+## 7. Generare Fstab
 
 Il file /etc/fstab vi permette di controllare quali filesystem sono montati in fase di avvio sul vostro sistema Linux, comprese le partizioni di Windows e le condivisioni di rete:
 
@@ -309,7 +309,7 @@ Il file /etc/fstab vi permette di controllare quali filesystem sono montati in f
 <br><br><br><br>
 
 
-## Chroot
+## 8. Chroot
  
 Passiamo in chroot e configuriamo i seguenti passaggi: Configurazione del localtime, del systemclock, lingua, keyboard mappings, localhost, Password Root, Creazione User e password.
 
@@ -387,7 +387,7 @@ quindi usare il comando:
 <br><br><br><br>
 
 
-## Bootloader
+## 9. Bootloader
 
 ### GRUB (Bios-MBR)
 
@@ -466,14 +466,14 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 
 <br><br><br><br>
 
-## Pacchetti Base
+## 10. Pacchetti Base
 
 `# pacman -S xorg wpa_supplicant wireless_tools netctl net-tools iw networkmanager alsa-utils pipewire-pulse mtools dosfstools mtools ntfs-3g f2fs-tools dosfstools exfatprogs fuse firewalld acpi cronie git reflector bluez bluez-utils cups reflector`
 
 <br><br><br><br>
 
 
-## Ambiente Grafico
+## 11. Ambiente Grafico
 
 Scegli tra alcuni dei piu famosi ambienti desktop suggeriti:
 
@@ -517,7 +517,7 @@ cinnamon con display manager Lightdm
 <br><br><br><br>
 
 
-## Servizi
+## 12. Servizi
 
 Se hai abilitato il servizio per il display manager puoi passare ad abilitare gli altri servizi necessari.
 
@@ -529,7 +529,7 @@ Se hai abilitato il servizio per il display manager puoi passare ad abilitare gl
 
 <br><br><br><br>
 
-## Zram
+## 13. Zram
 
 L'esempio seguente descrive come configurare lo scambio su *zram* automaticamente all'avvio con una singola regola *udev*. Non dovrebbe essere necessario alcun pacchetto aggiuntivo per farlo funzionare.
 
