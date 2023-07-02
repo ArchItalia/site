@@ -159,25 +159,25 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 Creiamo i sottovolumi **@** e **@home**
 
-# mount /dev/sda2 /mnt           
+- `# mount /dev/sda2 /mnt`           
 
-# btrfs su cr /mnt/@  
+- `# btrfs su cr /mnt/@`  
 
-# umount /mnt 
+- `# umount /mnt`
 
-# mount /dev/sda3 /mnt
+- `# mount /dev/sda3 /mnt`
 
-# btrfs su cr /mnt/@home      
+- `# btrfs su cr /mnt/@home`      
 
-# umount /mnt                             
+- `# umount /mnt`                             
 
-# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@ /dev/sda2 /mnt 
+- `# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@ /dev/sda2 /mnt` 
 
-# mkdir -p /mnt/{home,boot} creiamo la directory /home e la directory /boot
+- `# mkdir -p /mnt/{home,boot} creiamo la directory /home e la directory /boot`
 
-# mount /dev/sda1 /mnt/boot 
+- `# mount /dev/sda1 /mnt/boot` 
 
-# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@home /dev/sda3 /mnt/home
+- `# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@home /dev/sda3 /mnt/home`
 
 
 <br><br><br><br>
