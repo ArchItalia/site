@@ -309,7 +309,7 @@ Il file /etc/fstab vi permette di controllare quali filesystem sono montati in f
 <br><br><br><br>
 
 
-## chroot
+## Chroot
  
 Passiamo in chroot e configuriamo i seguenti passaggi: Configurazione del localtime, del systemclock, lingua, keyboard mappings, localhost, Password Root, Creazione User e password.
 
@@ -466,10 +466,49 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 
 <br><br><br><br>
 
+## Pacchetti Base
+
+`# pacman -S xorg wpa_supplicant wireless_tools netctl net-tools iw networkmanager alsa-utils pipewire-pulse mtools dosfstools mtools ntfs-3g f2fs-tools dosfstools exfatprogs fuse firewalld acpi cronie git reflector bluez bluez-utils cups reflector`
+
+<br><br><br><br>
 
 
+## Ambiente Grafico
+
+Scegli tra alcuni dei piu famosi ambienti desktop suggeriti:
+
+Gnome completo con display manager GDM
+
+- `# pacman -S gnome gnome-extra gdm` 
+- `# systemctl enable gdm`
+
+xfce4 con display manager Lightdm
+
+- `# pacman -S xfce4 xfce4-goodies lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings`
+- `# systemctl enable lightdm`
+
+lxde con display manger lightdm
+
+- `# pacman -S lxde lxde-common lxsession openbox`
+- `# systemctl enable lightdm`
+
+mate con display manger lightdm
+
+- `# pacman -S mate mate-extra`
+- `# systemctl enable lightdm`
+
+plasma kde con display manager SDDM
+
+- `# pacman -S plasma kde-applications sddm`
+- `# systemctl enable sddm`
+
+cinnamon con display manager Lightdm
+
+- `# pacman -S cinnamon nemo-fileroller gnome-terminal lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs-gtk`
+- `# systemctl enable lightdm`
 
 
+<br><br><br><br>
 
 
 
