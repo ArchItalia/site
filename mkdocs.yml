@@ -43,6 +43,13 @@ theme:
         name: Switch to light mode
 
 extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+     Utilizziamo i cookie per riconoscere le tue visite ripetute e le tue preferenze, così come per misurare 
+     l efficacia della nostra documentazione e se gli utenti trovano ciò che stanno cercando. Con il tuo consenso, 
+     ci stai aiutando a migliorare la nostra documentazione.
+      
   version:
     default: stable
 
