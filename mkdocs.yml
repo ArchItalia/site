@@ -60,8 +60,9 @@ copyright: Copyright &copy; 2023 Architalia
   
 
 plugins:
-  - search
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
 
       
 
