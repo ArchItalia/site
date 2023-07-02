@@ -54,6 +54,8 @@ In alternativa, da un'installazione esistente di Arch Linux eseguire:
 
 ## VM image
 
+![iso](../images/live/vm.png)
+
 Immagini ufficiali per macchina virtuale, l'immagine di base è pensata per l'uso locale ed è preconfigurata con (utente: arch - password: arch) e sshd in esecuzione.
 
 [Download](https://gitlab.archlinux.org/archlinux/arch-boxes/-/jobs/artifacts/master/browse/output?job=build:secure)
@@ -61,6 +63,8 @@ Immagini ufficiali per macchina virtuale, l'immagine di base è pensata per l'us
 <br><br><br><br>
 
 ## Docker
+
+![iso](../images/live/dck.png)
 
 Immagine ufficiale Docker
 
