@@ -145,12 +145,39 @@ Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ip
 Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
 
 - `# 512Mib`  Creiamo la partizione EFI e scegliamo di tipo EFI system
-- `# 23.5Gib`  Creiamo la partizione Root
+- `# 27.5Gib`  Creiamo la partizione Root
 - `# 100Gib`  Creiamo la partizione Home
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
 
 #### Formattare le Partizioni
 
+- `# mkfs.vfat -F32 /dev/sda1` La partizione EFI system in FAT32 per il boot
+- `# mkfs.btrfs /dev/sda2` La partizione Root in BTRFS
+- `# mkfs.btrfs /dev/sda3` La partizione Home in BTRFS
+
+#### Montaggio delle Partizioni 
+
+Creiamo i sottovolumi **@** e **@home**
+
+# mount /dev/sda2 /mnt           
+
+# btrfs su cr /mnt/@  
+
+# umount /mnt 
+
+# mount /dev/sda3 /mnt
+
+# btrfs su cr /mnt/@home      
+
+# umount /mnt                             
+
+# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@ /dev/sda2 /mnt 
+
+# mkdir -p /mnt/{home,boot} creiamo la directory /home e la directory /boot
+
+# mount /dev/sda1 /mnt/boot 
+
+# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@home /dev/sda3 /mnt/home
 
 
 <br><br><br><br>
