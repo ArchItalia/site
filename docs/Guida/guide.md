@@ -2,19 +2,19 @@
 
 Guide all'installazione di Arch Linux: 
 
-* [Verifica Firma](#verifica-firma)
-* [Configurazione iniziale](#configurazione-iniziale)
-* [Connessione Internet](#connessione-internet)
-* [Preparazione del disco](#preparazione-del-disco)
-* [Mirrorlist](#mirrorlist)
-* [Pacstrap](#pacstrap)
-* [Generare Fstab](#generare-fstab)
-* [Chroot](#chroot)
-* [Bootloader](#bootloader)
-* [Pacchetti Base](#pacchetti-base)
-* [Ambiente Grafico](#ambiente-grafico)
-* [Servizi](#servizi)
-* [zram](#zram)
+1.  [Verifica Firma](#verifica-firma)
+2.  [Configurazione iniziale](#configurazione-iniziale)
+3.  [Connessione Internet](#connessione-internet)
+4.  [Preparazione del disco](#preparazione-del-disco)
+5.  [Mirrorlist](#mirrorlist)
+6.  [Pacstrap](#pacstrap)
+7.  [Generare Fstab](#generare-fstab)
+8.  [Chroot](#chroot)
+9.  [Bootloader](#bootloader)
+10. [Pacchetti Base](#pacchetti-base)
+11. [Ambiente Grafico](#ambiente-grafico)
+12. [Servizi](#servizi)
+13. [zram](#zram)
 
 <br><br><br><br>
 
