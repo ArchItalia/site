@@ -24,7 +24,7 @@ Arch Linux è una distribuzione Gnu/Linux sviluppata in modo indipendente, per u
 Visita il sito ufficiale [Archlinux.org](https://archlinux.org)
 <br><br>
 
-## Supporta la Community di Architalia
+## Supporta la Community
 
 ![iso](images/pp.png)
 
@@ -33,7 +33,7 @@ Supporta la community ArchItalia, fai una donazione per aiutarci a crescere.
 
 <br><br>
 
-### Esonero resonsabilita'
+## Esonero resonsabilita'
 
 1- Non è in nessun modo possibile derivare nessun diritto dai contenuti di questo sito web; non è possibile avanzare pretese in riferimento ai contenuti del presente sito web. ArchItalia e i suoi autori non saranno responsabili per eventuali danni diretti o indiretti di qualsivoglia natura, derivanti da o collegati all’accesso o all’uso delle eventuali informazioni su questo sito Web.
 
