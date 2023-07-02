@@ -106,6 +106,7 @@ Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ip
 Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
 
 - `# 512Mib`  Creiamo la partizione EFI e scegliamo di tipo EFI system
+- `# 4Gib`   Creiamo una partizione per la swap e selezioniamo tipo swap
 - `# 23.5Gib`  Creiamo la partizione Root
 - `# 100Gib`  Creiamo la partizione Home
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
