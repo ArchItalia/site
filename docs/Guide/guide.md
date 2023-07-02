@@ -13,7 +13,17 @@ Guide all'installazione di Arch Linux:
 
 ## Configurazione iniziale
 
+Per iniziare dobbiamo definire la lingua della tastiera, la lingua predefinita senza immettere il comando e' `US`. I layout disponibili possono essere elencati con: 
 
+`# ls /usr/share/kbd/keymaps/**/*.map.gz`
+
+impostiamo la lingua della nostra tastiera con il comando:
+
+`# loadkeys it`
+
+I caratteri della console si trovano in **/usr/share/kbd/consolefonts/** e possono anche essere impostati con setfont. Ad esempio, per utilizzare uno dei caratteri più grandi adatti agli schermi HiDPI, eseguire:
+
+`# setfont ter-132b`
 
 
 <br><br><br><br>
