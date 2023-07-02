@@ -2,10 +2,10 @@
 
 Guide all'installazione di Arch Linux: 
 
-* [Bios-MBR ext4]()
-* [UEFI ext4]()
-* [UEFI btrfs]()
-* [UEFI lvm]()
+* [Bios-MBR ext4](#bios-mbr)
+* [UEFI ext4](#uefi-ext4)
+* [UEFI btrfs](#uefi-btrfs)
+* [UEFI lvm](#uefi-lvm)
 
 <br><br><br><br>
 
