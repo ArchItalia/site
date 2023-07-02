@@ -2,7 +2,7 @@
 
 ## Architalia-live ISO
 
-![image](../images/live/live.png)
+![image](../images/live/ltp.png)
 
 
 ### Introduzione
