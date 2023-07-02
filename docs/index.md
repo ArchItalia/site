@@ -26,8 +26,10 @@ Visita il sito ufficiale [Archlinux.org](https://archlinux.org)
 
 ## Supporta la Community di Architalia
 
+![iso](images/pp.png)
+
 Supporta la community ArchItalia, fai una donazione per aiutarci a crescere.
- [Donazione Paypal](https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL)
+[Donazione Paypal](https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL)
 
 <br><br>
 
