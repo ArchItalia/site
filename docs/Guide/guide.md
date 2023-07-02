@@ -77,13 +77,13 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 ### Formattare le Partizioni
 
-`# mkswap /dev/sda1` La partizione per la swap
-`# mkfs.ext4 /dev/sda2` La partizione Root in EXT4
+- `# mkswap /dev/sda1` La partizione per la swap
+- `# mkfs.ext4 /dev/sda2` La partizione Root in EXT4
 
 ### Montaggio delle Partizioni
 
-`# mount /dev/sda2 /mnt Montiamo la partizione root`
-`# swapon /dev/sda1 Montiamo la partizione di swap`
+- `# mount /dev/sda2 /mnt Montiamo la partizione root`
+- `# swapon /dev/sda1 Montiamo la partizione di swap`
 
 
 <br><br><br><br>
