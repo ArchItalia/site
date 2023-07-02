@@ -1,8 +1,8 @@
-#yaml-language-server: $schema=https://architalia.github.io/mkdocs-material/schema.json
+#yaml-language-server: $schema=https://architalia.github.io/site/schema.json
 
 site_name: Architalia 🇮🇹
-repo_url: https://github.com/architalia/mkdocs-material
-repo_name: architalia/mkdocs-material
+repo_url: https://github.com/architalia/site
+repo_name: architalia/site
 edit_uri: edit/main/docs/
 
 theme:
