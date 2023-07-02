@@ -18,6 +18,14 @@ Guide all'installazione di Arch Linux:
 
 <br><br><br><br>
 
+## Connessione Internet
+
+
+
+
+
+<br><br><br><br>
+
 ## Bios-MBR
 
 
