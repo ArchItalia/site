@@ -300,7 +300,7 @@ Installiamo il **kernel linux** e i pacchetti base per creare il nostro arch, ag
 
 
 
-## Generiamo Fstab
+## Generare Fstab
 
 Il file /etc/fstab vi permette di controllare quali filesystem sono montati in fase di avvio sul vostro sistema Linux, comprese le partizioni di Windows e le condivisioni di rete:
 
