@@ -46,7 +46,7 @@ Collegarsi alla rete wifi utilizzando lo strumento iwctl:
 - `# station wlan0` connect nometuarete  Connessione alla rete
 - `# exit` 
 
-Se nel caso in cui i nostri dispositivi siano disabilitati e non riusciamo a eseguire iwctl:
+Se nel caso in cui i nostri dispositivi siano disabilitati e non riusciamo a eseguire **iwctl**:
 
 - `# rfkill list`  verifichiamo lo stato dei dispositivi blocked o unblocked
 - `# rfkill unblock all` sblocchiamo tutti i nostri dispositivi bloccati blocked
@@ -59,8 +59,22 @@ Riprovare `# iwctl` e procedere come sopra.
 
 ## Bios-MBR
 
+### Partizionamento
+Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: in caso di **SSD /dev/sda** oppure nel caso di **M.2 /dev/nvme0n1** infine il **Disco Virtuale /dev/vda**.
+
+`# lsblk -l`
+
+Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ipotizzeremo di avere **/dev/sda**. Potrebbe essere richiesto il tipo di tabella di partizionamento se il disco e' vergine, in questo caso andiamo a selezionare **DOS**:
+
+`# cfdisk /dev/sda`
+
+### Formattare le Partizioni
+Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
 
 
+`# 4Gib`   Creiamo una partizione per la swap e selezioniamo tipo swap
+`# 123.5Gib`  Creiamo la partizione Root
+`# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
 
 <br><br><br><br>
 
