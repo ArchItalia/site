@@ -7,6 +7,8 @@ edit_uri: edit/main/docs/
 theme:
   icon:
     repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
   logo: assets/logo.png
   favicon: images/logo.png
   name: material
@@ -17,7 +19,7 @@ theme:
   features:
     - navigation.footer
     - navigation.tabs
-    
+    - content.action.edit
     
   palette:
 
@@ -52,6 +54,9 @@ extra_css:
     
 copyright: Copyright &copy; 2023 Architalia
   
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 
 
