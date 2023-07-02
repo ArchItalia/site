@@ -4,10 +4,6 @@ Guide all'installazione di Arch Linux:
 
 * [Configurazione iniziale](#configurazione-iniziale)
 * [Connessione Internet](#connessione-internet)
-* [Bios-MBR ext4](#bios-mbr)
-* [UEFI ext4](#uefi-ext4)
-* [UEFI btrfs](#uefi-btrfs)
-* [UEFI lvm](#uefi-lvm)
 
 <br><br><br><br>
 
@@ -57,9 +53,16 @@ Riprovare `# iwctl` e procedere come sopra.
 
 <br><br><br><br>
 
-## Bios-MBR
+## Preparazione del disco
 
-### Partizionamento
+* [Bios-MBR ext4](#bios-mbr)
+* [UEFI ext4](#uefi-ext4)
+* [UEFI btrfs](#uefi-btrfs)
+* [UEFI lvm](#uefi-lvm)
+
+### Bios-MBR
+
+#### Partizionamento
 Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: in caso di **SSD /dev/sda** oppure nel caso di **M.2 /dev/nvme0n1** infine il **Disco Virtuale /dev/vda**.
 
 `# lsblk -l`
@@ -75,12 +78,12 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
 
 
-### Formattare le Partizioni
+#### Formattare le Partizioni
 
 - `# mkswap /dev/sda1` La partizione per la swap
 - `# mkfs.ext4 /dev/sda2` La partizione Root in EXT4
 
-### Montaggio delle Partizioni
+#### Montaggio delle Partizioni
 
 - `# mount /dev/sda2 /mnt Montiamo la partizione root`
 - `# swapon /dev/sda1 Montiamo la partizione di swap`
@@ -88,21 +91,21 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 <br><br><br><br>
 
-## UEFI ext4
+### UEFI ext4
 
 
 
 
 <br><br><br><br>
 
-## UEFI btrfs
+### UEFI btrfs
 
 
 
 
 <br><br><br><br>
 
-## UEFI lvm
+### UEFI lvm
 
 
 
