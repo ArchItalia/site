@@ -59,6 +59,10 @@ extra_css:
 copyright: Copyright &copy; 2023 Architalia
   
 
+plugins:
+  - git-committers:
+      repository: architalia/mkdocs-material
+      branch: main
 
 
 
