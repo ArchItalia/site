@@ -32,6 +32,5 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 
 
-## Archiso
 
 
