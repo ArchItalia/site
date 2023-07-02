@@ -184,6 +184,73 @@ Creiamo i sottovolumi **@** e **@home**
 
 ### UEFI lvm
 
+#### Partizionamento
+Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: in caso di **SSD /dev/sda** oppure nel caso di **M.2 /dev/nvme0n1** infine il **Disco Virtuale /dev/vda**.
+
+
+`# lsblk -l`
+
+Ipotizzando di avere **3 dischi da 128GiB**  da usare con **LVM** **sda sdb sdc** useremo lo strumento **cfdisk** un operazione alla volta per disco:
+
+
+`# cfdifk /dev/sda`
+
+- `# 512Mib` Creiamo la partizione EFI e scegliamo di tipo EFI system
+- `# 127.5GiB` Creiamo la partizione e scegliamo di tipo LVM
+- `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
+
+- `# cfdifk /dev/sdb`
+- `# 128GiB` Creiamo la partizione e scegliamo di tipo LVM
+- `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
+
+- `# cfdifk /dev/sdc`
+- `# 128GiB` Creiamo la partizione e scegliamo di tipo LVM
+- `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
+
+Per creare partizioni sotto LVM dobbiamo prima creare un volume fisico:
+
+#### Creazione volume fisico
+
+`# pvcreate /dev/sda2 /dev/sdb1 /dev/sdc1`
+
+#### Creazione gruppo volume
+Crea e estendi il tuo gruppo volume, è necessario creare un gruppo di volumi su uno o piu' volumi fisici `# vgcreate volume_group physical_volume` per esempio:
+
+`# vgcreate lvm /dev/sda2 /dev/sdb1 /dev/sdc1`
+
+Questo comando imposterà prima le tre partizioni come volumi fisici (se necessario) e quindi creerà il gruppo di volumi con i tre volumi. Il comando ti avviserà se rileva un filesystem esistente su qualsiasi dispositivo.
+
+#### Creazione Volume Logici
+
+Crea volumi logici, per una configurazione di base ne avremmo bisogno per root, swap e home.
+
+- `# lvcreate -L 120G lvm -n root`
+- `# lvcreate -L 8G lvm -n swap`
+- `# lvcreate -l 100%FREE lvm -n home`
+
+#### Formattare le Partizioni
+
+`# mkfs.vfat -F32 /dev/sda1` La partizione EFI system in FAT32 per il boot
+
+- `# mkfs.ext4 /dev/lvm/root`
+- `# mkfs.ext4 /dev/lvm/home`
+- `# mkswap /dev/lvm/swap` 
+
+#### Montaggio delle Partizioni 
+
+- `# mount /dev/lvm/root /mnt`
+- `# mkdir -p /mnt/{home,boot}` creiamo la directory /home e la directory /boot
+- `# mount /dev/lvm/home /mnt/home`
+- `# mount /dev/sda1 /mnt/boot` 
+- `# swapon /dev/lvm/swap`
+
+#### Estendere un gruppo lvm
+
+Se in futuro vorrete aggiungere un nuovo volume fisico al gruppo vediamo quale comando usare, ipotizzando un quarto disco sdd e di averlo partizionato come prima di tipo lvm, estendiamo lo spazio per esempio a `/dev/lvm/home`:
+
+- `# pvcreate /dev/sdd1`
+- `# vgextend lvm /dev/sdd1`
+- `# lvextend -l +100%FREE /dev/lvm/home`
 
 
 
