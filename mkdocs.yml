@@ -58,7 +58,7 @@ extra:
       link: https://www.youtube.com/@ArchItalia
       
 extra_css:
-  - stylesheets/extra.css
+  - ../stylesheets/extra.css
       
     
 copyright: Copyright &copy; 2023 Architalia
