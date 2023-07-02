@@ -62,6 +62,8 @@ extra:
       link: https://  
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@ArchItalia
+    - icon: fontawesome/free/mug-saucer
+      link: https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL
       
 extra_css:
   - stylesheets/extra.css
