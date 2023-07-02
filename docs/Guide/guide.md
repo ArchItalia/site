@@ -30,6 +30,7 @@ In alternativa, da un'installazione esistente di Arch Linux eseguire:
 
 `$ pacman-key -v archlinux-version-x86_64.iso.sig`
 
+<br><br><br><br>
 
 ## Configurazione iniziale
 
