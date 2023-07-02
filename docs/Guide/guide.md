@@ -105,7 +105,7 @@ Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ip
 
 Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
 
-- `# 4Gib`   Creiamo una partizione per la swap e selezioniamo tipo swap
+- `# 512Mib`  Creiamo la partizione EFI e scegliamo di tipo EFI system
 - `# 23.5Gib`  Creiamo la partizione Root
 - `# 100Gib`  Creiamo la partizione Home
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
@@ -132,6 +132,23 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 ### UEFI btrfs
 
+#### Partizionamento
+Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: in caso di **SSD /dev/sda** oppure nel caso di **M.2 /dev/nvme0n1** infine il **Disco Virtuale /dev/vda**.
+
+`# lsblk -l`
+
+Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ipotizzeremo di avere **/dev/sda**. Potrebbe essere richiesto il tipo di tabella di partizionamento se il disco e' vergine, in questo caso andiamo a selezionare **GUID Partition Table (GPT)**:
+
+`# cfdisk /dev/sda`
+
+Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
+
+- `# 512Mib`  Creiamo la partizione EFI e scegliamo di tipo EFI system
+- `# 23.5Gib`  Creiamo la partizione Root
+- `# 100Gib`  Creiamo la partizione Home
+- `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
+
+#### Formattare le Partizioni
 
 
 
