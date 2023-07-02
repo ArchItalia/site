@@ -61,6 +61,9 @@ Riprovare `# iwctl` e procedere come sopra.
 * [UEFI btrfs](#uefi-btrfs)
 * [UEFI lvm](#uefi-lvm)
 
+
+<br><br><br><br>
+
 ### Bios-MBR
 
 #### Partizionamento
