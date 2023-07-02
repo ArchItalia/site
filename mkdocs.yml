@@ -55,8 +55,10 @@ extra_css:
 copyright: Copyright &copy; 2023 Architalia
   
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
+  - git-committers:
+      repository: architalia/mkdocs-material
+      branch: main
+
 
 
 
