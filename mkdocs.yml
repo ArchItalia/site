@@ -60,8 +60,8 @@ copyright: Copyright &copy; 2023 Architalia
   
 
 plugins:
-  - git-committers:
-      enabled: !ENV [CI, true]
+  - search
+  - git-revision-date-localized
 
       
 
