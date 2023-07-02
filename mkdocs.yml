@@ -38,6 +38,9 @@ theme:
         name: Switch to light mode
 
 extra:
+  version:
+    default: stable
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ArchItalia
@@ -54,10 +57,7 @@ extra_css:
     
 copyright: Copyright &copy; 2023 Architalia
   
-plugins:
-  - git-committers:
-      repository: architalia/mkdocs-material
-      branch: main
+
 
 
 

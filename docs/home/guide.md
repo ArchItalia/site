@@ -6,4 +6,3 @@ Guide all'installazione di Arch Linux:
 * [UEFI ext4]()
 * [UEFI btrfs]()
 * [UEFI lvm]()
-
