@@ -72,9 +72,9 @@ Una volta individuata la nomenclatura del nostro disco usiamo **cfdisk**, qui ip
 Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un disco **SSD** da **128GiB**:
 
 
-`# 4Gib`   Creiamo una partizione per la swap e selezioniamo tipo swap
-`# 123.5Gib`  Creiamo la partizione Root
-`# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
+- `# 4Gib`   Creiamo una partizione per la swap e selezioniamo tipo swap
+- `# 123.5Gib`  Creiamo la partizione Root
+- `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
 
 <br><br><br><br>
 
