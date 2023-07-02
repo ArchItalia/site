@@ -10,20 +10,22 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
+    
   logo: assets/logo.png
   favicon: images/logo.png
   name: material
   language: it
+  
   font:
     text: Ubuntu 
     code: Ubuntu mono
+    
   features:
     - navigation.footer
     - navigation.tabs
     - content.action.edit
     
   palette:
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: light
