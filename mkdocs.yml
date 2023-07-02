@@ -43,7 +43,7 @@ theme:
         name: Switch to light mode
 
 extra:
-  homepage: /home/
+  homepage: /mkdocs-material/home/
   version:
     default: stable
 
