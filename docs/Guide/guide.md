@@ -271,6 +271,6 @@ Se in futuro vorrete aggiungere un nuovo volume fisico al gruppo vediamo quale c
 
 Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo strumento **reflector**, specificare il paese dove sincronizzare i server ad esempio **it**, e' possibile aggiungere piu paesi usando la virgola ad esempio **it,us**:
 
-# reflector --verbose -c it -a 12 --sort rate --save /etc/pacman.d/mirrorlist
+`# reflector --verbose -c it -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
 
 <br><br><br><br>
