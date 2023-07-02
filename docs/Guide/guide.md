@@ -5,6 +5,15 @@ Guide all'installazione di Arch Linux:
 * [Configurazione iniziale](#configurazione-iniziale)
 * [Connessione Internet](#connessione-internet)
 * [Preparazione del disco](#preparazione-del-disco)
+* [Mirrorlist](#mirrorlist)
+* [Pacstrap](#pacstrap)
+* [Generare Fstab](#generare-fstab)
+* [chroot](#chroot)
+* [Bootloader](#bootloader)
+* [Pacchetti Base](#pacchetti-base)
+* [Ambiente Grafico](#ambiente-grafico)
+* [Servizi](#servizi)
+* [zram](#zram)
 
 <br><br><br><br>
 
@@ -256,10 +265,12 @@ Se in futuro vorrete aggiungere un nuovo volume fisico al gruppo vediamo quale c
 - `# lvextend -l +100%FREE /dev/lvm/home`
 
 
-
 <br><br><br><br>
 
+## Mirrorlist
 
+Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo strumento **reflector**, specificare il paese dove sincronizzare i server ad esempio **it**, e' possibile aggiungere piu paesi usando la virgola ad esempio **it,us**:
 
+# reflector --verbose -c it -a 12 --sort rate --save /etc/pacman.d/mirrorlist
 
-
+<br><br><br><br>
