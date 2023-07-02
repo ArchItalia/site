@@ -23,6 +23,9 @@ theme:
   features:
     - navigation.footer
     - content.action.edit
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
     
   palette:
     # Palette toggle for light mode
