@@ -10,7 +10,8 @@ nav:
   - 'Home':
         - 'Benvenuti': index.md
         - 'Esonero responsabilita': 'termini.md'
-  - 'Arch Linux':      
+  - 'Arch Linux':
+        - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
         - Archlinux-Guida/arch-guida.md
   - 'Altre Guide': 
         - 'Pacman': 'Altre-Guide/Pacman.md'
