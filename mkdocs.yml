@@ -5,6 +5,11 @@ repo_url: https://github.com/architalia/site
 repo_name: architalia/site
 edit_uri: edit/main/docs/
 
+
+
+ 
+  
+
 theme:
   icon:
     repo: fontawesome/brands/github
@@ -12,7 +17,7 @@ theme:
     view: material/eye
     
   logo: assets/logo.png
-  favicon: images/logo.png
+  favicon: images/favicon.png
   name: material
   language: it
   
@@ -50,6 +55,15 @@ extra:
      l efficacia della nostra documentazione e se gli utenti trovano ciò che stanno cercando. Con il tuo consenso, 
      ci stai aiutando a migliorare la nostra documentazione.
 
+
+  alternate:
+    - name: Italian
+      link: / 
+      lang: it
+    - name: English
+      link: /en/ 
+      lang: en
+  
  
 
      
