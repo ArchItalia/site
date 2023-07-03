@@ -14,7 +14,7 @@ In alternativa, da un'installazione esistente di Arch Linux eseguire:
 
 `$ pacman-key -v archlinux-version-x86_64.iso.sig`
 
-<br><br><br><br>
+<br><br>
 
 ## 2. Configurazione iniziale
 
@@ -30,8 +30,7 @@ I caratteri della console si trovano in **/usr/share/kbd/consolefonts/** e posso
 
 `# setfont ter-132b`
 
-
-<br><br><br><br>
+<br><br>
 
 ## 3. Connessione Internet
 Se avete connesso la machina a internet mediante cavo o macchina virtuale, possiamo verificare il nostro indirizzo ip acquisito attraverso questo comando :
@@ -60,17 +59,18 @@ Se nel caso in cui i nostri dispositivi siano disabilitati e non riusciamo a ese
 Riprovare `# iwctl` e procedere come sopra.
 
 
-<br><br><br><br>
-
+<br><br>
 ## 4. Preparazione del disco
 
-* [Bios-MBR ext4](#bios-mbr)
-* [UEFI ext4](#uefi-ext4)
-* [UEFI btrfs](#uefi-btrfs)
-* [UEFI lvm EXT4](#uefi-lvm-ext4)
+Scegli quale tipo di installazione affrontare e dopo aver preparato il disco salta al punto **(5)**
+
+- [Bios-MBR ext4](#bios-mbr)
+- [UEFI EXT4](#uefi-ext4)
+- [UEFI btrfs](#uefi-btrfs)
+- [UEFI lvm EXT4](#uefi-lvm-ext4)
 
 
-<br><br><br><br>
+<br><br>
 
 ### Bios-MBR
 
@@ -101,7 +101,7 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 - `# swapon /dev/sda1` Montiamo la partizione di swap
 
 
-<br><br><br><br>
+<br><br>
 
 ### UEFI ext4
 
@@ -140,7 +140,7 @@ Creiamo le partizioni necessarie all'installazione base, ipotizzando di avere un
 
 
 
-<br><br><br><br>
+<br><br>
 
 ### UEFI btrfs
 
@@ -191,7 +191,7 @@ Creiamo i sottovolumi **@** e **@home**
 - `# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@home /dev/sda3 /mnt/home`
 
 
-<br><br><br><br>
+<br><br>
 
 ### UEFI lvm-ext4
 
@@ -204,16 +204,15 @@ Individuamo il nostro disco per conoscere la nomenclatura da usare ad Esempio: i
 Ipotizzando di avere **3 dischi da 128GiB**  da usare con **LVM** **sda sdb sdc** useremo lo strumento **cfdisk** un operazione alla volta per disco:
 
 
-`# cfdifk /dev/sda`
-
+- `# cfdifk /dev/sda`
 - `# 512Mib` Creiamo la partizione EFI e scegliamo di tipo EFI system
 - `# 127.5GiB` Creiamo la partizione e scegliamo di tipo LVM
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
-
+<br><br>
 - `# cfdifk /dev/sdb`
 - `# 128GiB` Creiamo la partizione e scegliamo di tipo LVM
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
-
+<br><br>
 - `# cfdifk /dev/sdc`
 - `# 128GiB` Creiamo la partizione e scegliamo di tipo LVM
 - `# write (yes)` e `quit`  Scriviamo le modifiche e usciamo
@@ -264,7 +263,7 @@ Se in futuro vorrete aggiungere un nuovo volume fisico al gruppo vediamo quale c
 - `# lvextend -l +100%FREE /dev/lvm/home`
 
 
-<br><br><br><br>
+<br><br>
 
 ## 5. Mirrorlist
 
@@ -272,7 +271,7 @@ Salviamo il mirrorlist per i repositoy in **/etc/pacman.d/mirrorlist** con lo st
 
 `# reflector --verbose -c it -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
 
-<br><br><br><br>
+<br><br>
 
 ## 6. Pacstrap
 
@@ -280,7 +279,7 @@ Installiamo il **kernel linux** e i pacchetti base per creare il nostro arch, ag
 
 `# pacstrap -K /mnt base base-devel linux linux-firmware vim` 
 
-<br><br><br><br>
+<br><br>
 
 
 
@@ -290,7 +289,7 @@ Il file /etc/fstab vi permette di controllare quali filesystem sono montati in f
 
 `# genfstab -U /mnt > /mnt/etc/fstab`
 
-<br><br><br><br>
+<br><br>
 
 
 ## 8. Chroot
@@ -301,7 +300,7 @@ entriamo in chroot:
 
 `# arch-chroot /mnt`
 
-<br><br><br><br>
+<br><br>
 
 
 ### Time zone
@@ -309,7 +308,7 @@ entriamo in chroot:
 - `# ln -sf /usr/share/zoneinfo/Europe/Italy /etc/localtime`
 - `# hwclock --systohc`
 
-<br><br><br><br>
+<br><br>
 
 ### Localizzazione
 
@@ -318,8 +317,7 @@ entriamo in chroot:
 - `# echo "LANG=it_IT.UTF-8" >> /etc/locale.conf`
 - `# echo "KEYMAP=it" >> /etc/vconsole.conf`
 
-<br><br><br><br>
-
+<br><br>
 
 ### Hostname e Hosts
 
@@ -327,7 +325,7 @@ entriamo in chroot:
 - `# echo "127.0.0.1 localhost" >> /etc/hosts`
 - `# echo "::1       localhost" >> /etc/hosts`
 
-<br><br><br><br>
+<br><br>
 
 
 ### Utente e Root
@@ -354,8 +352,7 @@ Configuriamo il file sudoers per il gruppo wheel
 `# echo "NOMEUTENTE ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/NOMEUTENTE`
 
 
-<br><br><br><br>
-
+<br><br>
 
 ### mkinitcpio per lvm
 
@@ -368,7 +365,7 @@ quindi usare il comando:
 `# mkinitcpio -p linux`
 
 
-<br><br><br><br>
+<br><br>
 
 
 ## 9. Bootloader
@@ -379,8 +376,7 @@ quindi usare il comando:
 - `# grub-install --target=i386-pc /dev/sda`
 - `# grub-mkconfig -o /boot/grub/grub.cfg`
 
-<br><br><br><br>
-
+<br><br>
 
 ### GRUB (UEFI)
 
@@ -399,7 +395,7 @@ Per utilizzare shim-lock il comando è:
 
 `# grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="normal test efi_gop efi_uga search echo linux all_video gfxmenu gfxterm_background gfxterm_menu gfxterm loadenv configfile tpm"`
 
-<br><br><br><br>
+<br><br>
 
 ### Systemd-boot (EXT4)
 
@@ -415,7 +411,7 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 - `initrd  /initramfs-linux.img`
 - `options root=/dev/sdax rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
 
-<br><br><br><br>
+<br><br>
 
 
 ### Systemd-boot (BTRFS)
@@ -432,7 +428,7 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 - `initrd  /initramfs-linux.img`
 - `options root=/dev/sdax rootflags=subvol=@ rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
 
-<br><br><br><br>
+<br><br>
 
 ### Systemd-boot (LVM)
 
@@ -448,13 +444,13 @@ adesso creiamo la configurazione del file **arch.conf** aperto con **vim**, e' i
 - `initrd  /initramfs-linux.img`
 - `options root=/dev/mapper/lvm-root rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3`
 
-<br><br><br><br>
+<br><br>
 
 ## 10. Pacchetti Base
 
 `# pacman -S xorg wpa_supplicant wireless_tools netctl net-tools iw networkmanager alsa-utils pipewire-pulse mtools dosfstools mtools ntfs-3g f2fs-tools dosfstools exfatprogs fuse firewalld acpi cronie git reflector bluez bluez-utils cups reflector`
 
-<br><br><br><br>
+<br><br>
 
 
 ## 11. Ambiente Grafico
@@ -498,7 +494,7 @@ cinnamon con display manager Lightdm
 - `# systemctl enable lightdm`
 
 
-<br><br><br><br>
+<br><br>
 
 
 ## 12. Servizi
@@ -511,7 +507,7 @@ Se hai abilitato il servizio per il display manager puoi passare ad abilitare gl
 - `# systemctl enable cronie`
 - `# systemctl enable firewalld` 
 
-<br><br><br><br>
+<br><br>
 
 ## 13. Zram
 
