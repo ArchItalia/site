@@ -43,7 +43,7 @@ theme:
   language: it
   
   font:
-    text: Poppins 
+    text: Ubuntu 
     code: Ubuntu mono
     
   features:
