@@ -9,7 +9,7 @@
 }
 
  [data-md-color-scheme=slate] {
-  --md-primary-fg-color:#21222c;
+  --md-primary-fg-color:#3f4157;
   
  
  
@@ -22,10 +22,4 @@ padding:5px
 
 img[alt=iso] { width: 200px; }
 
-@media screen and (max-width: 59.9375em)
-.md-nav__source {
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
-  display: block;
-  padding: 0 .2rem;
-}
+
