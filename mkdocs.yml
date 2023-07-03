@@ -20,7 +20,7 @@ nav:
         - 'Sudoers.d': 'Altre-Guide/sudoers.md'
         - 'Reflector': 'Altre-Guide/reflector.md'
         - 'Downgrade': 'Altre-Guide/downgrade.md'
-
+        - 'Permessi': 'Altre-Guide/permessi.md'
 
         
   - 'Download': Download/live.md
