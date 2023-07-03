@@ -21,7 +21,7 @@ nav:
         - 'Reflector': 'Altre-Guide/reflector.md'
         - 'Downgrade': 'Altre-Guide/downgrade.md'
         - 'Permessi': 'Altre-Guide/permessi.md'
-        - 'Grub': 'Altre-Guide/Grub.md'
+        - 'Grub': 'Altre-Guide/grub.md'
         - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
 
         
