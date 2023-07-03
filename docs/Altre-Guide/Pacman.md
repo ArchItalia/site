@@ -44,6 +44,7 @@ Ecco una lista esaustiva dei comandi di pacman:
 - `# pacman -Qc`        Mostra i file di configurazione dei pacchetti che non fanno parte del sistema base.
 - `# pacman -Qd`        Mostra i pacchetti dipendenti di un pacchetto specifico.
 - `# pacman -Qdt`       Mostra i pacchetti orfani, non più necessari a dipendenze già rimosse.
+- `# pacman -R $(pacman -Qdtq)` Rimuovere i pacchetti e le dipendenze non piu' necessarie.
 - `# pacman -Qi`         Mostra le informazioni dettagliate di un pacchetto installato.
 - `# pacman -Qk`        Verifica integrità dei file di un pacchetto con md5sums.
 - `# pacman -Ql`         Mostra tutti i file installati da un pacchetto.
