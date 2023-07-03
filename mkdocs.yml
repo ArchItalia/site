@@ -10,7 +10,7 @@ nav:
   - index.md
   - Archlinux-Guida/arch-guida.md
   - 'Altre Guide': 
-        - 'nvidia': 'Altre-Guide/nvidia.md'
+        - 'Nvidia': 'Altre-Guide/nvidia.md'
   - Download/live.md
   - 'Eng':      
         - 'Welcome': en/index.md
