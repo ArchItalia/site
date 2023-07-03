@@ -173,8 +173,11 @@ options root=/dev/xxx rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.lo
 <br><br>
 
 Riavvia la macchina
+`$ reboot`
+
+<br><br>
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/3f13131e-d6f8-4a92-b700-d97b1c3948fc)
 
-`$ reboot`
+
 
