@@ -58,7 +58,7 @@ extra:
 
   alternate:
     - name: Italian
-      link: https://architalia.github.io/site/ 
+      link: ../ 
       lang: it
     - name: English
       link: https://architalia.github.io/site/en/ 
