@@ -12,6 +12,7 @@ nav:
   - 'Altre Guide': 
         - 'Pacman': 'Altre-Guide/Pacman.md'
         - 'AUR': 'Altre-Guide/aur.md'
+        - 'Yay': 'Altre-Guide/yay.md'
         - 'Fstab': 'Altre-Guide/fstab.md'
         - 'Nvidia': 'Altre-Guide/nvidia.md'
   - 'Download': Download/live.md
