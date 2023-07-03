@@ -1,7 +1,3 @@
-## Nvidia
-
-
-
 
 Installiamo i pacchetti base per i driver nvidia.
 
