@@ -10,8 +10,8 @@ nav:
   - index.md
   - Archlinux-Guida/arch-guida.md
   - 'Altre Guide': 
-        - 'Nvidia': 'Altre-Guide/nvidia.md'
         - 'Pacman': 'Altre-Guide/Pacman.md'
+        - 'Nvidia': 'Altre-Guide/nvidia.md'
   - 'Download': Download/live.md
   - 'Eng':      
         - 'Welcome': en/index.md
