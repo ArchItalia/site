@@ -12,9 +12,8 @@ nav:
   - Altre Guide: Altre-Guide/altre.md
   - Download/live.md
   - Eng: en/index.md
-  - 'test':
-        - 'Writing your docs': 'en/Archlinux-Guide/guide.md'
-        - 'Styling your docs': 'en/Download/live.md'
+        - 'Archlinux-Guide': 'en/Archlinux-Guide/guide.md'
+        - 'Download': 'en/Download/live.md'
 
 theme:
   icon:
