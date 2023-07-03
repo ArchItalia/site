@@ -2,7 +2,7 @@
 
 ## Architalia-live
 
-![image](../../images/live/ltp.png)
+![image](../images/live/ltp.png)
 ![image](https://github.com/ArchItalia/site/assets/117321045/20493db0-69b7-4591-9c06-7674bbad7261)
 
 
@@ -37,7 +37,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 ## Archiso
 
-![iso](../../images/live/iso.png)
+![iso](../images/live/iso.png)
 
 Sempre aggiornata, dal server Italiano archmirror.it
  
@@ -57,7 +57,7 @@ In alternativa, da un'installazione esistente di Arch Linux eseguire:
 
 ## VM image
 
-![iso](../../images/live/vm.png)
+![iso](../images/live/vm.png)
 
 Immagini ufficiali per macchina virtuale, l'immagine di base è pensata per l'uso locale ed è preconfigurata con (utente: arch - password: arch) e sshd in esecuzione.
 
@@ -67,7 +67,7 @@ Immagini ufficiali per macchina virtuale, l'immagine di base è pensata per l'us
 
 ## Docker
 
-![iso](../../images/live/dck.png)
+![iso](../images/live/dck.png)
 
 Immagine ufficiale Docker
 
@@ -79,7 +79,7 @@ Immagine ufficiale Docker
 
 ## ARM
 
-![iso](../../images/live/arm.png)
+![iso](../images/live/arm.png)
 
 Arch Linux ARM è una distribuzione di Linux per computer ARM
 
