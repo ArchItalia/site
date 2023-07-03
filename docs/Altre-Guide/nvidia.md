@@ -1,5 +1,8 @@
 ## Nvidia
 
+![image](https://github.com/ArchItalia/site/assets/117321045/3f13131e-d6f8-4a92-b700-d97b1c3948fc)
+
+
 Installiamo i pacchetti base per i driver nvidia.
 
 `$ sudo pacman -S nvidia nvidia-utils nvidia-settings libva-utils libva-vdpau-driver libva-mesa-driver`
