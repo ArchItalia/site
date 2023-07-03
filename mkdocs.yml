@@ -6,9 +6,11 @@ repo_name: architalia/site
 edit_uri: edit/main/docs/
 
 
-
- 
-  
+nav: 
+  - index.md
+  - Archlinux-Guida/arch-guida.md
+  - Altre Guide: Altre-Guide/altre.md
+  - Download/live.md
 
 theme:
   icon:
