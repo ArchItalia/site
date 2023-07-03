@@ -11,6 +11,7 @@ nav:
   - Archlinux-Guida/arch-guida.md
   - 'Altre Guide': 
         - 'Pacman': 'Altre-Guide/Pacman.md'
+        - 'AUR': 'Altre-Guide/aur.md'
         - 'Fstab': 'Altre-Guide/fstab.md'
         - 'Nvidia': 'Altre-Guide/nvidia.md'
   - 'Download': Download/live.md
