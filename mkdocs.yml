@@ -11,7 +11,8 @@ nav:
   - Archlinux-Guida/arch-guida.md
   - Altre Guide: Altre-Guide/altre.md
   - Download/live.md
-  - Eng: en/index.md
+  - 'Eng':      
+        - 'Welcome': en/index.md
         - 'Archlinux-Guide': 'en/Archlinux-Guide/guide.md'
         - 'Download': 'en/Download/live.md'
 
