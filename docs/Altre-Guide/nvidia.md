@@ -25,7 +25,6 @@ Description=Update Nvidia module in initcpio
 Depends=mkinitcpio
 When=PostTransaction
 Exec=/usr/bin/mkinitcpio -P`
-
 ```
 <br><br><br>
 
@@ -55,7 +54,6 @@ Option "PrimaryGPU" "yes"
 ModulePath "/usr/lib/nvidia/xorg"
 ModulePath "/usr/lib/xorg/modules"
 EndSection
-
 ```
 <br><br><br>
 
@@ -85,7 +83,6 @@ Name=Optimus
 Exec=sh -c "xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto"
 NoDisplay=true
 X-GNOME-Autostart-Phase=DisplayServer
-
 ```
 <br><br>
 
@@ -145,7 +142,6 @@ Aggiungi al file .xinitrc o crealo se non esiste in ~/.xinitrc
 
 ```
 xrandr --output <nome-output> --set "Sincronizzazione PRIME" 1
-
 ```
 <br><br>
 
@@ -166,12 +162,10 @@ Systemd-boot:
 per esempio se la tua configurazione e' in /boot/loader/entries/arch.conf
 
 ```
-
 title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /initramfs-linux.img
 options root=/dev/xxx rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3 nvidia-drm.modeset=1
-
 ```
 <br><br>
 
