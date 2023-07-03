@@ -5,7 +5,7 @@
 
 
 
-![image](../images/logo/logo2.png)
+![image](images/logo/logo2.png)
 
 Architalia è una comunità italiana dedicata alla distribuzione di Arch Linux e delle sue derivate. Questa comunità è composta da appassionati di Linux e tecnologie open source che si uniscono per condividere informazioni, risorse e conoscenze su Arch Linux e le sue varie modifiche. 
 
@@ -26,7 +26,7 @@ Visita il sito ufficiale [Archlinux.org](https://archlinux.org)
 
 ## Supporta la Community
 
-![iso](../images/pp.png)
+![iso](images/pp.png)
 
 Supporta la community ArchItalia, fai una donazione per aiutarci a crescere.
 [Donazione Paypal](https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL)
