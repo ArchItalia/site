@@ -15,6 +15,7 @@ nav:
         - 'Yay': 'Altre-Guide/yay.md'
         - 'Fstab': 'Altre-Guide/fstab.md'
         - 'Vim': 'Altre-Guide/vim.md'
+        - 'Nano': 'Altre-Guide/nano.md'
         - 'Nvidia': 'Altre-Guide/nvidia.md'
   - 'Download': Download/live.md
   - 'Eng':      
