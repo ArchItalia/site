@@ -1,5 +1,25 @@
  /*extra css architalia*/
  
+ 
+ body{
+ font-family: 'Ubuntu';
+ }
+ 
+ 
+p, code, pre {
+  font-size: 17px!important;
+  line-height: 1.6;
+} 
+ 
+.md-tabs__item .md-tabs__link {
+  font-size: 16px;
+  font-weight:400;
+}
+ 
+ 
+
+ 
+ 
  [data-md-color-scheme=light] {
   --md-primary-fg-color:#59798e;
   --md-default-fg-color:#434343;
@@ -25,4 +45,11 @@ padding:5px
 
 img[alt=iso] { width: 200px; }
 
-
+@media screen and (max-width: 59.9375em){
+.md-nav__source {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  display: block;
+  padding: 0 .2rem;
+}
+}
