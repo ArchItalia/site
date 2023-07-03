@@ -24,15 +24,14 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 - `Versione Beta 3.0`
 - `linux-6.4.1-arch1-1`
 
-<<<<<<< HEAD
 
 - [Download iso](https://drive.google.com/file/d/1-o2_ax8eva2AkLj7tgjw6nKsH17Pdt95/view?usp=sharing)
 - [Github](https://github.com/ArchItalia/architalia-live.git)
 
-=======
+
 - [Download iso](https://drive.google.com/file/d/1-o2_ax8eva2AkLj7tgjw6nKsH17Pdt95/view?usp=sharing)
 - [Github](https://github.com/ArchItalia/architalia-live.git)
->>>>>>> 1cda8fa6c4053542bf0c471d0c8670517c3c0b07
+
 <br><br>
 
 ### Bugs
