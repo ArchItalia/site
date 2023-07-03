@@ -41,9 +41,9 @@ theme:
   favicon: assets/favicon.png
   name: material
   language: it
+  custom_dir: overrides
   
   font:
-    text: Ubuntu 
     code: Ubuntu mono
     
   features:
