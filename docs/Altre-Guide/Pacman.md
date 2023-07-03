@@ -50,6 +50,8 @@ Ecco una lista esaustiva dei comandi di pacman:
 - `# pacman -Qm`      Mostra i pacchetti esplicitamente installati dall'utente, non presenti nei repositories ufficiali.
 - `# pacman -Qo`        Mostra il pacchetto proprietario di un file specifico.
 - `# pacman -Qp`        Mostra le informazioni descrittive di un pacchetto locale.
+- `# pacman -Qqe > pkglist` Creare un file backup dei pacchetti installati.
+- `# pacman -S $(cat pkglist)` Installare pacchetti leggendo dal pkglist.
 - `# pacman -Qs`         Cerca un pacchetto tra quelli già installati nel sistema.
 - `# pacman -Qu`        Mostra i pacchetti che necessitano di aggiornamento disponibili nei repositories.
 - `# pacman -Rs`         Rimuove un pacchetto, insieme ai pacchetti dipendenti da esso e non più utilizzati da nessun altro pacchetto.
