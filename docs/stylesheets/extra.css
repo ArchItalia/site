@@ -16,6 +16,10 @@ p, code, pre {
   font-weight:400;
 }
  
+.md-banner{
+ background-color: var(--md-banner-color);
+ color: var(--md-typeset-color)
+} 
  
 
  
