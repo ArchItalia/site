@@ -9,7 +9,7 @@ edit_uri: edit/main/docs/
 nav: 
   - index.md
   - Archlinux-Guida/arch-guida.md
-  - 'miniWiki': 
+  - 'Wiki': 
         - 'Pacman': 'Altre-Guide/Pacman.md'
         - 'AUR': 'Altre-Guide/aur.md'
         - 'Yay': 'Altre-Guide/yay.md'
