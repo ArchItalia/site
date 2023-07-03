@@ -20,6 +20,9 @@ nav:
         - 'Sudoers.d': 'Altre-Guide/sudoers.md'
         - 'Reflector': 'Altre-Guide/reflector.md'
         - 'Downgrade': 'Altre-Guide/downgrade.md'
+
+
+        
   - 'Download': Download/live.md
   - 'Eng':      
         - 'Welcome': en/index.md
