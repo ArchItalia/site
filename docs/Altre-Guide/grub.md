@@ -44,10 +44,51 @@ Di seguito è riportata una guida per l'installazione e la configurazione di Gru
     
 4. Aggiornare Grub
     - Digitare il seguente comando per aggiornare Grub con le modifiche apportate:
-  <br>
-      
-      ```
-      sudo grub-mkconfig -o /boot/grub/grub.cfg
-      ```
+
+```  
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```    
+<br> <br><br> <br>
+
+installazione UEFI
+
+1 - Installazione di Grub:
+
+`# pacman -S efibootmgr grub`
+
+
+`# grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
+
+
+1a - Supporto per l'avvio protetto:
+
+GRUB supporta completamente l'avvio protetto utilizzando chiavi CA o shim, tuttavia il comando di installazione è diverso a seconda di quale si intende utilizzare.
+
+Per utilizzare le chiavi CA il comando è:
+
+`# grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="tpm" --disable-shim-lock`
+
+
+Per utilizzare shim-lock il comando è:
+
+`# grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="normal test efi_gop efi_uga search echo linux all_video gfxmenu gfxterm_background gfxterm_menu gfxterm loadenv configfile tpm"`
+
+
+2 - infine Genera il file di configurazione principale
+
+`# grub-mkconfig -o /boot/grub/grub.cfg`
+
+installazione Bios/MBR
+
+1 - Installazione di Grub:
+
+`# pacman -S grub`
+
+`# grub-install --target=i386-pc /dev/xxx`
+
+
+2 - infine Genera il file di configurazione principale
+
+`# grub-mkconfig -o /boot/grub/grub.cfg`
 
 Nota: verificare che il parametro "GRUB_TIMEOUT" sia impostato su un valore superiore a 0 per consentire la selezione del sistema operativo all'avvio del computer.
