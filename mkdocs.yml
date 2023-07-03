@@ -7,7 +7,9 @@ edit_uri: edit/main/docs/
 
 
 nav: 
-  - index.md
+  - ' ':
+        - 'Benvenuti': index.md
+        - 'Esonero responsabilita': 'termini.md'
   - Archlinux-Guida/arch-guida.md
   - 'Altre Guide': 
         - 'Pacman': 'Altre-Guide/Pacman.md'
