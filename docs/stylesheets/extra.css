@@ -18,7 +18,7 @@ p, code, pre {
  
 .md-banner{
  background-color: var(--md-banner-color);
- color: var(--md-typeset-color)
+ color: var(--md-typeset-color);
 } 
  
 
