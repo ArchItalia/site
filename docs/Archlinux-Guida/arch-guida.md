@@ -1,22 +1,6 @@
 # Installazione di Arch Linux
 
-Guide all'installazione di Arch Linux: 
 
-1.  [Verifica Firma](#1-verifica-firma)
-2.  [Configurazione iniziale](#2-configurazione-iniziale)
-3.  [Connessione Internet](#3-connessione-internet)
-4.  [Preparazione del disco](#4-preparazione-del-disco)
-5.  [Mirrorlist](#5-mirrorlist)
-6.  [Pacstrap](#6-pacstrap)
-7.  [Generare Fstab](#7-generare-fstab)
-8.  [Chroot](#8-chroot)
-9.  [Bootloader](#9-bootloader)
-10. [Pacchetti Base](#10-pacchetti-base)
-11. [Ambiente Grafico](#11-ambiente-grafico)
-12. [Servizi](#12-servizi)
-13. [zram](#13-zram)
-
-<br><br><br><br>
 
 ## 1. Verifica Firma
 
