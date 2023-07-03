@@ -1,22 +1,5 @@
 # Arch Linux Installation
 
-Installation guides for Arch Linux: 
-
-1.  [Signature Verification](#1-signature-verification)
-2.  [Initial Configuration](#2-initial-configuration)
-3.  [Internet Connection](#3-internet-connection)
-4.  [Disk Preparation](#4-disk-preparation)
-5.  [Mirrorlist](#5-mirrorlist)
-6.  [Pacstrap](#6-pacstrap)
-7.  [Generate Fstab](#7-generate-fstab)
-8.  [Chroot](#8-chroot)
-9.  [Bootloader](#9-bootloader)
-10. [Base Packages](#10-base-packages)
-11. [Graphical Environment](#11-graphical-environment)
-12. [Services](#12-services)
-13. [zram](#13-zram)
-
-<br><br><br><br>
 
 ## 1. Signature Verification
 
