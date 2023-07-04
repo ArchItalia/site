@@ -24,7 +24,7 @@ Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethe
 
 <br>
 
-!!! note ""
+!!! note "Nota"
 
     Una zona può solo essere in uno stato attivo se ha una di queste due condizioni:
     La zona è assegnata a un'interfaccia di rete.
