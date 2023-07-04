@@ -432,7 +432,7 @@ try {
 }
 
 
-var app_base_url="https://architalia.github.io/site/ai/";try{localStorage.setItem("name","Hello World!")}catch(a){console.log("Error - local storage is full. clearing local storage");try{localStorage.clear()}catch(b){console.log("error clearing local storage: "+b)}}var onCategoryPage=!1,reeferrerMadness=document.referrer,cookieUserReeferrer=localStorage.getItem("userReeferrer");void 0==cookieUserReeferrer&&(localStorage.setItem("userReeferrer",reeferrerMadness),cookieUserReeferrer=localStorage.getItem("userReeferrer"));var thisLocation=window.location.pathname,pagePathCookie=localStorage.getItem("pagePath");if(void 0==pagePathCookie)localStorage.setItem("pagePath",[thisLocation]);else if(!(1E5<pagePathCookie.length)){var newPagePathCookie=[pagePathCookie,thisLocation];localStorage.setItem("pagePath",newPagePathCookie)}
+var app_base_url="https://architalia.github.io/site";try{localStorage.setItem("name","Hello World!")}catch(a){console.log("Error - local storage is full. clearing local storage");try{localStorage.clear()}catch(b){console.log("error clearing local storage: "+b)}}var onCategoryPage=!1,reeferrerMadness=document.referrer,cookieUserReeferrer=localStorage.getItem("userReeferrer");void 0==cookieUserReeferrer&&(localStorage.setItem("userReeferrer",reeferrerMadness),cookieUserReeferrer=localStorage.getItem("userReeferrer"));var thisLocation=window.location.pathname,pagePathCookie=localStorage.getItem("pagePath");if(void 0==pagePathCookie)localStorage.setItem("pagePath",[thisLocation]);else if(!(1E5<pagePathCookie.length)){var newPagePathCookie=[pagePathCookie,thisLocation];localStorage.setItem("pagePath",newPagePathCookie)}
 
 
 
