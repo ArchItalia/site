@@ -29,6 +29,7 @@ nav:
         - 'Permessi': 'Altre-Guide/permessi.md'
         - 'Grub': 'Altre-Guide/grub.md'
         - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
+        - 'Firewalld': 'Altre-Guide/firewald.md'
 
         
   - 'Download':
