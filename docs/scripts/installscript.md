@@ -98,3 +98,52 @@ Service="gdm NetworkManager firewalld bluetooth cronie reflector" # Service
 # end setting ----------------------------------------------
 
 ```
+<br>
+<br>
+
+
+Ecco la parte che si occupera di eseguire la prima parte dell'installazione:
+
+```
+
+#Formattazione delle partizioni - EFI, ROOT, HOME
+mkfs.fat -F32 $p1
+mkfs.btrfs -f $p2 
+mkfs.btrfs -f $p3
+
+#Montaggio e sottovolumi - partizione /home separata
+mount $p2 /mnt           
+btrfs su cr /mnt/@  
+umount /mnt 
+mount $p3 /mnt
+btrfs su cr /mnt/@home      
+umount /mnt                             
+mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@ $p2 /mnt 
+mkdir -p /mnt/{boot,home}
+mount $p1 /mnt/boot 
+mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@home $p3 /mnt/home 
+
+# reflector
+reflector --verbose -c $country -a $age --sort rate --save /etc/pacman.d/mirrorlist
+
+#pacstrap
+pacstrap -K /mnt $base $FM $kernel $tools $editor
+
+#fstab
+genfstab -Up /mnt > /mnt/etc/fstab
+
+
+cp 2-parte.sh /mnt/home/
+arch-chroot /mnt 
+  
+```
+<br>
+<br>
+
+
+Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo punto dobbiamo spostarci e avviare il secondo script:
+
+- `# cd /home`
+- `# ./2-parte.sh`
+
+
