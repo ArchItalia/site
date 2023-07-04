@@ -412,7 +412,13 @@ if($jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS){if(a&&$jscomp.ES6_CONFORMANCE)r
 
 
 
-try{"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}
+try {
+  if ("https://architalia.github.io/site/ai/" !== window.location.hostname && "https://architalia.github.io/site/ai/" !== window.location.hostname && "https://architalia.github.io/site/ai/" !== window.location.hostname) {
+    console.log("Hostname diverso da 'https://architalia.github.io/site/ai/'")
+  }
+} catch (a) {
+  console.log("error redirecting" + a)
+}
 
 try {
     (function(a){
