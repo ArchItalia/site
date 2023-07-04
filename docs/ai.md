@@ -412,8 +412,10 @@ if($jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS){if(a&&$jscomp.ES6_CONFORMANCE)r
 
 
 
-try{"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io/site/ai"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}try{(function(a){a.location!==a.top.location&&(a.top.location=a.location)})(this)}catch(a){console.log("error breaking out of iframe",a)}
 
+// try{"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io/site/ai"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}
+
+try{(function(a){a.location!==a.top.location&&(a.top.location=a.location)})(this)}catch(a){console.log("error breaking out of iframe",a)}
 
 
 
