@@ -24,6 +24,7 @@ Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethe
 
 
 <br>
+
 !!! warning "Attenzione"
 
     Non rimuovere mai il servizio SSH dal firewall di un server remoto!
