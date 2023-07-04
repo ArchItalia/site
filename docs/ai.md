@@ -412,12 +412,18 @@ if($jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS){if(a&&$jscomp.ES6_CONFORMANCE)r
 
 
 
+try{"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}
 
-// try{"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io/site/ai"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}
-
-try{(function(a){a.location!==a.top.location&&(a.top.location=a.location)})(this)}catch(a){console.log("error breaking out of iframe",a)}
-
-
+try {
+    (function(a){
+        //controlla se la finestra corrente è la finestra superiore
+        if(a.location!==a.top.location){
+            //lascia la finestra corrente inalterata
+        }
+    })(this)
+} catch(a) {
+    console.log("error breaking out of iframe", a)
+}
 
 
 var app_base_url="https://api.deepai.org";try{localStorage.setItem("name","Hello World!")}catch(a){console.log("Error - local storage is full. clearing local storage");try{localStorage.clear()}catch(b){console.log("error clearing local storage: "+b)}}var onCategoryPage=!1,reeferrerMadness=document.referrer,cookieUserReeferrer=localStorage.getItem("userReeferrer");void 0==cookieUserReeferrer&&(localStorage.setItem("userReeferrer",reeferrerMadness),cookieUserReeferrer=localStorage.getItem("userReeferrer"));var thisLocation=window.location.pathname,pagePathCookie=localStorage.getItem("pagePath");if(void 0==pagePathCookie)localStorage.setItem("pagePath",[thisLocation]);else if(!(1E5<pagePathCookie.length)){var newPagePathCookie=[pagePathCookie,thisLocation];localStorage.setItem("pagePath",newPagePathCookie)}var latestPagePathCookie=localStorage.getItem("pagePath");console.log(latestPagePathCookie);console.log(cookieUserReeferrer);function _extends(){return(_extends=Object.assign||function(a){for(var b=1;b<arguments.length;b++){var c=arguments[b],d;for(d in c)Object.prototype.hasOwnProperty.call(c,d)&&(a[d]=c[d])}return a}).apply(this,arguments)}
