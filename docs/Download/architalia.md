@@ -32,8 +32,10 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 ### Bugs
 
-* [2023.06.30]  [Non Critico]  Tempo di Copia del filesystem rootfs in ram lungo. 
-* [2023.06.30]  [Non Critico]  Tempo di avvio dell'ambiente desktop lungo. 
+!!! warning "Bugs Conosciuti"
+
+    * [2023.06.30]  [Non Critico]  Tempo di Copia del filesystem rootfs in ram lungo. 
+    * [2023.06.30]  [Non Critico]  Tempo di avvio dell'ambiente desktop lungo. 
 
 <br><br><br><br>
 
