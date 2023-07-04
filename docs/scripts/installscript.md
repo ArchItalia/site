@@ -1,4 +1,7 @@
-Script di installazione btrfs diviso in due parti.
+Installscript Script di installazione **btrfs** diviso in due parti.
+
+![image](https://github.com/ArchItalia/site/assets/117321045/ce7160f3-d429-4ec0-9c4a-f2d726ca67e2)
+
 
 La prima parte **(1-parte.sh)** e' composta dalla preparazione del disco e delle partizioni.
 Prima di usare questo script diviso in due che si trova in `~/Installscript` su **architalia-live ISO**, 
