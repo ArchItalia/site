@@ -2,7 +2,7 @@ Script di installazione btrfs diviso in due parti.
 
 La prima parte **(1-parte.sh)** e' composta dalla preparazione del disco e delle partizioni.
 Prima di usare questo script diviso in due che si trova in `~/Installscript` su **architalia-live ISO**, 
-e' necessario preparare il disco con ad esempio **cfdisk** seguendo le istruzioni sulla guida al paragrafo **UEFI btrfs**, oppure semplicemente gparted integrato nella live, le partizioni necessarie per esempio sono:
+e' necessario preparare il disco con ad esempio **cfdisk** seguendo le istruzioni sulla guida al paragrafo [**UEFI btrfs**](https://architalia.github.io/site/Archlinux-Guida/arch-guida/#uefi-btrfs), oppure semplicemente **gparted** integrato nella live, le partizioni necessarie per esempio sono:
 
 <br>
 
@@ -13,10 +13,10 @@ e' necessario preparare il disco con ad esempio **cfdisk** seguendo le istruzion
 ```
 <br>
 
-    !!! note "Nota"
+!!! note "Nota"
     
-        La partizione di swap viene sostituita con l'installazione di ZRAM, che lo script 2-parte.sh 
-        configurera per noi, sara' sufficente indicare la misura della swap in GiB
+    La partizione di swap viene sostituita con l'installazione di ZRAM, che lo script 2-parte.sh 
+     configurera per noi, sara' sufficente indicare la misura della swap in GiB
 
 <br>
 
