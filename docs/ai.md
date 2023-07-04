@@ -411,15 +411,6 @@ if($jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS){if(a&&$jscomp.ES6_CONFORMANCE)r
 
 
 
-try{"https://architalia.github.io"!==window.location.hostname&&(window.location.href="https://architalia.github.io/site/ai/")}catch(a){console.log("error "+a)}
-
-try {
-  if (window.location !== window.top.location) {
-    console.log('La pagina è stata caricata all\'interno di un iframe.');
-  }
-} catch (error) {
-  console.log('Errore durante la verfica se la pagina è stata caricata all\'interno di un iframe:', error);
-}
 
 const app_base_url = 'https://api.deepai.org';
 
