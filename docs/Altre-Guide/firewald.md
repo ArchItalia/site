@@ -24,12 +24,12 @@ Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethe
 
 
 <br>
+!!! note "Nota"
 
-!!! warning "Attenzione"
+    Una zona può solo essere in uno stato attivo se ha una di queste due condizioni:
+    La zona è assegnata a un'interfaccia di rete
+    Alla zona vengono assegnati IP sorgente o intervalli di rete.
 
-    Non rimuovere mai il servizio SSH dal firewall di un server remoto!
-    Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
-    Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
 
 <br>
 Le zone predefinite includono le seguenti 
@@ -140,16 +140,15 @@ Diciamo che avete un server e non volete renderlo pubblico. se volete definire s
 
 Ci sono un paio di metodi per farlo. Per prima cosa, per un server più chiuso, puoi scegliere una delle zone più restrittive, assegnare il tuo dispositivo di rete ad essa, aggiungere il servizio SSH come mostrato sopra, e poi mettere in whitelist il tuo indirizzo IP pubblico in questo modo:
 
-<br><br>
+<br>
+!!! warning "Attenzione"
 
- !!! warning "Attenzione"
-     
-     Non rimuovere mai il servizio SSH dal firewall di un server remoto!
-     Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
-     Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
-    
-    
-<br><br>
+    Non rimuovere mai il servizio SSH dal firewall di un server remoto!
+    Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
+    Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
+
+ 
+<br>
 
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0 [< insert your IP here]`
 
