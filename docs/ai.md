@@ -17,11 +17,7 @@
 <link rel="preconnect" href="https://btloader.com/" crossorigin />
 <link rel="preconnect" href="https://api.btloader.com/" crossorigin />
 <link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
-<!-- Below is a link to a CSS file that accounts for Cumulative Layout Shift, a new Core Web Vitals subset that Google uses to help rank your site in search -->
-<!-- The file is intended to eliminate the layout shifts that are seen when ads load into the page. If you don't want to use this, simply remove this file -->
-<!-- To find out more about CLS, visit https://web.dev/vitals/ -->
-<link rel="stylesheet" href="https://a.pub.network/core/pubfig/cls.css">
-<script data-cfasync="false" type="text/javascript">
+
 </head>
 
 <body>
