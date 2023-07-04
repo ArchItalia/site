@@ -2,7 +2,6 @@
 
 ## Architalia-live
 
-![image](../images/live/ltp.png)
 ![image](https://github.com/ArchItalia/site/assets/117321045/20493db0-69b7-4591-9c06-7674bbad7261)
 
 
@@ -16,6 +15,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 
 
+![image](../images/live/ltp.png)
 
 ### Download
 
