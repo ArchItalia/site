@@ -13,7 +13,7 @@ E' possibile effettuare un installazione di arch tradizionale in console, con la
 
 Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per creare la tua installazione puoi usare il metodo classico da riga di comando in console, oppure usare archinstall, per utenti esperti si puo usare lo script di architalia posizionato in `~/Installscript`. pacchetti aggiuntivi in questa live: git, firefox, evince, eog, console, nautilus, text-editor, etcher, gparted, gnome-system-monitor, gdm, gnome-shell.
 
-
+<br><br>
 
 ![image](../images/live/ltp.png)
 
