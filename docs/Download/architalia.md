@@ -19,7 +19,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 ### Download
 
-!!! note ""
+!!! info "Informazioni"
     
     * architalia-2023.07.03-x86_64.iso
     * Dimensione 1.59 GB
