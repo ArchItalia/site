@@ -1,16 +1,16 @@
 ### Installazione e uso
 
-1 - Installiamo firewalld e abilitiamo il servizio.
+Installiamo firewalld e abilitiamo il servizio.
 
 - `$ pacman -S firewalld`
   
 - `$ sudo systemctl enable firewalld --now`
 
-2 - Verifichiamo lo stato del servizio.
+Verifichiamo lo stato del servizio.
 
 - `$ sudo systemctl status firewalld`
 
-3 - Potete vedere tutte le vostre configurazioni e impostazioni in una volta sola con questo comando:
+Potete vedere tutte le vostre configurazioni e impostazioni in una volta sola con questo comando:
 
 - `$ sudo firewall-cmd --list-all`
 
@@ -18,7 +18,7 @@
 
 ### Gestire le zone
 
-4 - Prima di ogni altra cosa, devo spiegare le zone. Le zone sono una caratteristica che fondamentalmente permette di definire diversi set di regole per diverse situazioni. Le zone sono una parte enorme di firewalld, quindi è utile capire come funzionano.
+Prima di ogni altra cosa, devo spiegare le zone. Le zone sono una caratteristica che fondamentalmente permette di definire diversi set di regole per diverse situazioni. Le zone sono una parte enorme di firewalld, quindi è utile capire come funzionano.
 
 Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethernet e WiFi), puoi decidere che una connessione è più affidabile dell'altra. Potresti impostare la tua connessione Ethernet nella zona "trusted" se è collegata solo a una rete locale che hai costruito, e mettere il WiFi (che potrebbe essere collegato a Internet) nella zona "public" con restrizioni più severe.
 
@@ -52,42 +52,42 @@ Le zone predefinite includono le seguenti
 
 ### Comandi di gestione zone
 
-5 - Per vedere la vostra zona predefinita, esegui:
+Per vedere la vostra zona predefinita, esegui:
 - `$ firewall-cmd --get-default-zone`
 
-6 - Per vedere quali zone sono attive e fanno cosa, esegui:
+Per vedere quali zone sono attive e fanno cosa, esegui:
 - `$ firewall-cmd --get-active-zones`
 
 
-7 - Per cambiare la zona predefinita:
+Per cambiare la zona predefinita:
 - `$ firewall-cmd --set-default-zone [tua-zona]`
 
-8 - Per aggiungere un'interfaccia di rete a una zona:
+Per aggiungere un'interfaccia di rete a una zona:
 - `$ firewall-cmd --zone=[tua-zona] --add-interface=[tua-intefaccia-di-rete]`
 
 
-9 - Per cambiare la zona di un'interfaccia di rete:
+Per cambiare la zona di un'interfaccia di rete:
 - `$ firewall-cmd --zone=[tua-zona] --change-interface=[tua-interfaccia-di-rete]`
 
-10 - Per rimuovere completamente un'interfaccia da una zona:
+Per rimuovere completamente un'interfaccia da una zona:
 - `$ firewall-cmd --zone=[tua-zona] --remove-interface=[tua-intefaccia-di-rete]`
 
 
-11 - Per creare una zona nuova con un set di regole personalizzate, e per controllare che sia stata aggiunta correttamente:
+Per creare una zona nuova con un set di regole personalizzate, e per controllare che sia stata aggiunta correttamente:
 - `$ firewall-cmd --new-zone=[tua-nuova-zona]`
 - `$ firewall-cmd --get-zones`
 <br><br>
 
 ### Gestione delle porte
 
-12 - Per vedere tutte le porte aperte:
+Per vedere tutte le porte aperte:
 - `$ firewall-cmd --list-ports`
 
-13 - Per aggiungere una porta alla vostra zona firewall:
+Per aggiungere una porta alla vostra zona firewall:
 - `$ firewall-cmd --zone=public --add-port=9001/tcp`
 
 
-14 - Per rimuovere una porta, basta usare il comando:
+Per rimuovere una porta, basta usare il comando:
 - `$ firewall-cmd --zone=public --remove-port=9001/tcp`
 
 ### Gestione dei servizi
@@ -101,18 +101,18 @@ Questo è il modo preferito per aprire le porte per questi servizi comuni, e mol
 
 <br><br>
 
-15 - Per vedere un elenco di tutti i servizi disponibili:
+Per vedere un elenco di tutti i servizi disponibili:
 - `$ firewall-cmd --get-services`
 
-16 - Per vedere quali servizi hai attualmente attivi sul tuo firewall:
+Per vedere quali servizi hai attualmente attivi sul tuo firewall:
 - `$ firewall-cmd --list-services`
 
 
-17 - Per aprire un servizio nel tuo firewall (ad esempio HTTP nella zona pubblica):
+Per aprire un servizio nel tuo firewall (ad esempio HTTP nella zona pubblica):
 - `$ firewall-cmd --zone=public --add-service=http`
 
 
-18 - Per rimuovere/chiudere un servizio sul vostro firewall:
+Per rimuovere/chiudere un servizio sul vostro firewall:
 - `$ firewall-cmd --zone=public --remove-service=http`
 
 
@@ -120,7 +120,7 @@ Questo è il modo preferito per aprire le porte per questi servizi comuni, e mol
 
 ### Limitare l'accesso
 
-19 - Diciamo che avete un server e non volete renderlo pubblico. se volete definire solo chi è autorizzato ad accedere via SSH, o visualizzare alcune pagine web/app private, potete farlo.
+Diciamo che avete un server e non volete renderlo pubblico. se volete definire solo chi è autorizzato ad accedere via SSH, o visualizzare alcune pagine web/app private, potete farlo.
 
 Ci sono un paio di metodi per farlo. Per prima cosa, per un server più chiuso, puoi scegliere una delle zone più restrittive, assegnare il tuo dispositivo di rete ad essa, aggiungere il servizio SSH come mostrato sopra, e poi mettere in whitelist il tuo indirizzo IP pubblico in questo modo:
 
@@ -131,10 +131,11 @@ Ci sono un paio di metodi per farlo. Per prima cosa, per un server più chiuso, 
     Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
     Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
 
+<br><br>
 
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0 [< insert your IP here]`
 
-20 - Potete renderlo un intervallo di indirizzi IP aggiungendo un numero più alto alla fine, in questo modo:
+Potete renderlo un intervallo di indirizzi IP aggiungendo un numero più alto alla fine, in questo modo:
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0/24 [< insert your IP here]`
 
 Di nuovo, basta cambiare **--add-source** in **--remove-source** per invertire il processo
