@@ -36,6 +36,8 @@ nav:
         - Architalia-live: Download/architalia.md
         - Arch Linux: Download/archlinux.md
   - '': ai.md
+  - 'Scripts': 
+        - script/installscript.md
         
      
 
