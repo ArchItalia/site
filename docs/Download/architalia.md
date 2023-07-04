@@ -24,7 +24,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 - `Versione Beta 3.0`
 - `linux-6.4.1-arch1-1`
 
-- [Download iso ::fontawesome-regular-circle-down:](https://drive.google.com/file/d/1-o2_ax8eva2AkLj7tgjw6nKsH17Pdt95/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1-o2_ax8eva2AkLj7tgjw6nKsH17Pdt95/view?usp=sharing)
 - [Github](https://github.com/ArchItalia/architalia-live.git)
 <br><br>
 
