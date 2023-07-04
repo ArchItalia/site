@@ -22,13 +22,15 @@ Prima di ogni altra cosa, devo spiegare le zone. Le zone sono una caratteristica
 
 Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethernet e WiFi), puoi decidere che una connessione è più affidabile dell'altra. Potresti impostare la tua connessione Ethernet nella zona "trusted" se è collegata solo a una rete locale che hai costruito, e mettere il WiFi (che potrebbe essere collegato a Internet) nella zona "public" con restrizioni più severe.
 
-    !!! note "nota"
+<br>
 
+    !!! note "nota"
+    
     Una zona può solo essere in uno stato attivo se ha una di queste due condizioni:
     La zona è assegnata a un'interfaccia di rete.
     Alla zona vengono assegnati IP sorgente o intervalli di rete.
 
-<br><br>
+<br>
 
 Le zone predefinite includono le seguenti 
 
