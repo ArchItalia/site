@@ -1,5 +1,5 @@
 **Installscript** script di installazione **btrfs** diviso in due parti.
-- [GitHuB :fontawesome-solid-code-branch:](https://github.com/ArchItalia/installscript) 
+- [GitHub :fontawesome-solid-code-branch:](https://github.com/ArchItalia/installscript) 
 
 <br>
 
