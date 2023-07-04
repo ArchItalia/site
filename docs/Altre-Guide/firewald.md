@@ -26,9 +26,9 @@ Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethe
 <br>
 !!! warning "Attenzione"
 
-Non rimuovere mai il servizio SSH dal firewall di un server remoto!
-Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
-Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
+    Non rimuovere mai il servizio SSH dal firewall di un server remoto!
+    Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
+    Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
 
 <br>
 Le zone predefinite includono le seguenti 
