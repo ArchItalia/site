@@ -53,41 +53,52 @@ Le zone predefinite includono le seguenti
 ### Comandi di gestione zone
 
 Per vedere la vostra zona predefinita, esegui:
+
 - `$ firewall-cmd --get-default-zone`
 
 Per vedere quali zone sono attive e fanno cosa, esegui:
+
 - `$ firewall-cmd --get-active-zones`
 
 
 Per cambiare la zona predefinita:
+
 - `$ firewall-cmd --set-default-zone [tua-zona]`
 
 Per aggiungere un'interfaccia di rete a una zona:
+
 - `$ firewall-cmd --zone=[tua-zona] --add-interface=[tua-intefaccia-di-rete]`
 
 
 Per cambiare la zona di un'interfaccia di rete:
+
 - `$ firewall-cmd --zone=[tua-zona] --change-interface=[tua-interfaccia-di-rete]`
 
 Per rimuovere completamente un'interfaccia da una zona:
+
 - `$ firewall-cmd --zone=[tua-zona] --remove-interface=[tua-intefaccia-di-rete]`
 
 
 Per creare una zona nuova con un set di regole personalizzate, e per controllare che sia stata aggiunta correttamente:
+
 - `$ firewall-cmd --new-zone=[tua-nuova-zona]`
 - `$ firewall-cmd --get-zones`
+- 
 <br><br>
 
 ### Gestione delle porte
 
 Per vedere tutte le porte aperte:
+
 - `$ firewall-cmd --list-ports`
 
 Per aggiungere una porta alla vostra zona firewall:
+
 - `$ firewall-cmd --zone=public --add-port=9001/tcp`
 
 
 Per rimuovere una porta, basta usare il comando:
+
 - `$ firewall-cmd --zone=public --remove-port=9001/tcp`
 
 ### Gestione dei servizi
@@ -102,17 +113,21 @@ Questo è il modo preferito per aprire le porte per questi servizi comuni, e mol
 <br><br>
 
 Per vedere un elenco di tutti i servizi disponibili:
+
 - `$ firewall-cmd --get-services`
 
 Per vedere quali servizi hai attualmente attivi sul tuo firewall:
+
 - `$ firewall-cmd --list-services`
 
 
 Per aprire un servizio nel tuo firewall (ad esempio HTTP nella zona pubblica):
+
 - `$ firewall-cmd --zone=public --add-service=http`
 
 
 Per rimuovere/chiudere un servizio sul vostro firewall:
+
 - `$ firewall-cmd --zone=public --remove-service=http`
 
 
@@ -136,6 +151,7 @@ Ci sono un paio di metodi per farlo. Per prima cosa, per un server più chiuso, 
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0 [< insert your IP here]`
 
 Potete renderlo un intervallo di indirizzi IP aggiungendo un numero più alto alla fine, in questo modo:
+
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0/24 [< insert your IP here]`
 
 Di nuovo, basta cambiare **--add-source** in **--remove-source** per invertire il processo
