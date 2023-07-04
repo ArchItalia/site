@@ -142,11 +142,12 @@ Ci sono un paio di metodi per farlo. Per prima cosa, per un server più chiuso, 
 <br><br>
 
  !!! warning "Attenzione"
+     
+     Non rimuovere mai il servizio SSH dal firewall di un server remoto!
+     Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
+     Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
     
-    Non rimuovere mai il servizio SSH dal firewall di un server remoto!
-    Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
-    Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
-
+    
 <br><br>
 
 - `$ firewall-cmd --permanent --zone=trusted --add-source=192.168.1.0 [< insert your IP here]`
