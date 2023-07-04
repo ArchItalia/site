@@ -21,8 +21,14 @@ Potete vedere tutte le vostre configurazioni e impostazioni in una volta sola co
 Prima di ogni altra cosa, devo spiegare le zone. Le zone sono una caratteristica che fondamentalmente permette di definire diversi set di regole per diverse situazioni. Le zone sono una parte enorme di firewalld, quindi è utile capire come funzionano.
 
 Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethernet e WiFi), puoi decidere che una connessione è più affidabile dell'altra. Potresti impostare la tua connessione Ethernet nella zona "trusted" se è collegata solo a una rete locale che hai costruito, e mettere il WiFi (che potrebbe essere collegato a Internet) nella zona "public" con restrizioni più severe.
+!!! note ""
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 <br>
+
 
     !!! note "nota"
     
