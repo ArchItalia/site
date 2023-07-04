@@ -34,7 +34,7 @@ nav:
   - 'Download':
         - Architalia-live: Download/architalia.md
         - Arch Linux: Download/archlinux.md
-  
+  - 'AI': ai.md
         
      
 
@@ -112,7 +112,7 @@ extra:
       
 extra_css:
   - stylesheets/extra.css
-      
+     
     
 copyright: Copyright &copy; 2022-2023 Architalia
   
