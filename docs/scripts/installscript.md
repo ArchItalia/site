@@ -1,7 +1,9 @@
 Installscript Script di installazione **btrfs** diviso in due parti.
 
-![image](https://github.com/ArchItalia/site/assets/117321045/ce7160f3-d429-4ec0-9c4a-f2d726ca67e2)
+<br>
 
+![image](https://github.com/ArchItalia/site/assets/117321045/ce7160f3-d429-4ec0-9c4a-f2d726ca67e2)
+<br>
 
 La prima parte **(1-parte.sh)** e' composta dalla preparazione del disco e delle partizioni.
 Prima di usare questo script diviso in due che si trova in `~/Installscript` su **architalia-live ISO**, 
@@ -9,10 +11,15 @@ e' necessario preparare il disco con ad esempio **cfdisk** seguendo le istruzion
 
 <br>
 
+![image](https://github.com/ArchItalia/site/assets/117321045/510a8f64-950c-4fc3-a8a4-164479bd9a63)
+
+
+<br>
+
 ```
 # 512MiB Type EFI System
 # 20GiB  Type Linux Filesystem
-# 80GiB  Type Linux Filesystem
+# 30GiB  Type Linux Filesystem
 ```
 <br>
 
