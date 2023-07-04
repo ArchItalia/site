@@ -1,4 +1,4 @@
-Installscript Script di installazione **btrfs** diviso in due parti.
+**Installscript** script di installazione **btrfs** diviso in due parti.
 
 <br>
 
