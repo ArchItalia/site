@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<script defer data-domain="" src="https://plausible.io/js/script.js"></script>
+<script defer data-domain="https://architalia.github.io" src="https://plausible.io/js/script.js"></script>
 </head>
 
 <body>
