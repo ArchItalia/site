@@ -31,7 +31,7 @@ e' necessario preparare il disco con ad esempio **cfdisk** seguendo le istruzion
 <br>
 
 A questo punto sara' lo script a prendere in mano la formattazione, la creazione dei sottovolumi e il montaggio.
-Prima pero'vediamo come cambiare il nome delle variabili a seconda delle proprie impostazioni in entrambi le parti 1 e 2:
+Prima pero' vediamo come cambiare il valore delle variabili a seconda delle proprie impostazioni in entrambi le parti **1** e **2**:
 
 <br>
 
