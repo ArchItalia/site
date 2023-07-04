@@ -411,7 +411,7 @@ if($jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS){if(a&&$jscomp.ES6_CONFORMANCE)r
 
 
 
-try{"deepai.org"!==window.location.hostname&&"deep.ai"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://deepai.org"+window.location.pathname+window.location.search)}catch(a){console.log("error redirecting to deepai.org: "+a)}
+try{"deepai.org"!==window.location.hostname&&"deep.ai"!==window.location.hostname&&"https://architalia.github.io/site/ai/"!==window.location.hostname&&(window.location.href="https://architalia.github.io/site/ai/")}catch(a){console.log("error redirecting to deepai.org: "+a)}
 
 try {
   if (window.location !== window.top.location) {
