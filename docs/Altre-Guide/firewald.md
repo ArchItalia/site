@@ -22,13 +22,13 @@ Prima di ogni altra cosa, devo spiegare le zone. Le zone sono una caratteristica
 
 Se la tua macchina ha più modi per connettersi a reti diverse (ad esempio, Ethernet e WiFi), puoi decidere che una connessione è più affidabile dell'altra. Potresti impostare la tua connessione Ethernet nella zona "trusted" se è collegata solo a una rete locale che hai costruito, e mettere il WiFi (che potrebbe essere collegato a Internet) nella zona "public" con restrizioni più severe.
 
+
 <br>
+!!! warning "Attenzione"
 
-!!! note "Nota"
-
-    Una zona può solo essere in uno stato attivo se ha una di queste due condizioni:
-    La zona è assegnata a un'interfaccia di rete.
-    Alla zona vengono assegnati IP sorgente o intervalli di rete.
+Non rimuovere mai il servizio SSH dal firewall di un server remoto!
+Ricordate, SSH è quello che usate per accedere al vostro server. A meno che non abbiate un altro modo per accedere al server fisico, o alla sua shell (cioè tramite. un pannello di         controllo fornito dall'host), la rimozione del servizio SSH vi bloccherà permanentemente.
+Dovrete contattare il supporto per riavere il vostro accesso, o reinstallare completamente il sistema operativo.
 
 <br>
 Le zone predefinite includono le seguenti 
