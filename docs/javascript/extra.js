@@ -4,7 +4,7 @@
       title.innerHTML = "Architalia";
 
  var copy = document.getElementsClassName('md-copyright__highlight')[0];
-      copy..innerHTML = (new Date().getFullYear())
+      copy..innerHTML = "Copyright &copy;" + (new Date().getFullYear()) + "Architalia Linux*"
 
 
 
