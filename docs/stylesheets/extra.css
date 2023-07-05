@@ -41,7 +41,9 @@ code, pre {
   line-height: 1.6;
 }
  
-
+.md-banner__inner.md-grid.md-typeset p {
+  font-size: 16px !important;
+}
  
 .md-banner{
  background-color: var(--md-banner-color);
