@@ -2,10 +2,10 @@
 
 - Autore: bucch
 - Repository: [GitLab : fontawesome-brands-gitlab: ](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
-- [Italian](#manjaro-mesa-codecs-it-) - [English](#manjaro-mesa-codecs-en-)
+- [Italian](#manjaro-mesa-codecs-it) - [English](#manjaro-mesa-codecs-en)
 
-# Manjaro Mesa Codecs it 🇮🇹
-
+# Manjaro Mesa Codecs it
+## it 🇮🇹
 Uno script semplice per ricompilare il pacchetto `mesa` al fine di abilitare l'accelerazione hardware per i codec proprietari (ovvero H.264 e H.265).
 **Non è necessario eseguire questo script se non si dispone di una scheda grafica AMD installata nel proprio sistema!**
 
@@ -71,8 +71,8 @@ gpg --recv-keys <key-id>
 - Repository: [GitLab :fontawesome-brands-gitlab:](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
 
 
-# Manjaro Mesa Codecs en 🇬🇧
-
+# Manjaro Mesa Codecs en
+## en 🇬🇧
 A simple script to re-compile the `mesa` package in order to enable hardware acceleration for proprietary codecs (i.e H.264 and H.265).  
 **You shouldn't need to run this script if you don't have installed an AMD graphic card on your system!**
 
