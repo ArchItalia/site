@@ -16,7 +16,7 @@ nav:
         - '🇮🇹 Installazione di Arch Linux': Archlinux-Guida/arch-guida.md
         - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
   - 'Altre Guide': 
-        - 'Comandi linux': 'Altre-Guide/comandi-linux.md'
+        - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
         - 'Pacman': 'Altre-Guide/Pacman.md'
         - 'AUR': 'Altre-Guide/aur.md'
         - 'Yay': 'Altre-Guide/yay.md'
