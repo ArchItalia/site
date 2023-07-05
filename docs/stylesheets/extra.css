@@ -30,25 +30,6 @@ code, pre {
   color: var(--md-admonition-fg-color);
   font-size: .86rem;
 }
- 
- 
- [data-md-color-scheme=light] {
-  --md-primary-fg-color:#59798e;
-  --md-default-fg-color:#434343;
-  --md-default-bg-color:#f2f4f5;
-  --md-code-bg-color:#dbe6ee; /*#c4d9ff;*/
-  --md-code-fg-color:#222;
-  --md-typeset-a-color:#06c;
-  --md-typeset-color:#434343;
- 
-}
-
- [data-md-color-scheme=slate] {
-  --md-primary-fg-color:#3f4157;
-  
- 
- 
-}
 
 .md-typeset code {
 font-size: .86em;
@@ -102,6 +83,40 @@ background:var(--md-typeset-a-color);
 height:3px;
 width:100%;
 }
+
+
+root:{
+  --md-primary-fg-color:#59798e;
+  --md-default-fg-color:#434343;
+  --md-default-bg-color:#f2f4f5;
+  --md-code-bg-color:#dbe6ee; /*#c4d9ff;*/
+  --md-code-fg-color:#222;
+  --md-typeset-a-color:#06c;
+  --md-typeset-color:#434343;
+ 
+}
+ 
+}
+ 
+ [data-md-color-scheme=light] {
+  --md-primary-fg-color:#59798e;
+  --md-default-fg-color:#434343;
+  --md-default-bg-color:#f2f4f5;
+  --md-code-bg-color:#dbe6ee; /*#c4d9ff;*/
+  --md-code-fg-color:#222;
+  --md-typeset-a-color:#06c;
+  --md-typeset-color:#434343;
+ 
+}
+
+ [data-md-color-scheme=slate] {
+  --md-primary-fg-color:#3f4157;
+  
+ 
+ 
+}
+
+
 
 
 @media screen and (max-width: 59.9375em){
