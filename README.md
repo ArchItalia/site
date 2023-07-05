@@ -1,4 +1,5 @@
 # site
 official website
 
-![image](https://github.com/ArchItalia/site/assets/117321045/320a4e5f-f390-4482-a046-4ea2e3afe0c2)
+
+![logo-new](https://github.com/ArchItalia/site/assets/117321045/fea50868-2f9b-40c2-a877-a747db19bca7)
