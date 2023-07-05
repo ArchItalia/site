@@ -41,8 +41,10 @@ code, pre {
 }
 
  [data-md-color-scheme=slate] {
-  --md-primary-fg-color:#3f4157;
-  
+
+--md-default-bg-color: #0d1117;
+--md-primary-fg-color: #161b22;
+--md-typeset-a-color:#2f81f7!important;
  
  
 }
