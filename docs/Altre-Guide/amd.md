@@ -1,7 +1,7 @@
 # Manjaro Mesa Codecs
 
 - Autore: bucch
-- Repository: [GitLab : fontawesome-brands-gitlab: ](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
+- Repository: [GitLab :fontawesome-brands-gitlab: ](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
 - [🇮🇹 Italian](#italian) - [ 🇬🇧 English](#english)
 
 # italian
