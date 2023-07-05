@@ -1,6 +1,6 @@
 #yaml-language-server: $schema=https://architalia.github.io/site/schema.json
 
-site_name: Architalia 🇮🇹
+site_name: ''
 repo_url: https://github.com/architalia/site
 repo_name: architalia/site
 edit_uri: edit/main/docs/
@@ -68,7 +68,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-  logo: assets/logo.png
+  logo: assets/logo-new.png
   favicon: assets/favicon.png
   name: material
   language: it

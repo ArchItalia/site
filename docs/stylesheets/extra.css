@@ -81,7 +81,13 @@ img[alt=iso] { width: 200px; }
   font-size: .75rem;
 }
 
-div.homelogo{
- background-image:url('../images/logo/logo2.png');
- width:100%;
-}
+.homelogo{
+ background-image: var(--md-logo);
+ height:40px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ }
+
+
+
+

@@ -9,6 +9,7 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
   --md-code-fg-color:#222;
   --md-typeset-a-color:#06c;
   --md-typeset-color:#434343;
+  --md-logo:url('../images/logo/logo-light.png');
  
 }
 
@@ -17,7 +18,7 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
 --md-default-bg-color: #0d1117;
 --md-primary-fg-color: #161b22;
 --md-typeset-a-color:#2f81f7!important;
- 
+--md-logo:url('../images/logo/logo-dark.png'); 
  
 }
 
