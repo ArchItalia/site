@@ -100,6 +100,10 @@ height:3px;
 width:100%;
 }
 
+.md-typeset .admonition, .md-typeset details {
+  color: var(--md-admonition-fg-color);
+  font-size: .86rem;
+}
 
 @media screen and (max-width: 59.9375em){
 .md-nav__source {
