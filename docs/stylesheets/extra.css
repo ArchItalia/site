@@ -19,6 +19,12 @@ li.md-source__fact md-source__fact--forks{
  font-size: 14px !important;
 }
 
+.md-source {
+  font-size:18px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
 a.md-nav__link{
   font-size: 16px!important;
   line-height: 1.4;
