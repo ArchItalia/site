@@ -89,40 +89,7 @@ padding:10px;
 width:100%;
 }
 
-#chatSessionDeleteButton{
-color:var(--md-typeset-a-color);
-cursor:pointer;
-}
 
-#signup-modal{
-background-color: var(--md-primary-fg-color);
-color:#fff;
-border:none;
-width:100%;
-}
-
-.modal-body{
-background-color: var(--md-primary-fg-color);
-}
-
-.close{
-font-size:30px;
-}
-
-
-#progressContainer{
-background-color: var(--md-code-bg-color);
-width:40%;
-margin:10px 0;
-
-}
-
-#progressBar{
-
-background:var(--md-typeset-a-color);
-height:3px;
-width:100%;
-}
 
 .md-typeset .admonition, .md-typeset details {
   color: var(--md-admonition-fg-color);
