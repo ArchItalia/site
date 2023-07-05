@@ -60,7 +60,7 @@ theme:
       quote: octicons/quote-16
 
   logo: assets/logo.png
-  favicon: assets/favicon.png
+  favicon: assets/favicon2.png
   name: material
   language: it
   custom_dir: overrides
