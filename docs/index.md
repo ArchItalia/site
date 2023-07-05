@@ -1,5 +1,5 @@
 
-## Architalia Community
+## Architalia Linux* Community
 
 
 Architalia è una comunità italiana dedicata alla distribuzione di Arch Linux e delle sue derivate. Questa comunità è composta da appassionati di Linux e tecnologie open source che si uniscono per condividere informazioni, risorse e conoscenze su Arch Linux e le sue varie modifiche. 
@@ -22,4 +22,4 @@ Supporta la community ArchItalia, fai una donazione per aiutarci a crescere.
 
 <br><br>
 
-
+*Other names and brands may be claimed as the property of others.
