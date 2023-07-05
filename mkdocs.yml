@@ -135,7 +135,7 @@ extra_css:
 extra_javascript:
   - javascript/extra.js
     
-copyright: Copyright &copy; 2022-2023 Architalia
+copyright: Copyright &copy; 2022-2023 Architalia Linux*
   
 
 plugins:
