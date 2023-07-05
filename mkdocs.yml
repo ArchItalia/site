@@ -39,6 +39,7 @@ nav:
         - Arch Linux: Download/archlinux.md
   - 'Scripts': 
         - scripts/installscript.md
+        - scripts/rsync.md
         
      
 
