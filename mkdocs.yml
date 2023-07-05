@@ -131,6 +131,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/fonts.css
+  - stylesheets/colors.css
      
     
 copyright: Copyright &copy; 2022-2023 Architalia
