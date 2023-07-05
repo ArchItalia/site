@@ -1,7 +1,7 @@
 ### Materiale Studio
 
 1.  [Linux Essential](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-010-160-it.pdf) <font color="#ff5757">[PDF]</font> 🇮🇹 6.6MB
-2.  [Web Development Essential](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-030-100-it.pdf) <font color=red>[PDF]</font> 🇮🇹 7.1MB
+2.  [Web Development Essential](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-030-100-it.pdf) <font color="#ff5757">[PDF]</font> 🇮🇹 7.1MB
 3.  [LPIC-1 Exam 101](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-101-500-it.pdf) <font color="#ff5757">[PDF]</font> 🇮🇹 8.7MB
 4.  [LPIC-1 Exam 102](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-102-500-it.pdf) <font color="#ff5757">[PDF]</font> 🇮🇹 10MB
 5.  [Linux Essential](https://github.com/ArchItalia/eBooks/blob/main/LPI-Learning-Material-010-160-en.pdf) <font color="#ff5757">[PDF]</font> 🇬🇧 6.6MB
