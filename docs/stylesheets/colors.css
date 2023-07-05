@@ -1,5 +1,5 @@
 .mastodon{color:#5b4ee2;}
-.mastodon_rel{color:var( --md-typeset-color)}
+.mastodon_rel{color:var( --md-typeset-color)!important;}
 
 [data-md-color-scheme=light] {
   --md-primary-fg-color:#59798e;
