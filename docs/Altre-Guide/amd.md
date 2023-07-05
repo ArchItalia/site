@@ -1,4 +1,4 @@
-# Manjaro Mesa Codecs it
+# Manjaro Mesa Codecs
 
 - Autore: bucch
 - Repository: [GitLab : fontawesome-brands-gitlab: ](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
