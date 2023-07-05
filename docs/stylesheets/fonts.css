@@ -4,13 +4,13 @@
 
  @font-face {
   font-family: 'Architalia Text';
-  src:url('https://github.com/ArchItalia/site/tree/main/docs/assets/fonts/regular.woff') format('woff');
+  src:url('https://github.com/architalia/site/tree/main/docs/assets/fonts/regular.woff') format('woff');
 }
 
 
  @font-face {
   font-family: 'Architalia Text';
-  src:url('https://github.com/ArchItalia/site/tree/main/docs/assets/fonts/medium.woff') format('woff');
+  src:url('https://github.com/architalia/site/tree/main/docs/assets/fonts/medium.woff') format('woff');
   font-weight:bold;
 }
 
