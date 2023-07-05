@@ -2,22 +2,6 @@
 
 In questo capitolo imparerete i comandi di Linux e come utilizzarli.
 
-****
-
-**Obiettivi** : In questo capitolo, i futuri amministratori Linux impareranno come:
-
-:heavy_check_mark: **Spostarsi** nell'albero di sistema.   
-:heavy_check_mark: **Creare** un file di testo, **visualizzare** il suo contenuto e **modificarlo**.   
-:heavy_check_mark: **Utilizzare** i comandi Linux più utili.
-
-:checkered_flag: **comandi utente**, **linux**
-
-**Conoscenza**: :star:   
-**Complessità**: :star:
-
-**Tempo di lettura**: 40 minuti
-
-****
 
 ## Generalità
 
