@@ -17,6 +17,7 @@ nav:
         - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
   - 'Altre Guide': 
         - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
+        - 'File System': 'Altre-Guide/filesystem.md'
         - 'Pacman': 'Altre-Guide/Pacman.md'
         - 'AUR': 'Altre-Guide/aur.md'
         - 'Yay': 'Altre-Guide/yay.md'
