@@ -35,6 +35,7 @@ nav:
         - 'Rsync': 'Altre-Guide/rsync.md'
         - 'Timeshift': 'Altre-Guide/timeshift.md'
         - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
+        - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
         
   - 'Download':
