@@ -3,7 +3,7 @@
 ## manjaro-mesa-codecs
 
 Autore: bucch
-Repository: [GitLab :fontawesome-brand-gitlab:](https://gitlab.com/th3bucch)
+Repository: [GitLab :fontawesome-brands-gitlab:](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
 
 
 # Manjaro Mesa Codecs
