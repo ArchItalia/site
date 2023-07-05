@@ -34,6 +34,7 @@ nav:
         - 'Firewalld': 'Altre-Guide/firewald.md'
         - 'Rsync': 'Altre-Guide/rsync.md'
         - 'Timeshift': 'Altre-Guide/timeshift.md'
+        - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
 
         
   - 'Download':
