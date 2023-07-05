@@ -1,6 +1,71 @@
+# manjaro-mesa-codecs 🇮🇹
+
+- Autore: bucch
+- Repository: [GitLab : fontawesome-brands-gitlab: ](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
 
 
-## manjaro-mesa-codecs
+# Manjaro Mesa Codecs
+
+Uno script semplice per ricompilare il pacchetto `mesa` al fine di abilitare l'accelerazione hardware per i codec proprietari (ovvero H.264 e H.265).
+**Non è necessario eseguire questo script se non si dispone di una scheda grafica AMD installata nel proprio sistema!**
+
+## Background info
+
+Dall'anno 2022, Manjaro Linux Team ha seguito la decisione di Fedora e openSUSE di disattivare i codec proprietari nel pacchetto mesa ridistribuito nel loro repository:
+> **Mesa è ora alla versione 22.2.4**
+>  Includa una modifica importante che disattiva l'accelerazione hardware per i codec video proprietari (in genere H.264 e H.265) quando si utilizza lo stack di driver Mesa.
+>  I codec video aperti (VP8, VP9, AV1 - in base alle capacità hardware) non sono influenzati e possono essere ancora accelerati hardware "out of the box".
+>  Questa modifica riguarda principalmente le schede grafiche AMD. (Le GPU Intel non utilizzano Mesa per l'accelerazione video, le schede Nvidia utilizzano il driver proprietario e l'accelerazione video Mesa non funziona correttamente con il driver Nouveau di opensource). E' possibile leggere di più sull'accelerazione video hardware [qui](https://wiki.archlinux.org/title/Hardware_video_acceleration) e in generale sull'argomento [qui](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/PYUYUCM3RGTTN4Q3QZIB4VUQFI77GE5X/)
+
+[(fonte)](https://forum.manjaro.org/t/stable-update-2022-12-06-kernels-mesa-plasma-cinnamon-nvidia-libreoffice-pipewire-virtualbox/128453)
+
+## Requisiti
+Installare i pacchetti richiesti prima di eseguire lo script con:
+
+```
+sudo pacman -S --needed base-devel git 
+```
+
+## Utilizzo
+
+Clonare questo repository quindi eseguire lo script:
+
+```
+git clone https://gitlab.com/th3bucch/manjaro-mesa-codecs.git
+cd manjaro-mesa-codecs
+./manjaro-mesa-codecs.sh
+```
+
+## Suggerimenti
+
+Il modo più semplice per eseguire questo script ovunque nel sistema è di creare un link simbolico ad una delle directory incluse nella variabile globale `$PATH` (ad es. `~/.local/bin`).
+Verificare le directory disponibili con `echo $PATH`.
+
+Eseguire il comando:
+```
+cd manjaro-mesa-codecs
+ln -s $(pwd)/manjaro-mesa-codecs.sh /home/$USER/.local/bin/manjaro-mesa-codecs
+```
+
+lo script sarà disponibile a livello di sistema con il comando:
+```
+manjaro-mesa-codecs
+```
+
+## Pacman HOOK
+
+*Da fare*
+
+## Risoluzione dei problemi
+
+Se `pacman` non riesce a verificare il pacchetto di codice sorgente restituendo il messaggio "unknown public key *key-id*", copiare l'ID della chiave fornita e importarla con:
+```
+gpg --recv-keys <key-id>
+```
+<br><br>
+
+
+## manjaro-mesa-codecs 🇬🇧
 
 - Autore: bucch
 - Repository: [GitLab :fontawesome-brands-gitlab:](https://gitlab.com/th3bucch/manjaro-mesa-codecs)
