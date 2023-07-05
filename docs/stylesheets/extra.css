@@ -16,11 +16,11 @@ p, li{
 a.md-nav__link{
   font-size: 16px!important;
   line-height: 1.4;
-  font-weight:bold;
+  
 }
 
 a.md-tabs__link{
- font-size: 18px!important;
+ font-size: 16px!important;
  font-weight:bold!important;
 }
 
@@ -29,10 +29,7 @@ code, pre {
   line-height: 1.6;
 }
  
-.md-tabs__item .md-tabs__link {
-  font-size: 16px;
-  font-weight:400;
-}
+
  
 .md-banner{
  background-color: var(--md-banner-color);
