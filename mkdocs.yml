@@ -25,7 +25,7 @@ nav:
         - 'Vim': 'Altre-Guide/vim.md'
         - 'Nano': 'Altre-Guide/nano.md'
         - 'Nvidia': 'Altre-Guide/nvidia.md'
-        - 'AMD Manjaro mesa codecs': 'Altre-Guide/AMD.md'
+        - 'AMD Manjaro mesa-codecs': 'Altre-Guide/amd.md'
         - 'Sudoers.d': 'Altre-Guide/sudoers.md'
         - 'Reflector': 'Altre-Guide/reflector.md'
         - 'Downgrade': 'Altre-Guide/downgrade.md'
