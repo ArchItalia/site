@@ -6,4 +6,4 @@
 // copyright
 
  var copy = document.getElementsByClassName('md-copyright__highlight')[0];
-copy.innerHTML = "Copyright &copy;" + (new Date().getFullYear()) + "Architalia Linux*";
+copy.innerHTML = "Copyright &copy; " + (new Date().getFullYear()) + " Architalia Linux*";
