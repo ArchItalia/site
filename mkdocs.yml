@@ -107,13 +107,6 @@ extra:
      ci stai aiutando a migliorare la nostra documentazione.
 
 
-  alternate:
-    - name: Italian
-      link: https://architalia.github.io/site/
-      lang: it
-    - name: English
-      link: https://architalia.github.io/site/en/ 
-      lang: en
   
  
 
