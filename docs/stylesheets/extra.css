@@ -15,7 +15,7 @@ p, li{
 li.md-source__fact.md-source__fact--stars {
   font-size: 14px !important;
 }
-li.md-source__fact md-source__fact--forks{
+li.md-source__fact.md-source__fact--forks{
  font-size: 14px !important;
 }
 
