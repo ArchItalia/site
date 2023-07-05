@@ -30,6 +30,7 @@ nav:
         - 'Grub': 'Altre-Guide/grub.md'
         - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
         - 'Firewalld': 'Altre-Guide/firewald.md'
+        - 'Rsync': 'Altre-Guide/rsync.md'
 
         
   - 'Download':
