@@ -75,21 +75,12 @@ padding:5px
 img[alt=iso] { width: 200px; }
 
 
-textarea{ 
-font-family:'Ubuntu mono';
-background-color: var(--md-code-bg-color);
-color: var(--md-code-fg-color);
-border:none;
-border-radius:12px;
-padding:10px;
-width:100%;
-}
-
-
 
 .md-typeset .admonition, .md-typeset details {
   color: var(--md-admonition-fg-color);
   font-size: .75rem;
 }
 
-
+div.homelogo{
+ background-image:url('../images/logo/logo2.png');
+}
