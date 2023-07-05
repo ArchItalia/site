@@ -83,4 +83,5 @@ img[alt=iso] { width: 200px; }
 
 div.homelogo{
  background-image:url('../images/logo/logo2.png');
+ width:100%;
 }
