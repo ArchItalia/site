@@ -44,7 +44,7 @@ nav:
         - scripts/installscript.md
         - scripts/rsync.md
         - scripts/clamav.md
-        
+  - libri.md      
      
 
 theme:
