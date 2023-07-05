@@ -31,6 +31,7 @@ nav:
         - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
         - 'Firewalld': 'Altre-Guide/firewald.md'
         - 'Rsync': 'Altre-Guide/rsync.md'
+        - 'Timeshift': 'Altre-Guide/timeshift.md'
 
         
   - 'Download':
