@@ -1,6 +1,6 @@
 ### Materiale Studio
 
-1.  Linux Essential [PDF][IT] 6.6MB
+1.  Linux Essential <font color=red>[PDF]</font><font color=blue>[IT]</font> 6.6MB
 2.  Web Development Essential [PDF][IT] 7.1MB
 3.  LPIC-1 Exam 101 [PDF][IT] 8.7MB
 4.  LPIC-1 Exam 102 [PDF][IT] 10MB
