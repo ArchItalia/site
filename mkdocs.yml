@@ -40,6 +40,7 @@ nav:
   - 'Scripts': 
         - scripts/installscript.md
         - scripts/rsync.md
+        - scripts/clamav.md
         
      
 
