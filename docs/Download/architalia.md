@@ -17,6 +17,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 <br><br>
 
+![laptop](https://github.com/ArchItalia/site/assets/117321045/94a0fe64-c108-44a2-bb52-d2e1b25ab12d)
 
 
 
