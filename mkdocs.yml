@@ -10,7 +10,7 @@ nav:
   - 'Home':
         - 'Benvenuti': index.md
         - 'Esonero responsabilita': 'termini.md'
-        - '🇬🇧 Welcome': en/index.md
+        
   - 'Arch Linux':
         - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
         - '🇮🇹 Installazione di Arch Linux': Archlinux-Guida/arch-guida.md
