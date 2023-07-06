@@ -17,7 +17,10 @@ Visita i canali ufficiali <a rel="me" href="https://mastodon.social/@architalia"
 
 ![iso](images/pp.png)
 
-Supporta la community ArchItalia, fai una donazione per aiutarci a crescere.
+Se sei un appassionato di Arch Linux, sostieni la nostra comunità su Architalia e aiutaci a crescere donando oggi. Con il tuo contributo, potremo garantire la continuità dei nostri servizi e offrire sempre più supporto e risorse a tutti i nostri membri. Grazie per il tuo supporto!
+
+Support the Architalia community of Arch Linux by making a donation to help us grow. If you're a passionate Arch Linux user, donate today and help us ensure the continuity of our services and provide even more support and resources to all of our members. Thank you for your support!
+
 [Donazione Paypal](https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL)
 
 <br><br>
