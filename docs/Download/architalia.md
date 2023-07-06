@@ -22,13 +22,14 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
 
 !!! info "Informazioni"
     
-    * architalia-2023.07.05-x86_64.iso
+    * architalia-2023.07.06-x86_64.iso
     * Dimensione 1.59 GB
     * Versione Beta 4.0
     * kernel 6.4.1-arch2-1
 
 - [Download iso :fontawesome-regular-circle-down:]() In caricamento torna piu tardi!
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
+
 <br><br>
 
 ### Bugs
