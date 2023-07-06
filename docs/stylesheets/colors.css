@@ -4,7 +4,7 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
 [data-md-color-scheme=light] {
   --md-primary-fg-color:#59798e;
   --md-default-fg-color:#434343;
-  --md-default-bg-color:#f2f4f5;
+  --md-default-bg-color:#ffffff;
   --md-code-bg-color:#dbe6ee; 
   --md-code-fg-color:#222;
   --md-typeset-a-color:#06c;
