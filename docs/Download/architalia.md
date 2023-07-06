@@ -27,7 +27,7 @@ Tutte le guide della community architalia in PDF si trovano in `~/Guide`, Per cr
     * Versione Beta 4.0
     * kernel 6.4.1-arch2-1
 
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1hfzqp5esVvsZhjwyyHXVlg4w3L0ZMvhp/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:]() In caricamento torna piu tardi!
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 <br><br>
 
