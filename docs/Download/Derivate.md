@@ -191,7 +191,20 @@ InstantOS è una distribuzione Linux basata su Arch Linux che offre un'esperienz
 <br>
 
 ## [ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
+
+ChimeraOS è un sistema operativo basato su Arch Linux che offre un'esperienza utente ottimizzata per i giochi. È progettato per essere facile da usare e configurare, utilizzando una combinazione di strumenti automatizzati e controlli manuali avanzati. ChimeraOS offre anche una vasta gamma di driver e librerie ottimizzati per i giochi, nonché una vasta scelta di applicazioni e giochi preinstallati.
+
+<br>
+
 ## [TeArch Linux (2020)](https://tearch.github.io/)
+
+![derivate](https://tearch-linux.gitlab.io/web/res/tearch-logo-arch.svg)
+
+TeaArch-Linux is arch linux based end user distribution. TeArch linux provide easy installation and usage for archlinux.
+TeArch-linux is Turkiye origin distribution. 🇹🇷 Our main puppose is creating easy usable GNU/Linux for everyone.
+
+<br>
+
 ## [Crystal Linux (2022)](https://crystal-arch.github.io/)
 ## [Snal Linux (2019)](https://www.snallinux.tk/)
 ## [ArchLinux32 (2017)](https://archlinux32.org/)
