@@ -143,11 +143,20 @@ Archman GNU/Linux è una distribuzione basata su Arch Linux che presenta il prog
 
 ## [Arch Linux 32 (2017)](https://archlinux32.org/)
 
+![derivate](https://github.com/ArchItalia/site/assets/117321045/1c7c1db8-0e20-4bb7-b66f-95775a8dfada)
 
+Archlinux32 è una distribuzione Linux basata su Arch Linux, ma progettata per supportare i sistemi a 32 bit. È un progetto comunitario che si dedica alla creazione e al mantenimento di pacchetti e repository per i sistemi a 32 bit. Archlinux32 si concentra sulla semplicità, la personalizzazione e la leggerezza, con una vasta gamma di pacchetti software disponibili attraverso il suo sistema di gestione dei pacchetti Pacman. La distribuzione è altamente modularizzata, consentendo agli utenti di creare un sistema personalizzato adatto alle loro esigenze specifiche. Archlinux32 è un'opzione ideale per i vecchi computer a 32 bit o per gli utenti che cercano una versione leggera e personalizzabile di Arch Linux.
 
 <br>
 
 ## [RebornOS (2017)](https://rebornos.org/)
+
+![derivate](https://www.rebornos.org/wp-content/uploads/2021/08/LogoWeb-0006-min-300x154.png)
+
+RebornOS è una moderna distribuzione basata su Arch con l'installatore più avanzato, la possibilità di scegliere cosa installare e molti desktop e wm.
+
+<br>
+
 ## [Artix Linux (2016)](https://artixlinux.org/)
 ## [Garuda Linux (2020)](https://garudalinux.org/)
 ## [Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
