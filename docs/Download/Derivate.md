@@ -118,6 +118,13 @@ KaOS ha scelto di utilizzare il kernel Linux come base (sebbene il kernel Illumo
 <br>
 
 ## [ArcoLinux (2017)](https://arcolinux.info/)
+
+![derivate](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Arcolinux.svg/598px-Arcolinux.svg.png?20180609082016)
+
+ArcoLinux (precedentemente noto come ArchMerge) è una distribuzione basata su Arch Linux. Lo sviluppo avviene in tre rami - ArcoLinux, ArcoLinuxD e ArcoLinuxB. ArcoLinux è una distribuzione completa che include l'ambiente desktop Xfce (oltre ai window manager Openbox e i3). ArcoLinuxD è una distribuzione minimale che include degli script che permettono agli utenti esperti di installare qualsiasi ambiente desktop e applicazione. ArcoLinuxB è un progetto che dà agli utenti la possibilità di creare distribuzioni personalizzate, e inoltre sviluppa diverse edizioni comunitarie con ambienti desktop preconfigurati, come Awesome, bspwm, Budgie, Cinnamon, Deepin, GNOME, MATE e KDE Plasma. ArcoLinux offre anche vari tutorial video, poiché enfatizza l'apprendimento e l'acquisizione di competenze Linux.
+
+<br>
+
 ## [ArchLabs (2017)](https://archlabslinux.com/)
 ## [Archman Linux (2017)](https://archman.org/)
 ## [Arch Linux 32 (2017)](https://archlinux32.org/)
