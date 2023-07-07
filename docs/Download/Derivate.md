@@ -76,7 +76,7 @@ BlackArch Linux è una distribuzione basata su Arch Linux dedicata agli speciali
 
 <br>
 
-## [BlandOS (2023)](https://blendos.co/)
+## [BlendOS (2023)](https://blendos.co/)
 
 ![derivate](https://user-images.githubusercontent.com/26926757/235855282-34d9a8f5-f92b-4ce3-855e-9e2e6551a3bf.png)
 
