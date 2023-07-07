@@ -60,7 +60,15 @@ Basata sulla distribuzione Arch, Parabola è un sistema operativo completo e fac
 <br>
 
 7.  [Manjaro Linux (2011)](https://manjaro.org/)
+
+![iso]https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/2560px-Manjaro_logo_text.svg.png
+
+Manjaro è un sistema operativo Linux gratuito e open source che enfatizza la privacy dell'utente e il controllo dell'hardware. È facile da usare e adatto a coloro che sono nuovi ai computer e può essere installato su una vasta gamma di dispositivi. Le architetture supportate includono x86-64 e ARM, rendendolo una scelta ideale per qualsiasi dispositivo o ambiente informatico. Manjaro offre numerose opzioni di personalizzazione e applicazioni, oltre a funzionalità di sicurezza e privacy. Offre anche diverse interfacce utente grafiche.
+
+<br>
 8.  [BlackArch Linux (2012)](https://blackarch.org/)
+
+<br>
 9.  [BlandOS (2023)](https://blendos.co/)
 10.  [Bluestar Linux (2013)](https://bluestarlinux.org/)
 11.  [PuppyRus-A (2013)](https://puppyrus.org/)
