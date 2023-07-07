@@ -110,6 +110,13 @@ ArchStrike è una distribuzione Linux specializzata nella sicurezza informatica,
 <br>
 
 ## [KaOS (2014)](https://kaosx.us/)
+
+![derivate](https://kaosx.us/img/kaos_logo.svg)
+
+KaOS ha scelto di utilizzare il kernel Linux come base (sebbene il kernel Illumos sia sotto costante valutazione e un cambiamento futuro sia un desiderio). Dopo questa scelta, il miglior gestore di pacchetti disponibile, il modo più flessibile di creare pacchetti e la manutenzione del repository è pacman/makepkg per una distro rolling come KaOS. Per quanto riguarda l'ambiente desktop, non ci sarà mai un cambiamento, sia che sia basato su Linux o Illumos, KDE Plasma sarà la scelta, Qt il toolkit. Con queste scelte in atto, è stata avviata, nell'aprile 2013, la creazione di pacchetti per questa distribuzione indipendente. KaOS è una distribuzione completamente creata da zero, ogni pacchetto in ogni repository è creato da e per KaOS. Nel luglio 2013 è stata raggiunta l'obiettivo iniziale di circa 1500 pacchetti.
+
+<br>
+
 ## [ArcoLinux (2017)](https://arcolinux.info/)
 ## [ArchLabs (2017)](https://archlabslinux.com/)
 ## [Archman Linux (2017)](https://archman.org/)
