@@ -61,11 +61,12 @@ Basata sulla distribuzione Arch, Parabola è un sistema operativo completo e fac
 
 7.  [Manjaro Linux (2011)](https://manjaro.org/)
 
-![derivate]https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/2560px-Manjaro_logo_text.svg.png
+![derivate](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/2560px-Manjaro_logo_text.svg.png)
 
 Manjaro è un sistema operativo Linux gratuito e open source che enfatizza la privacy dell'utente e il controllo dell'hardware. È facile da usare e adatto a coloro che sono nuovi ai computer e può essere installato su una vasta gamma di dispositivi. Le architetture supportate includono x86-64 e ARM, rendendolo una scelta ideale per qualsiasi dispositivo o ambiente informatico. Manjaro offre numerose opzioni di personalizzazione e applicazioni, oltre a funzionalità di sicurezza e privacy. Offre anche diverse interfacce utente grafiche.
 
 <br>
+
 8.  [BlackArch Linux (2012)](https://blackarch.org/)
 
 ![derivate](http://blackarch.org/images/logo/ba-font.png)
@@ -75,6 +76,13 @@ BlackArch Linux è una distribuzione basata su Arch Linux dedicata agli speciali
 <br>
 
 9.  [BlandOS (2023)](https://blendos.co/)
+
+![derivate](https://user-images.githubusercontent.com/26926757/235855282-34d9a8f5-f92b-4ce3-855e-9e2e6551a3bf.png)
+
+blendOS è una distribuzione basata su Arch Linux, a rilascio continuo, che automatizza l'installazione di software dalle distribuzioni supportate (Arch, Fedora e Ubuntu) in contenitori. blendOS cerca di rendere la gestione del software tra i contenitori nativa e fornisce accesso alla directory home dell'utente per ciascun contenitore.
+
+<br>
+
 10.  [Bluestar Linux (2013)](https://bluestarlinux.org/)
 11.  [PuppyRus-A (2013)](https://puppyrus.org/)
 12.  [MSYS2 (2013)](https://www.msys2.org/)
