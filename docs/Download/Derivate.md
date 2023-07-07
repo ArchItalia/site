@@ -85,6 +85,14 @@ blendOS è una distribuzione basata su Arch Linux, a rilascio continuo, che auto
 <br>
 
 10.  [Bluestar Linux (2013)](https://bluestarlinux.org/)
+
+![bluestar](https://github.com/ArchItalia/site/assets/117321045/ec7904b8-39b3-4b25-9242-41a17130d8b2)
+
+
+Bluestar Linux è una distribuzione GNU/Linux basata su Arch Linux. La distribuzione Bluestar presenta pacchetti aggiornati, una vasta gamma di software per desktop e multimediale nell'installazione predefinita e un DVD desktop live.
+
+<br>
+
 11.  [PuppyRus-A (2013)](https://puppyrus.org/)
 12.  [MSYS2 (2013)](https://www.msys2.org/)
 13. [ArchStrike (2014)](https://archstrike.org/)
