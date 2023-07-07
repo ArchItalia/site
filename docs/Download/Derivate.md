@@ -1,4 +1,4 @@
-1.  [Arch Linux ARM (2009)](https://archlinuxarm.org/)
+## [Arch Linux ARM (2009)](https://archlinuxarm.org/)
 
 ![image](https://archlinuxarm.org/forum/styles/simplecorp/imageset/ALARM-2.png)
 
@@ -10,7 +10,7 @@ L'intera distribuzione è in un ciclo di aggiornamento continuo che può essere 
 
 <br>
 
-2.  [ArchBang (2010)](https://sourceforge.net/projects/archbang/)
+## [ArchBang (2010)](https://sourceforge.net/projects/archbang/)
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/36f9d8c7-caa5-4ca0-9d8f-3648022741f2)
 
@@ -22,7 +22,7 @@ ArchBang è nota per la sua velocità e leggerezza, grazie alla scelta di progra
 
 <br>
 
-3.  [ArchEX (2011)](https://archex.exton.net/)
+## [ArchEX (2011)](https://archex.exton.net/)
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/6e06fdd7-3b6b-48b9-9c8e-0fb393fb7ee7)
 
@@ -35,7 +35,7 @@ Gli utenti di ArchEX possono anche godere della flessibilità e della personaliz
 
 <br>
 
-4.  [Archcraft (2021)](https://archcraft.io/)
+## [Archcraft (2021)](https://archcraft.io/)
 
 ![derivate](https://seeklogo.com/images/A/archcraft-logo-7C0C9A2F58-seeklogo.com.png)
 
@@ -43,7 +43,7 @@ Archcraft è solo un'altra distribuzione di Linux, creata sopra a Arch Linux. Ut
 
 <br>
 
-5.  [Architalia Linux* (2023)](https://architalia.github.io/site/)
+## [Architalia Linux* (2023)](https://architalia.github.io/site/)
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/59a2d606-15e8-4082-962a-414845e07301)
 
@@ -51,7 +51,7 @@ Architalia-live è una distribuzione live che consente l'installazione di Arch L
 
 <br>
 
-6.  [Parabola GNU/Linux-libre (2011)](https://www.parabola.nu/)
+## [Parabola GNU/Linux-libre (2011)](https://www.parabola.nu/)
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/ffa0d997-ebe4-49bd-99b7-9ca1af8d1c77)
 
@@ -59,7 +59,7 @@ Basata sulla distribuzione Arch, Parabola è un sistema operativo completo e fac
 
 <br>
 
-7.  [Manjaro Linux (2011)](https://manjaro.org/)
+## [Manjaro Linux (2011)](https://manjaro.org/)
 
 ![derivate](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/2560px-Manjaro_logo_text.svg.png)
 
@@ -67,7 +67,7 @@ Manjaro è un sistema operativo Linux gratuito e open source che enfatizza la pr
 
 <br>
 
-8.  BlackArch Linux (2012) https://blackarch.org/ 
+## BlackArch Linux (2012) https://blackarch.org/ 
 
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/cb212b67-be2c-4a2e-8ec8-d7730e6a6c3b)
@@ -76,7 +76,7 @@ BlackArch Linux è una distribuzione basata su Arch Linux dedicata agli speciali
 
 <br>
 
-9.  [BlandOS (2023)](https://blendos.co/)
+## [BlandOS (2023)](https://blendos.co/)
 
 ![derivate](https://user-images.githubusercontent.com/26926757/235855282-34d9a8f5-f92b-4ce3-855e-9e2e6551a3bf.png)
 
@@ -84,7 +84,7 @@ blendOS è una distribuzione basata su Arch Linux, a rilascio continuo, che auto
 
 <br>
 
-10.  [Bluestar Linux (2013)](https://bluestarlinux.org/)
+## [Bluestar Linux (2013)](https://bluestarlinux.org/)
 
 ![bluestar](https://github.com/ArchItalia/site/assets/117321045/ec7904b8-39b3-4b25-9242-41a17130d8b2)
 
@@ -93,40 +93,38 @@ Bluestar Linux è una distribuzione GNU/Linux basata su Arch Linux. La distribuz
 
 <br>
 
-11.  [PuppyRus-A (2013)](https://puppyrus.org/)
+## [PuppyRus-A (2013)](https://puppyrus.org/)
 
 ![logo](https://github.com/ArchItalia/site/assets/117321045/ac92b45a-20f0-4b7b-bacb-600218f2f29e)
 
 PuppyRus Linux è un sistema operativo veloce e leggero che funziona praticamente su qualsiasi computer, anche quelli obsoleti. È possibile utilizzarlo in modalità di installazione completa, nonché utilizzare la versione LiveCD o USB-Flash. Il sistema PuppyRus Linux può essere installato come sistema aggiuntivo, senza dover modificare il sistema operativo principale.
 
 <br>
-
-12.  [MSYS2 (2013)](https://www.msys2.org/)
-13. [ArchStrike (2014)](https://archstrike.org/)
-14. [KaOS (2014)](https://kaosx.us/)
-15. [ArcoLinux (2017)](https://arcolinux.info/)
-16. [ArchLabs (2017)](https://archlabslinux.com/)
-17. [Archman Linux (2017)](https://archman.org/)
-18. [Arch Linux 32 (2017)](https://archlinux32.org/)
-19. [RebornOS (2017)](https://rebornos.org/)
-20. [Artix Linux (2016)](https://artixlinux.org/)
-21. [Garuda Linux (2020)](https://garudalinux.org/)
-22. [Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
-23. [instantOS (2019)](https://instantos.io/)
-24. [ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
-25. [TeArch Linux (2020)](https://tearch.github.io/)
-26. [Crystal Linux (2022)](https://crystal-arch.github.io/)
-27. [Snal Linux (2019)](https://www.snallinux.tk/)
-28. [ArchLinux32 (2017)](https://archlinux32.org/)
-29. [EndeavourOS (2019)](https://endeavouros.com/)
-30. [SystemRescue (2019)](https://www.system-rescue.org/)
-31. [Ctlos Linux (2017)](https://ctlos.github.io/)
-32. [SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
-33. [Obarun (2016)](https://obarun.org/)
-34. [UBOS (2021)](https://ubos.net/)
-35. [ArchAssault (precedentemente ArchStrike)]
-36. [Antergos (precedentemente RebornOS)]
-37. [Artix-OpenRC (precedentemente Arch-OpenRC)]
-38. [ArchTrack (precedentemente BlackArch)]
-39. [PlugApps (precedentemente Arch Linux Mobile)]
-40. [PlugBox (precedentemente Arch Linux Mobile)]
+[ArchStrike (2014)](https://archstrike.org/)
+[KaOS (2014)](https://kaosx.us/)
+[ArcoLinux (2017)](https://arcolinux.info/)
+[ArchLabs (2017)](https://archlabslinux.com/)
+[Archman Linux (2017)](https://archman.org/)
+[Arch Linux 32 (2017)](https://archlinux32.org/)
+[RebornOS (2017)](https://rebornos.org/)
+[Artix Linux (2016)](https://artixlinux.org/)
+[Garuda Linux (2020)](https://garudalinux.org/)
+[Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
+[instantOS (2019)](https://instantos.io/)
+[ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
+[TeArch Linux (2020)](https://tearch.github.io/)
+[Crystal Linux (2022)](https://crystal-arch.github.io/)
+[Snal Linux (2019)](https://www.snallinux.tk/)
+[ArchLinux32 (2017)](https://archlinux32.org/)
+[EndeavourOS (2019)](https://endeavouros.com/)
+[SystemRescue (2019)](https://www.system-rescue.org/)
+[Ctlos Linux (2017)](https://ctlos.github.io/)
+[SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
+[Obarun (2016)](https://obarun.org/)
+[UBOS (2021)](https://ubos.net/)
+[ArchAssault (precedentemente ArchStrike)]
+[Antergos (precedentemente RebornOS)]
+[Artix-OpenRC (precedentemente Arch-OpenRC)]
+[ArchTrack (precedentemente BlackArch)]
+[PlugApps (precedentemente Arch Linux Mobile)]
+[PlugBox (precedentemente Arch Linux Mobile)]
