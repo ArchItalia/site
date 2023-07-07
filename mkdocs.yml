@@ -42,6 +42,7 @@ nav:
   - 'Download':
         - Architalia-live: Download/architalia.md
         - Arch Linux: Download/archlinux.md
+        - Derivate: Download/Derivate.md
   - 'Scripts': 
         - scripts/installscript.md
         - scripts/rsync.md
