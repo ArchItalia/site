@@ -142,6 +142,11 @@ Archman GNU/Linux è una distribuzione basata su Arch Linux che presenta il prog
 <br>
 
 ## [Arch Linux 32 (2017)](https://archlinux32.org/)
+
+
+
+<br>
+
 ## [RebornOS (2017)](https://rebornos.org/)
 ## [Artix Linux (2016)](https://artixlinux.org/)
 ## [Garuda Linux (2020)](https://garudalinux.org/)
