@@ -134,6 +134,13 @@ ArchLabs è una distribuzione basata su Arch Linux e che utilizza il window mana
 <br>
 
 ## [Archman Linux (2017)](https://archman.org/)
+
+![derivate](https://distrowatch.com/images/yvzhuwbpy/archman.png)
+
+Archman GNU/Linux è una distribuzione basata su Arch Linux che presenta il programma di installazione del sistema Calamares e un ambiente desktop preconfigurato. Archman presenta inoltre il gestore dei pacchetti Pamac per l'installazione facile dei pacchetti di nuovo software.
+
+<br>
+
 ## [Arch Linux 32 (2017)](https://archlinux32.org/)
 ## [RebornOS (2017)](https://rebornos.org/)
 ## [Artix Linux (2016)](https://artixlinux.org/)
