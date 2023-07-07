@@ -126,6 +126,13 @@ ArcoLinux (precedentemente noto come ArchMerge) è una distribuzione basata su A
 <br>
 
 ## [ArchLabs (2017)](https://archlabslinux.com/)
+
+![derivate](https://forum.archlabslinux.com/uploads/default/original/2X/8/8176d8df022f3839faad08fa20328025749c9ad2.png)
+
+ArchLabs è una distribuzione basata su Arch Linux e che utilizza il window manager Openbox come interfaccia desktop principale. ArchLabs è una distribuzione a 64 bit con release continue, che fornisce un DVD live. La distribuzione può essere installata utilizzando il programma di installazione AL-Installer.
+
+<br>
+
 ## [Archman Linux (2017)](https://archman.org/)
 ## [Arch Linux 32 (2017)](https://archlinux32.org/)
 ## [RebornOS (2017)](https://rebornos.org/)
