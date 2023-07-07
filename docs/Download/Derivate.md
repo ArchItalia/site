@@ -37,17 +37,23 @@ Gli utenti di ArchEX possono anche godere della flessibilità e della personaliz
 
 4.  [Archcraft (2021)](https://archcraft.io/)
 
+![iso](https://seeklogo.com/images/A/archcraft-logo-7C0C9A2F58-seeklogo.com.png)
+
 Archcraft è solo un'altra distribuzione di Linux, creata sopra a Arch Linux. Utilizza window manager e applicazioni leggere, il che la rende super veloce. Con impostazioni preconfigurate, Archcraft ti fornisce la migliore esperienza di window manager "out of the box". È molto minimale e leggera. Può funzionare con meno di 500Mb di memoria poiché utilizza solo window manager e alcune applicazioni leggere. Colori piatti e pastelli, la coerenza tra tutti gli elementi UI e vari temi rendono Archcraft molto pulita, minimalista e sorprendente.Con software aggiornato e supporto integrato per AUR, e essendo leggera, Archcraft ti dà il potere di fare ciò che vuoi con il tuo PC Linux.
 
 <br>
 
 5.  [Architalia Linux* (2023)](https://architalia.github.io/site/)
 
+![logo-new](https://github.com/ArchItalia/site/assets/117321045/59a2d606-15e8-4082-962a-414845e07301)
+
 Architalia-live è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia.
 
 <br>
 
 6.  [Parabola GNU/Linux-libre (2011)](https://www.parabola.nu/)
+
+![iso](https://github.com/ArchItalia/site/assets/117321045/ffa0d997-ebe4-49bd-99b7-9ca1af8d1c77)
 
 Basata sulla distribuzione Arch, Parabola è un sistema operativo completo e facile da usare, adatto all'uso quotidiano, ma che mantiene il fascino per gli utenti avanzati di Arch. Parabola segue le linee guida della GNU Free System Distribution Guidelines (FSDG), che richiede che il codice sorgente di ogni parte del sistema sia liberamente disponibile, modificabile e ridistribuibile. Tutti i pacchetti di Parabola sono compilati dal codice sorgente in ambienti di chroot puliti e con la rete disabilitata, al fine di sostituire qualsiasi software e opere d'arte nel sistema Arch standard che non rispettino le linee guida GNU. Sono disponibili LiveISO, installer e pacchetti per le architetture CPU armv7h, i686 e x86_64.
 
