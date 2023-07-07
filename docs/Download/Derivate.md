@@ -100,7 +100,15 @@ Bluestar Linux è una distribuzione GNU/Linux basata su Arch Linux. La distribuz
 PuppyRus Linux è un sistema operativo veloce e leggero che funziona praticamente su qualsiasi computer, anche quelli obsoleti. È possibile utilizzarlo in modalità di installazione completa, nonché utilizzare la versione LiveCD o USB-Flash. Il sistema PuppyRus Linux può essere installato come sistema aggiuntivo, senza dover modificare il sistema operativo principale.
 
 <br>
-[ArchStrike (2014)](https://archstrike.org/)
+
+## [ArchStrike (2014)](https://archstrike.org/)
+
+![derivate](https://archstrike.org/img/archstrike.svg)
+
+ArchStrike è una distribuzione Linux specializzata nella sicurezza informatica, basata su Arch Linux. Essa comprende una vasta gamma di strumenti per l'hacking etico e la protezione dei sistemi, tra cui scanner di vulnerabilità, applicazioni per la sicurezza delle reti, analizzatori di pacchetti, framework per l'exploit e molto altro ancora. I pacchetti software sono regolarmente aggiornati per garantire la massima efficienza e sicurezza. ArchStrike è disponibile come immagine ISO scaricabile o come pacchetto aggiuntivo per Arch Linux.
+
+<br>
+
 [KaOS (2014)](https://kaosx.us/)
 [ArcoLinux (2017)](https://arcolinux.info/)
 [ArchLabs (2017)](https://archlabslinux.com/)
