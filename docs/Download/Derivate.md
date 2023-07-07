@@ -176,7 +176,9 @@ Garuda Linux è una distribuzione Linux basata su Arch Linux. Garuda Linux è di
 
 ## [Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
 
+![derivate](https://github.com/ArchItalia/site/assets/117321045/fa0c035a-f1a1-4542-9723-35de241ca045)
 
+Hyperbola GNU/Linux-libre è una distribuzione del sistema operativo Linux basata su Arch Linux. Hyperbola mette l'accento sulla libertà e sulla privacy dei suoi utenti, fornendo solo software libero ed evitando qualsiasi tipo di software proprietario. Hyperbola utilizza esclusivamente pacchetti liberi di software e firmware, tra cui il kernel Linux-libre, che è una versione del kernel Linux senza driver proprietari o non liberi inclusi. L'obiettivo principale di Hyperbola è di fornire un'alternativa alla maggior parte delle distribuzioni Linux che utilizzano software proprietario o non liberi. Hyperbola è anche progettata per essere altamente personalizzabile e configurabile, e può essere utilizzata su diverse piattaforme hardware, compresi i sistemi embedded, i server, i desktop e i laptop.
 
 <br>
 
