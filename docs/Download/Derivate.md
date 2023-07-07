@@ -135,7 +135,8 @@ ArchLabs è una distribuzione basata su Arch Linux e che utilizza il window mana
 
 ## [Archman Linux (2017)](https://archman.org/)
 
-![derivate](https://distrowatch.com/images/yvzhuwbpy/archman.png)
+![derivate](https://github.com/ArchItalia/site/assets/117321045/8c7c6681-79bc-4998-8f20-b4d0941a8e7d)
+
 
 Archman GNU/Linux è una distribuzione basata su Arch Linux che presenta il programma di installazione del sistema Calamares e un ambiente desktop preconfigurato. Archman presenta inoltre il gestore dei pacchetti Pamac per l'installazione facile dei pacchetti di nuovo software.
 
@@ -158,8 +159,27 @@ RebornOS è una moderna distribuzione basata su Arch con l'installatore più ava
 <br>
 
 ## [Artix Linux (2016)](https://artixlinux.org/)
+
+![derivate](https://seeklogo.com/images/A/artix-linux-logo-E1F82C6DDD-seeklogo.com.png)
+
+Artix Linux è una distribuzione a rilascio progressivo basata su Arch Linux che utilizza init come OpenRC, runit, s6 o Dinit, al contrario di init systemd di Arch Linux. 
+
+<br>
+
 ## [Garuda Linux (2020)](https://garudalinux.org/)
+
+![derivate](https://garudalinux.org/images/garuda/home/garudalinux2.png)
+
+Garuda Linux è una distribuzione Linux basata su Arch Linux. Garuda Linux è disponibile per i principali ambienti desktop, fra cui una versione modificata di KDE Plasma 5. L'aggiornamento avviene tramite rolling release e il gestore di pacchetti è quello di Arch Linux, ovvero Pacman.
+
+<br>
+
 ## [Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
+
+
+
+<br>
+
 ## [instantOS (2019)](https://instantos.io/)
 ## [ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
 ## [TeArch Linux (2020)](https://tearch.github.io/)
