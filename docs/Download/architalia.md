@@ -2,7 +2,7 @@
 
 ## Architalia-live
 
-
+![derivate](https://github.com/ArchItalia/site/assets/117321045/59a2d606-15e8-4082-962a-414845e07301)
 
 
 ### Introduzione
