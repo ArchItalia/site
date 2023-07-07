@@ -94,6 +94,13 @@ Bluestar Linux è una distribuzione GNU/Linux basata su Arch Linux. La distribuz
 <br>
 
 11.  [PuppyRus-A (2013)](https://puppyrus.org/)
+
+![logo](https://github.com/ArchItalia/site/assets/117321045/ac92b45a-20f0-4b7b-bacb-600218f2f29e)
+
+PuppyRus Linux è un sistema operativo veloce e leggero che funziona praticamente su qualsiasi computer, anche quelli obsoleti. È possibile utilizzarlo in modalità di installazione completa, nonché utilizzare la versione LiveCD o USB-Flash. Il sistema PuppyRus Linux può essere installato come sistema aggiuntivo, senza dover modificare il sistema operativo principale.
+
+<br>
+
 12.  [MSYS2 (2013)](https://www.msys2.org/)
 13. [ArchStrike (2014)](https://archstrike.org/)
 14. [KaOS (2014)](https://kaosx.us/)
