@@ -192,6 +192,9 @@ InstantOS è una distribuzione Linux basata su Arch Linux che offre un'esperienz
 
 ## [ChimeraOS (2019)](https://chimeraos.org/) 
 
+![derivate](https://chimeraos.org/logo.svg)
+
+
 ChimeraOS è un sistema operativo basato su Arch Linux che offre un'esperienza utente ottimizzata per i giochi. È progettato per essere facile da usare e configurare, utilizzando una combinazione di strumenti automatizzati e controlli manuali avanzati. ChimeraOS offre anche una vasta gamma di driver e librerie ottimizzati per i giochi, nonché una vasta scelta di applicazioni e giochi preinstallati.
 
 <br>
