@@ -183,6 +183,13 @@ Hyperbola GNU/Linux-libre è una distribuzione del sistema operativo Linux basat
 <br>
 
 ## [instantOS (2019)](https://instantos.io/)
+
+![cd](https://github.com/ArchItalia/site/assets/117321045/07bd7da2-63b0-43fb-b5a0-4f79bdcaaf01)
+
+InstantOS è una distribuzione Linux basata su Arch Linux che offre un'esperienza desktop Linux completamente personalizzabile e minimalista. L'ambiente desktop predefinito di InstantOS è basato su Openbox, ma offre anche una vasta gamma di altri gestori di finestre, tra cui i3, bspwm, awesome, DWM e altri. InstantOS è un'opzione leggera e veloce per chi cerca un'esperienza desktop Linux superiore.
+
+<br>
+
 ## [ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
 ## [TeArch Linux (2020)](https://tearch.github.io/)
 ## [Crystal Linux (2022)](https://crystal-arch.github.io/)
