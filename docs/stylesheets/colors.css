@@ -2,7 +2,7 @@
 a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
 
 [data-md-color-scheme=light] {
-  --md-primary-fg-color:#377fd7;
+  --md-primary-fg-color:#587d8d;
   --md-default-fg-color:#434343;
   --md-default-bg-color:#ffffff;
   --md-code-bg-color:#dbe6ee; 
