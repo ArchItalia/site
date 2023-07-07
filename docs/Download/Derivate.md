@@ -109,30 +109,32 @@ ArchStrike è una distribuzione Linux specializzata nella sicurezza informatica,
 
 <br>
 
-[KaOS (2014)](https://kaosx.us/)
-[ArcoLinux (2017)](https://arcolinux.info/)
-[ArchLabs (2017)](https://archlabslinux.com/)
-[Archman Linux (2017)](https://archman.org/)
-[Arch Linux 32 (2017)](https://archlinux32.org/)
-[RebornOS (2017)](https://rebornos.org/)
-[Artix Linux (2016)](https://artixlinux.org/)
-[Garuda Linux (2020)](https://garudalinux.org/)
-[Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
-[instantOS (2019)](https://instantos.io/)
-[ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
-[TeArch Linux (2020)](https://tearch.github.io/)
-[Crystal Linux (2022)](https://crystal-arch.github.io/)
-[Snal Linux (2019)](https://www.snallinux.tk/)
-[ArchLinux32 (2017)](https://archlinux32.org/)
-[EndeavourOS (2019)](https://endeavouros.com/)
-[SystemRescue (2019)](https://www.system-rescue.org/)
-[Ctlos Linux (2017)](https://ctlos.github.io/)
-[SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
-[Obarun (2016)](https://obarun.org/)
-[UBOS (2021)](https://ubos.net/)
-[ArchAssault (precedentemente ArchStrike)]
-[Antergos (precedentemente RebornOS)]
-[Artix-OpenRC (precedentemente Arch-OpenRC)]
-[ArchTrack (precedentemente BlackArch)]
-[PlugApps (precedentemente Arch Linux Mobile)]
-[PlugBox (precedentemente Arch Linux Mobile)]
+## [KaOS (2014)](https://kaosx.us/)
+## [ArcoLinux (2017)](https://arcolinux.info/)
+## [ArchLabs (2017)](https://archlabslinux.com/)
+## [Archman Linux (2017)](https://archman.org/)
+## [Arch Linux 32 (2017)](https://archlinux32.org/)
+## [RebornOS (2017)](https://rebornos.org/)
+## [Artix Linux (2016)](https://artixlinux.org/)
+## [Garuda Linux (2020)](https://garudalinux.org/)
+## [Hyperbola GNU/Linux-libre (2017)](https://www.hyperbola.info/)
+## [instantOS (2019)](https://instantos.io/)
+## [ChimeraOS (2019)](https://chimeraos.org/) (precedentemente conosciuto come GamerOS)
+## [TeArch Linux (2020)](https://tearch.github.io/)
+## [Crystal Linux (2022)](https://crystal-arch.github.io/)
+## [Snal Linux (2019)](https://www.snallinux.tk/)
+## [ArchLinux32 (2017)](https://archlinux32.org/)
+## [EndeavourOS (2019)](https://endeavouros.com/)
+## [SystemRescue (2019)](https://www.system-rescue.org/)
+## [Ctlos Linux (2017)](https://ctlos.github.io/)
+## [SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
+## [Obarun (2016)](https://obarun.org/)
+## [UBOS (2021)](https://ubos.net/)
+## [ArchAssault (precedentemente ArchStrike)]
+## [Antergos (precedentemente RebornOS)]
+## [Artix-OpenRC (precedentemente Arch-OpenRC)]
+## [ArchTrack (precedentemente BlackArch)]
+## [PlugApps (precedentemente Arch Linux Mobile)]
+## [PlugBox (precedentemente Arch Linux Mobile)]
+
+ 
