@@ -213,14 +213,13 @@ Crystal Linux is a brand new Arch Linux based distribution. It tries to be as fr
 
 <br>
 
-## [Snal Linux (2019)](https://www.snallinux.tk/)
-## [ArchLinux32 (2017)](https://archlinux32.org/)
-## [EndeavourOS (2019)](https://endeavouros.com/)
-## [SystemRescue (2019)](https://www.system-rescue.org/)
-## [Ctlos Linux (2017)](https://ctlos.github.io/)
-## [SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
-## [Obarun (2016)](https://obarun.org/)
-## [UBOS (2021)](https://ubos.net/)
 
+## [EndeavourOS (2019)](https://endeavouros.com/)
+
+![derivate](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/EndeavourOS_Logo.svg/800px-EndeavourOS_Logo.svg.png)
+
+EndeavourOS è una distribuzione Linux basata su Arch Linux, successore di Antergos, il cui sviluppo è iniziato nel 2019. Come Antergos, supporta l'installazione degli ambienti Xfce, Budgie, Cinnamon, Deepin, GNOME, i3, KDE Plasma 5, LXQt, MATE.
+
+<br>
 
  
