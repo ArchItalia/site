@@ -130,11 +130,6 @@ ArchStrike è una distribuzione Linux specializzata nella sicurezza informatica,
 ## [SteamOS 3 (2022)](https://store.steampowered.com/steamos/)
 ## [Obarun (2016)](https://obarun.org/)
 ## [UBOS (2021)](https://ubos.net/)
-## [ArchAssault (precedentemente ArchStrike)]
-## [Antergos (precedentemente RebornOS)]
-## [Artix-OpenRC (precedentemente Arch-OpenRC)]
-## [ArchTrack (precedentemente BlackArch)]
-## [PlugApps (precedentemente Arch Linux Mobile)]
-## [PlugBox (precedentemente Arch Linux Mobile)]
+
 
  
