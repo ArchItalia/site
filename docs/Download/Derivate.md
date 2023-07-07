@@ -67,7 +67,7 @@ Manjaro è un sistema operativo Linux gratuito e open source che enfatizza la pr
 
 <br>
 
-8.  [BlackArch Linux (2012)](https://blackarch.org/)
+8.  BlackArch Linux (2012) https://blackarch.org/ 
 
 ![derivate](http://blackarch.org/images/logo/ba-font.png)
 
