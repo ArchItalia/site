@@ -9,6 +9,7 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
   --md-code-fg-color:#222;
   --md-typeset-a-color:#06c;
   --md-typeset-color:#434343;
+  --md-tabs-active: #ffffff;
   --md-logo:url('../images/logo/logo-light.png');
  
 }
@@ -18,9 +19,19 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
 --md-default-bg-color: #0d1117;
 --md-primary-fg-color: #161b22;
 --md-typeset-a-color:#2f81f7!important;
+   --md-tabs-active: #f25a5a;
 --md-logo:url('../images/logo/logo-dark.png'); 
  
 }
+
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+  color:var(--md-tabs-active);
+  opacity: 1;
+}
+
+
+
+
 
 @media screen and (max-width: 59.9375em){
 .md-nav__source {
