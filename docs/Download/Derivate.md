@@ -69,7 +69,8 @@ Manjaro è un sistema operativo Linux gratuito e open source che enfatizza la pr
 
 8.  BlackArch Linux (2012) https://blackarch.org/ 
 
-![derivate](http://blackarch.org/images/logo/ba-font.png)
+
+![derivate](https://github.com/ArchItalia/site/assets/117321045/cb212b67-be2c-4a2e-8ec8-d7730e6a6c3b)
 
 BlackArch Linux è una distribuzione basata su Arch Linux dedicata agli specialisti di penetrazione e ai ricercatori di sicurezza informatica. Il repository contiene 2864 strumenti. È possibile installare gli strumenti singolarmente o in gruppi. BlackArch Linux è compatibile con le installazioni esistenti di Arch. 
 
