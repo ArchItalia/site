@@ -1,4 +1,4 @@
-🇬🇧 [English](#eng) 🇮🇹 [Italian](#ita)
+🇬🇧 [English](#eng) - 🇮🇹 [Italian](#ita)
 
 
 # ita
