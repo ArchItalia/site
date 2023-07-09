@@ -1,6 +1,8 @@
 Creare un comando semplificato per personalizzare la pulizia del sistema.
 
-'$ sudo vim /usr/bin/clean'
+`$ sudo vim /usr/bin/clean`
+
+<br>
 
 ```
 echo ""
@@ -34,6 +36,8 @@ else
     echo "Nessuna azione intrapresa."
 fi
 ```
-'$ sudo chmod +x/usr/bin/clean'
+<br>
+
+`$ sudo chmod +x/usr/bin/clean`
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/83b6ec50-4dfb-433c-913f-e985d5030e4c)
