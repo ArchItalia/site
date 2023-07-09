@@ -25,7 +25,7 @@ if pacman -Qdt &> /dev/null; then
 else
     echo  "Non ci sono pacchetti da eliminare."
 fi
-
+echo ""
 echo -e "\e[33mVerifica pacchetti non più disponibili nei repositories dalla cache di pacman\e[0m"
 sudo pacman -Scc 
 echo ""
@@ -81,7 +81,7 @@ if pacman -Qdt &> /dev/null; then
 else
     echo -e "\e[33mThere are no packages to remove.\e[0m"
 fi
-
+echo ""
 echo -e "\e[33mClearing pacman cache of packages no longer available in repositories\e[0m"
 sudo pacman -Scc 
 echo ""
