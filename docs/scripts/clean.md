@@ -39,4 +39,5 @@ fi
 
 `$ sudo chmod +x /usr/bin/clean`
 
-![image](https://github.com/ArchItalia/site/assets/117321045/83b6ec50-4dfb-433c-913f-e985d5030e4c)
+![image](https://github.com/ArchItalia/site/assets/117321045/335ac329-9b9c-44c7-8817-7e55cd092a3c)
+
