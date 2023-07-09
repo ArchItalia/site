@@ -44,6 +44,8 @@ if [ $answer = "y" ]; then
 else
     echo -e "\e[33mNessuna azione intrapresa.\e[0m"
 fi
+
+echo -e "\e[32mPulizia terminata!\e[0m"
 ```
 <br>
 
