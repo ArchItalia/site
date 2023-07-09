@@ -1,6 +1,7 @@
 Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
-![Screenshot from 2023-07-09 16-34-29](https://github.com/ArchItalia/site/assets/117321045/569c06a6-ead7-447b-9b50-3cf6a4bcf034)
+![image](https://github.com/ArchItalia/site/assets/117321045/fff913e9-f5bb-40b6-bfec-7e0e78620bf2)
+
 
 
 
