@@ -13,12 +13,13 @@ nav:
         
   - 'Arch Linux':
         - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
-        - '🇮🇹 Installazione di Arch Linux': Archlinux-Guida/arch-guida.md
+        - '🇮🇹 Installazione di Arch Linux': 'Archlinux-Guida/arch-guida.md'
         - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
         - '🇪🇸 Instalación de Arch Linux': 'en/Archlinux-Guide/guida-es.md'
         - '🇫🇷 Installation d Arch Linux': 'en/Archlinux-Guide/guida-fr.md'
         - '🇩🇪 Arch Linux Installation': 'en/Archlinux-Guide/guida-de.md'
         - '🇯🇵 Arch Linuxのインストール': 'en/Archlinux-Guide/guida-jp.md'
+        - '🇮🇳 Arch Linux Installation': 'en/Archlinux-Guide/guida-in.md'
       
   - 'Altre Guide': 
         - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
