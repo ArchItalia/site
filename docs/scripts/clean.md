@@ -1,6 +1,9 @@
-[English](#eng)
+🇬🇧 [English](#eng) 🇮🇹 [Italian](#ita)
 
-Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
+
+# ita
+
+🇮🇹 Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/fff913e9-f5bb-40b6-bfec-7e0e78620bf2)
 
