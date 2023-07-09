@@ -7,6 +7,8 @@ Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sist
 ```
 #!/bin/bash
 
+echo "Verifica dei pacchetti e delle dipendenze non più necessarie.."
+
 if pacman -Qdt &> /dev/null; then
     echo "Eliminazione dei pacchetti e delle dipendenze non più necessarie.."
     pacman -Qdt | awk '{print $1}' | sudo pacman -Rs -
