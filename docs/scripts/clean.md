@@ -1,5 +1,9 @@
 Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
+![Screenshot from 2023-07-09 16-34-29](https://github.com/ArchItalia/site/assets/117321045/569c06a6-ead7-447b-9b50-3cf6a4bcf034)
+
+
+
 `$ sudo vim /usr/bin/clean`
 
 <br>
@@ -45,6 +49,4 @@ fi
 
 `$ sudo chmod +x /usr/bin/clean`
 
-![image](https://github.com/ArchItalia/site/assets/117321045/335ac329-9b9c-44c7-8817-7e55cd092a3c)
 
-![image](https://github.com/ArchItalia/site/assets/117321045/3ddfa62c-696d-48c0-bbdf-2a8b2c7b9d92)
