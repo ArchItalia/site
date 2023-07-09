@@ -50,7 +50,7 @@ if [ $answer = "y" ]; then
 else
     echo  "Nessuna azione intrapresa."
 fi
-
+echo ""
 echo -e "\e[32mPulizia terminata!\e[0m"
 ```
 <br>
@@ -106,7 +106,7 @@ if [ $answer = "y" ]; then
 else
     echo -e "\e[33mNo action taken.\e[0m"
 fi
-
+echo ""
 echo -e "\e[32mCleanup completed!\e[0m"
 ```
 <br>
