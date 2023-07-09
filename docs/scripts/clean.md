@@ -7,25 +7,25 @@ Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sist
 ```
 #!/bin/bash
 
-echo "Verifica dei pacchetti e delle dipendenze non più necessarie.."
+echo -e "\e[33mVerifica dei pacchetti e delle dipendenze non più necessarie..\e[0m"
 
 if pacman -Qdt &> /dev/null; then
-    echo "Eliminazione dei pacchetti e delle dipendenze non più necessarie.."
+    echo -e "\e[33mEliminazione dei pacchetti e delle dipendenze non più necessarie..\e[0m"
     pacman -Qdt | awk '{print $1}' | sudo pacman -Rs -
 else
-    echo "Non ci sono pacchetti da eliminare."
+    echo -e "\e[33mNon ci sono pacchetti da eliminare.\e[0m"
 fi
 
-echo "Verifica  pacchetti non più disponibili nei repositories dalla cache di pacman"
+echo -e "\e[33mVerifica pacchetti non più disponibili nei repositories dalla cache di pacman\e[0m"
 sudo pacman -Scc 
 echo ""
-echo "Verifica lo spazio occupato dalla directory ~/.cache"
+echo -e "\e[33mVerifica lo spazio occupato dalla directory ~/.cache\e[0m"
 cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
-echo "Lo spazio occupato dalla directory ~/.cache è di $cache_size."
+echo -e "\e[33mLo spazio occupato dalla directory ~/.cache è di $cache_size.\e[0m"
 echo ""
-echo "Verifica lo spazio occupato dal cestino"
+echo -e "\e[33mVerifica lo spazio occupato dal cestino\e[0m"
 trash_size=$(du -sh ~/.local/share/Trash/files | awk '{ print $1 }')
-echo "Lo spazio occupato dal cestino è di $trash_size."
+echo -e "\e[33mLo spazio occupato dal cestino è di $trash_size.\e[0m"
 echo ""
 read -p "Vuoi svuotare il cestino e cancellare la directory ~/.cache? Rispondi con 'y' o 'n': " answer
 
@@ -36,9 +36,9 @@ if [ $answer = "y" ]; then
     # Cancella la directory ~/.cache
     rm -rf ~/.cache/*
 
-    echo "Il cestino e la directory ~/.cache sono stati cancellati."
+    echo -e "\e[33mIl cestino e la directory ~/.cache sono stati cancellati.\e[0m"
 else
-    echo "Nessuna azione intrapresa."
+    echo -e "\e[33mNessuna azione intrapresa.\e[0m"
 fi
 ```
 <br>
