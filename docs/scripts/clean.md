@@ -11,6 +11,11 @@ echo ""
 pacman -R $(pacman -Qdtd)
 
 echo ""
+echo "Verifica  pacchetti non più disponibili nei repositories dalla cache di pacman"
+echo ""
+sudo pacman -Sc
+
+echo ""
 # Verifica lo spazio occupato dalla directory ~/.cache
 cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
 
