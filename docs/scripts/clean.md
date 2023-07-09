@@ -18,15 +18,15 @@ fi
 
 echo "Verifica  pacchetti non più disponibili nei repositories dalla cache di pacman"
 sudo pacman -Scc 
-
+echo ""
 echo "Verifica lo spazio occupato dalla directory ~/.cache"
 cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
 echo "Lo spazio occupato dalla directory ~/.cache è di $cache_size."
-
+echo ""
 echo "Verifica lo spazio occupato dal cestino"
 trash_size=$(du -sh ~/.local/share/Trash/files | awk '{ print $1 }')
 echo "Lo spazio occupato dal cestino è di $trash_size."
-
+echo ""
 read -p "Vuoi svuotare il cestino e cancellare la directory ~/.cache? Rispondi con 'y' o 'n': " answer
 
 if [ $answer = "y" ]; then
