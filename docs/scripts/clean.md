@@ -1,3 +1,5 @@
+[English](#eng)
+
 Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/fff913e9-f5bb-40b6-bfec-7e0e78620bf2)
@@ -54,7 +56,9 @@ echo -e "\e[32mPulizia terminata!\e[0m"
 
 <br><br>
 
-🇬🇧: Create a simplified command `$ clean` to customize the system cleanup.
+# eng
+
+🇬🇧 Create a simplified command `$ clean` to customize the system cleanup.
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/fff913e9-f5bb-40b6-bfec-7e0e78620bf2)
 
