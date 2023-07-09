@@ -1,4 +1,4 @@
-Semplice script da avviare con un file.desktop in **~/.config/autostart**, impostare ogni quanto lo sript effettua il backup e definire le directory.
+Semplice script da avviare con un file.desktop in **~/.config/autostart**, impostare ogni quanto lo script effettua il backup e definire le directory.
 
 ```
 #!/bin/bash
