@@ -55,6 +55,7 @@ nav:
         - scripts/installscript.md
         - scripts/rsync.md
         - scripts/clamav.md
+        - scripts/clean.md
   - libri.md      
      
 
