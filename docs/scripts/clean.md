@@ -1,4 +1,4 @@
-Creare un comando semplificato per personalizzare la pulizia del sistema.
+Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
 `$ sudo vim /usr/bin/clean`
 
