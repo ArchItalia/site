@@ -26,7 +26,7 @@ read -p "Vuoi svuotare il cestino e cancellare la directory ~/.cache? Rispondi c
 
 if [ $answer = "y" ]; then
     # Svuota il cestino
-    rm -rf ~/.local/share/Trash/*
+    rm -rf ~/.local/share/Trash/files/*
 
     # Cancella la directory ~/.cache
     rm -rf ~/.cache/*
