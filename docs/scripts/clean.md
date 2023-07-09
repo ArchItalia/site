@@ -63,7 +63,8 @@ echo -e "\e[32mPulizia terminata!\e[0m"
 
 🇬🇧 Create a simplified command `$ clean` to customize the system cleanup.
 
-![image](https://github.com/ArchItalia/site/assets/117321045/fff913e9-f5bb-40b6-bfec-7e0e78620bf2)
+![image](https://github.com/ArchItalia/site/assets/117321045/ab9d9d0f-fe73-466a-8d51-86e6cac1e212)
+
 
 `$ sudo vim /usr/bin/clean`
 
