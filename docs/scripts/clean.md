@@ -38,6 +38,6 @@ fi
 ```
 <br>
 
-`$ sudo chmod +x/usr/bin/clean`
+`$ sudo chmod +x /usr/bin/clean`
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/83b6ec50-4dfb-433c-913f-e985d5030e4c)
