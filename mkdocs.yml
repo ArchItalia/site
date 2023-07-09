@@ -17,6 +17,9 @@ nav:
         - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
         - '🇪🇸 Instalación de Arch Linux': 'en/Archlinux-Guide/guida-es.md'
         - '🇫🇷 Installation d Arch Linux': 'en/Archlinux-Guide/guida-fr.md'
+        - '🇩🇪 Arch Linux Installation': 'en/Archlinux-Guide/guida-de.md'
+        - '🇯🇵 Arch Linuxのインストール': 'en/Archlinux-Guide/guida-jp.md'
+      
   - 'Altre Guide': 
         - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
         - 'File System': 'Altre-Guide/filesystem.md'
