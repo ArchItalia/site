@@ -10,10 +10,10 @@ echo "Verifica dei pacchetti e delle dipendenze non piu necessarie.."
 echo ""
 pacman -R $(pacman -Qdtd)
 
-echo ""
-echo "Verifica  pacchetti non più disponibili nei repositories dalla cache di pacman"
-echo ""
-pacman -Sc
+#echo ""
+#echo "Verifica  pacchetti non più disponibili nei repositories dalla cache di pacman"
+#echo ""
+#pacman -Sc
 
 echo ""
 # Verifica lo spazio occupato dalla directory ~/.cache
