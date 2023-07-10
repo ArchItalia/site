@@ -1,8 +1,8 @@
 # easypacman
 
-Author: MarcoArch 
-Github: https://github.com/MarcoArch
-Architalia Forked: https://github.com/ArchItalia/easypacman 
+- Author: MarcoArch 
+- Github: https://github.com/MarcoArch
+- Architalia Forked: https://github.com/ArchItalia/easypacman 
 
 <br><br>
 
