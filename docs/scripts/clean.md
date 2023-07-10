@@ -9,6 +9,8 @@
 * cd clean
 * makepkg -si
 
+<br>
+
 `$ clean` easy command for arch linux
 
 
