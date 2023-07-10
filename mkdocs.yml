@@ -56,7 +56,7 @@ nav:
         - scripts/rsync.md
         - scripts/clamav.md
         - scripts/clean.md
-        - scripts/easypacman.md
+        - 'Easypacman': scripts/easypacman.md
         
   - libri.md      
      
