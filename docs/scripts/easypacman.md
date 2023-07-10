@@ -1,6 +1,7 @@
 Lo script offerto è un utile strumento per gli utenti che utilizzano il sistema operativo Arch Linux, 
 in quanto semplifica notevolmente l'installazione e la rimozione di pacchetti software.
 
+![Screenshot from 2023-07-10 16-52-34](https://github.com/ArchItalia/site/assets/117321045/0a31893c-3dd1-4ee6-bf0d-a6743636e694)
 
 
 L'interfaccia del menu Pac-Man offre diverse opzioni per l'installazione, 
