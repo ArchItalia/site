@@ -1,6 +1,6 @@
 
 ## install from AUR
-* git clone ssh://aur@aur.archlinux.org/clean.git
+* git clone https://aur.archlinux.org/clean.git
 * cd clean
 * makepkg -si
 
