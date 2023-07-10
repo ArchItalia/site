@@ -1,4 +1,11 @@
 # easypacman
+
+Author: MarcoArch 
+Github: https://github.com/MarcoArch
+Architalia Forked: https://github.com/ArchItalia/easypacman 
+
+<br><br>
+
 🇬🇧 This is a simply script for Arch Linux's package manager Pacman.
 
 The provided script is a useful tool for users who use the Arch Linux operating system, as it greatly simplifies the installation and removal of software packages.
