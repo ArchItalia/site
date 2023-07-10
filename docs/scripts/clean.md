@@ -1,7 +1,7 @@
 
 
 ## install
-* git clone https://github.com/ArchItalia/clean.git
+* git clone https://github.com/architalia/clean.git
 * cd clean
 * makepkg -si
 
