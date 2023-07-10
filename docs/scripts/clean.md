@@ -85,7 +85,7 @@ else
 fi
 echo ""
 echo -e "\e[33mChecking for unavailable packages from pacman's cache\e[0m"
-sudo pacman -Scc 
+sudo pacman -Sc
 echo ""
 echo -e "\e[33mChecking size of ~/.cache directory\e[0m"
 cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
