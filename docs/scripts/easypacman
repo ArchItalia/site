@@ -1,0 +1,21 @@
+Lo script offerto è un utile strumento per gli utenti che utilizzano il sistema operativo Arch Linux, 
+in quanto semplifica notevolmente l'installazione e la rimozione di pacchetti software.
+
+
+
+L'interfaccia del menu Pac-Man offre diverse opzioni per l'installazione, 
+la rimozione e la pulizia dei pacchetti, aiutando gli utenti a gestire facilmente i loro software. 
+Inoltre, l'utilizzo di uno script automatizzato, invece del modo tradizionale da riga di comando, 
+riduce notevolmente la possibilità di errori durante la digitazione dei comandi. In sintesi, 
+lo script Pac-Man offre un modo affidabile e semplice per l'utilizzo e la gestione dei pacchetti Arch Linux per l'utente finale.
+
+## Installazione
+
+```
+git clone https://github.com/ArchItalia/easypacman.git
+cd easypacman
+chmod +x easypacman
+```
+
+## Esegui
+`./easypacman`
