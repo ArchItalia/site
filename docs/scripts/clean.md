@@ -5,54 +5,61 @@
 
 🇮🇹 Creare un comando semplificato `$ clean`  per personalizzare la pulizia del sistema.
 
-![image](https://github.com/ArchItalia/site/assets/117321045/bf39f1e0-33b7-47d4-b984-fae2cdbe56f4)
+
+
+![Screenshot from 2023-07-10 11-42-57](https://github.com/ArchItalia/site/assets/117321045/f3a9969d-47de-4000-a3f9-1f0d677adcba)
 
 
 
-
-
-`$ sudo vim /usr/bin/clean`
+- `sudo pacman -S bc`
+- `$ sudo vim /usr/bin/clean`
 
 <br>
 
 ```
 #!/bin/bash
+#
+# Author : Jonathan Sanfilippo
+# Date: Jul 2023
+# Version 1.0.0: Clean
+#
 
-echo -e "\e[33mVerifica dei pacchetti e delle dipendenze non più necessarie..\e[0m"
+cache=$(du -sh /var/cache/pacman/pkg/ | awk '{ print $1 }')
+lib=$(du -sh /var/lib/pacman/ | awk '{ print $1 }')
+home_cache=$(du -sh ~/.cache/ | awk '{ print $1 }')
+total=$(echo "$cache + $lib + $home_cache" | bc)
+
+if (( $(echo "$total < 1024" | bc -l) )); then
+        unit="M"
+        total=$(echo "$total" | awk '{printf "%.2f\n", $1}')
+     else
+        unit="G"
+        total=$(echo "scale=2; $total/1024" | bc -l)
+fi
+
+echo -e "\e[33mChecking for obsolete packages and dependencies..\e[0m"
 
 if pacman -Qdt &> /dev/null; then
-    echo  "Eliminazione dei pacchetti e delle dipendenze non più necessarie.."
+    echo  "Removing obsolete packages and dependencies.."
     pacman -Qdt | awk '{print $1}' | sudo pacman -Rs -
 else
-    echo  "Non ci sono pacchetti da eliminare."
+    echo  "No packages to remove."
 fi
 echo ""
-echo -e "\e[33mVerifica pacchetti non più disponibili nei repositories dalla cache di pacman\e[0m"
-sudo pacman -Sc
-echo ""
-echo -e "\e[33mVerifica lo spazio occupato dalla directory ~/.cache\e[0m"
-cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
-echo  "Lo spazio occupato dalla directory ~/.cache è di $cache_size."
-echo ""
-echo -e "\e[33mVerifica lo spazio occupato dal cestino\e[0m"
-trash_size=$(du -sh ~/.local/share/Trash/files | awk '{ print $1 }')
-echo "Lo spazio occupato dal cestino è di $trash_size."
-echo ""
-read -p "Vuoi svuotare il cestino e cancellare la directory ~/.cache? Rispondi con 'y' o 'n': " answer
+
+printf "\e[33mCurrent space between cache, package cache, and trash: \e[0m\e[91m$total$unit\e[0m\e[33m, Clean? Respond with 'y' or 'n': \e[0m" && read answer
 
 if [ $answer = "y" ]; then
-    # Svuota il cestino
-    rm -rf ~/.local/share/Trash/files/*
+     rm -rf ~/.cache/*
+     rm -rf ~/.local/share/Trash/files/*
+     sudo pacman -Scc
 
-    # Cancella la directory ~/.cache
-    rm -rf ~/.cache/*
-
-    echo  "Il cestino e la directory ~/.cache sono stati cancellati."
+    echo -e "\e[32mClean up completed!\e[0m"
 else
-    echo  "Nessuna azione intrapresa."
+    echo  "No action taken."
 fi
 echo ""
-echo -e "\e[32mPulizia terminata!\e[0m"
+
 ```
 <br>
 
@@ -64,16 +71,36 @@ echo -e "\e[32mPulizia terminata!\e[0m"
 
 🇬🇧 Create a simplified command `$ clean` to customize the system cleanup.
 
-![image](https://github.com/ArchItalia/site/assets/117321045/bf07d1c6-4ddc-49fa-911b-4c2d6911749a)
 
 
+![Screenshot from 2023-07-10 11-42-57](https://github.com/ArchItalia/site/assets/117321045/a2daa925-9e08-4f94-b919-ddb88d2087e8)
 
-`$ sudo vim /usr/bin/clean`
+
+- `sudo pacman -S bc`
+- `$ sudo vim /usr/bin/clean`
 
 <br>
 
 ```
 #!/bin/bash
+#
+# Author : Jonathan Sanfilippo
+# Date: Jul 2023
+# Version 1.0.0: Clean
+#
+
+cache=$(du -sh /var/cache/pacman/pkg/ | awk '{ print $1 }')
+lib=$(du -sh /var/lib/pacman/ | awk '{ print $1 }')
+home_cache=$(du -sh ~/.cache/ | awk '{ print $1 }')
+total=$(echo "$cache + $lib + $home_cache" | bc)
+
+if (( $(echo "$total < 1024" | bc -l) )); then
+        unit="M"
+        total=$(echo "$total" | awk '{printf "%.2f\n", $1}')
+     else
+        unit="G"
+        total=$(echo "scale=2; $total/1024" | bc -l)
+fi
 
 echo -e "\e[33mChecking for obsolete packages and dependencies..\e[0m"
 
@@ -84,32 +111,20 @@ else
     echo  "No packages to remove."
 fi
 echo ""
-echo -e "\e[33mChecking for unavailable packages from pacman's cache\e[0m"
-sudo pacman -Sc
-echo ""
-echo -e "\e[33mChecking size of ~/.cache directory\e[0m"
-cache_size=$(du -sh ~/.cache | awk '{ print $1 }')
-echo  "The size of ~/.cache directory is $cache_size."
-echo ""
-echo -e "\e[33mChecking size of Trash directory\e[0m"
-trash_size=$(du -sh ~/.local/share/Trash/files | awk '{ print $1 }')
-echo "The size of Trash directory is $trash_size."
-echo ""
-read -p "Do you want to empty the Trash directory and  ~/.cache directory? Respond with 'y' or 'n': " answer
+
+printf "\e[33mCurrent space between cache, package cache, and trash: \e[0m\e[91m$total$unit\e[0m\e[33m, Clean? Respond with 'y' or 'n': \e[0m" && read answer
 
 if [ $answer = "y" ]; then
-    # Empty the Trash directory
-    rm -rf ~/.local/share/Trash/files/*
+     rm -rf ~/.cache/*
+     rm -rf ~/.local/share/Trash/files/*
+     sudo pacman -Scc
 
-    #  ~/.cache directory
-    rm -rf ~/.cache/*
-
-    echo  "The Trash directory and ~/.cache directory have been d."
+    echo -e "\e[32mClean up completed!\e[0m"
 else
     echo  "No action taken."
 fi
 echo ""
-echo -e "\e[32mClean up completed!\e[0m"
+
 ```
 <br>
 
