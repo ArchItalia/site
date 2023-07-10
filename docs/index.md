@@ -1,6 +1,7 @@
 
 ## Architalia Linux* Community
 
+![arc](https://github.com/ArchItalia/site/assets/117321045/ae6408bc-d990-4904-b030-fbed2f6f80db)
 
 Architalia è una comunità italiana dedicata alla distribuzione di Arch Linux e delle sue derivate. Questa comunità è composta da appassionati di Linux e tecnologie open source che si uniscono per condividere informazioni, risorse e conoscenze su Arch Linux e le sue varie modifiche. 
 
