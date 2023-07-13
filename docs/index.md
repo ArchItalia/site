@@ -18,7 +18,7 @@ Tutti i canali ufficiali
 * [:fontawesome-brands-facebook: Facebook Page](https://www.facebook.com/architalialinux)
 * [:fontawesome-brands-youtube: YouTube](https://www.youtube.com/@ArchItalia)
 * [:fontawesome-brands-github: GitHub](https://github.com/ArchItalia)
-* [:fontawesome-brands-telegram: Telegram] in arrivo..
+* [:fontawesome-brands-telegram: Telegram](https://t.me/architalialinux)
   
 <br><br>
 
