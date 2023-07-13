@@ -58,7 +58,7 @@ Dove nuevamente nomepacchetto dovrà essere sostituito dal nome del pacchetto ge
 
 **Esempi di compilazione pacchetto AUR**
 
-Per dare un esempio di compilazione di un pacchetto AUR, consideriamo il pacchetto Flameshot, uno screenshot tool avanzato.
+Per dare un esempio di compilazione di un pacchetto AUR, consideriamo il pacchetto Clean.
 
 1. Installa il pacchetto base-devel come indicato in precedenza.
 
@@ -68,16 +68,16 @@ Per dare un esempio di compilazione di un pacchetto AUR, consideriamo il pacchet
 sudo pacman -S git
 ```
 
-3. Scarica il pacchetto Flameshot tramite Git utilizzando il comando:
+3. Scarica il pacchetto Clean tramite Git utilizzando il comando:
 
 ```
-git clone https://aur.archlinux.org/flameshot.git
+git clone https://aur.archlinux.org/clean.git
 ```
 
-4. Accedi alla directory del pacchetto flameshot.
+4. Accedi alla directory del pacchetto clean.
 
 ```
-cd flameshot
+cd clean
 ```
 
 5. Compilazione del pacchetto 
@@ -89,7 +89,7 @@ makepkg -s
 6. Installazione del pacchetto 
 
 ```
-sudo pacman -U flameshot.pkg.tar.xz
+sudo pacman -U clean*.pkg.tar.xz
 ```
 
 Questi sono i passaggi necessari per compilare e installare con successo il pacchetto Flameshot. Questo esempio può essere utilizzato come riferimento per la compilazione di altri pacchetti AUR.
