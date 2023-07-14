@@ -86,8 +86,7 @@ theme:
   language: it
   custom_dir: overrides
   
-  font:
-    code: Ubuntu mono
+  
     
   features:
     - navigation.footer
