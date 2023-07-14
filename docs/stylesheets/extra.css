@@ -81,6 +81,7 @@ padding:5px
 }
 
 img[alt=iso] { width: 200px; }
+img[alt=dwn] { width: 50%; }
 img[alt=derivate] { height: 64px; }
 
 
