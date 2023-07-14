@@ -1,14 +1,20 @@
 
- @font-face {
+@font-face {
   font-family: 'Architalia Text';
-  src:url('../assets/architalia fonts/Architalia-Regular.woff') format('woff');
+  src:url('../assets/architalia fonts/Architalia-Regular.woff') format('woff'),
+      url('../assets/architalia fonts/Architalia-Regular.ttf') format('truetype'),
+      url('../assets/architalia fonts/Architalia-Regular.otf') format('opentype'),
+      url('../assets/architalia fonts/Architalia-Regular.woff2') format('woff2');
   font-weight:400;
 }
 
 
- @font-face {
+@font-face {
   font-family: 'Architalia Text';
-  src:url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff') format('woff');
+  src:url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff') format('woff'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.ttf') format('truetype'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.otf') format('opentype'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff2') format('woff2');
   font-weight:bold;
 }
 
