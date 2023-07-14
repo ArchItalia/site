@@ -18,4 +18,12 @@
   font-weight:bold;
 }
 
+@font-face {
+  font-family: 'Architalia mono';
+  src:url('../assets/architalia fonts/Architalia-Mono.woff') format('woff'),
+      url('../assets/architalia fonts/Architalia-Mono.ttf') format('truetype'),
+      url('../assets/architalia fonts/Architalia-Mono.otf') format('opentype'),
+      url('../assets/architalia fonts/Architalia-Mono.woff2') format('woff2');
+  font-weight:normal;
+}
 
