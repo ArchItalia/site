@@ -14,8 +14,9 @@ Poiché **Architalia-live** è solo una live, i pacchetti aggiuntivi come Firefo
 <br><br>
 
 
-![Screenshot from 2023-07-14 19-54-40](https://github.com/ArchItalia/site/assets/117321045/ac35f739-9bd0-449b-ba20-1ad973d25b28)
-![dwn](https://github.com/ArchItalia/site/assets/117321045/01aa7c43-1e7e-4eac-ae29-2de8389c55ba) ![dwn](https://github.com/ArchItalia/site/assets/117321045/af18968f-c25f-4a9b-ad7e-7b1c9b977d83)
+![1111](https://github.com/ArchItalia/site/assets/117321045/ac35f739-9bd0-449b-ba20-1ad973d25b28)
+![dwn1](https://github.com/ArchItalia/site/assets/117321045/01aa7c43-1e7e-4eac-ae29-2de8389c55ba) 
+![dwn1](https://github.com/ArchItalia/site/assets/117321045/af18968f-c25f-4a9b-ad7e-7b1c9b977d83)
 
 
 ### Download
