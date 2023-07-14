@@ -8,7 +8,7 @@
 
 **Architalia-live** è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia, salvate nella cartella `~/Guide`. Architettura avanzata e opzioni di personalizzazione sono accessibili anche attraverso l'utilizzo dello script di Architalia posizionato in `~/Installscript`. 
 
-![Screenshot from 2023-07-14 19-55-58](https://github.com/ArchItalia/site/assets/117321045/01aa7c43-1e7e-4eac-ae29-2de8389c55ba) ![Screenshot from 2023-07-14 19-56-49](https://github.com/ArchItalia/site/assets/117321045/af18968f-c25f-4a9b-ad7e-7b1c9b977d83)
+![dwn](https://github.com/ArchItalia/site/assets/117321045/01aa7c43-1e7e-4eac-ae29-2de8389c55ba) ![dwn](https://github.com/ArchItalia/site/assets/117321045/af18968f-c25f-4a9b-ad7e-7b1c9b977d83)
 
 
 
