@@ -1,7 +1,7 @@
 # Download live iso
 
 ## Architalia-live 
-### Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
+> Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
 ![laptop](https://github.com/ArchItalia/site/assets/117321045/8ccd8676-8bcf-4497-ac06-1caffe4f6a65)
 
