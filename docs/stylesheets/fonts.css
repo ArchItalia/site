@@ -1,17 +1,14 @@
 
-
-
-
  @font-face {
   font-family: 'Architalia Text';
-  src:url('../assets/fonts/regular.woff') format('woff');
+  src:url('../assets/architalia fonts/Architalia-Regular.woff') format('woff');
   font-weight:400;
 }
 
 
  @font-face {
   font-family: 'Architalia Text';
-  src:url('../assets/fonts/medium.woff') format('woff');
+  src:url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff') format('woff');
   font-weight:bold;
 }
 
