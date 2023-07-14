@@ -31,7 +31,7 @@ Poiché **Architalia-live** è solo una live, i pacchetti aggiuntivi come Firefo
     * Versione 1.0 Stable
     * kernel linux-6.4.3.arch1-1
 
-- [Download iso :fontawesome-regular-circle-down:] in compilazione e caricamento oggi.
+- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1zwU76kWnaapQD8IUyW2hdtJnx8YLL5ph/view?usp=sharing)
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 <br><br>
