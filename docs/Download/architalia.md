@@ -1,6 +1,6 @@
 # Download live iso
 
-## Architalia-live 
+## Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
 ![laptop](https://github.com/ArchItalia/site/assets/117321045/8ccd8676-8bcf-4497-ac06-1caffe4f6a65)
@@ -8,9 +8,9 @@
 
 ### Introduzione
 
-**Architalia-live** è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia, salvate nella cartella `~/Guide`. Architettura avanzata e opzioni di personalizzazione sono accessibili anche attraverso l'utilizzo dello script di Architalia posizionato in `~/Installscript`. 
+**Core** è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia, salvate nella cartella `~/Guide`. Architettura avanzata e opzioni di personalizzazione sono accessibili anche attraverso l'utilizzo dello script di Architalia posizionato in `~/Installscript`. 
 
-Poiché **Architalia-live** è solo una live, i pacchetti aggiuntivi come Firefox, GParted, Git, Evince e Nautilus sono presenti solo temporarily e non sono parte dell'installazione di Arch Linux. Questa distribuzione live rappresenta una soluzione ideale per coloro che vogliono sperimentare l'esperienza di Arch Linux, con le opportunità di personalizzazione e di gestione manuale della console, senza dover effettuare un'installazione completa su disco rigido. La presenza di una shell minimale di Gnome con un'interfaccia utente intuitiva garantisce un accesso facile e veloce alle funzionalità principali, mentre la possibilità di connettersi a internet attraverso NetworkManager offre una configurazione senza problemi per la rete. In poche parole, con Architalia-live, gli utenti possono sperimentare l'efficienza di Arch Linux in una modalità versatile e personalizzabile.
+Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted, Git, Evince e Nautilus sono presenti solo temporarily e non sono parte dell'installazione di Arch Linux. Questa distribuzione live rappresenta una soluzione ideale per coloro che vogliono sperimentare l'esperienza di Arch Linux, con le opportunità di personalizzazione e di gestione manuale della console, senza dover effettuare un'installazione completa su disco rigido. La presenza di una shell minimale di Gnome con un'interfaccia utente intuitiva garantisce un accesso facile e veloce alle funzionalità principali, mentre la possibilità di connettersi a internet attraverso NetworkManager offre una configurazione senza problemi per la rete. In poche parole, con Architalia-live, gli utenti possono sperimentare l'efficienza di Arch Linux in una modalità versatile e personalizzabile.
 
 <br><br>
 
