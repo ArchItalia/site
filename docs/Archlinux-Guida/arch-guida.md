@@ -184,7 +184,7 @@ Creiamo i sottovolumi **@** e **@home**
 
 - `# mount -o noatime,ssd,space_cache=v2,compress=zstd,discard=async,subvol=@ /dev/sda2 /mnt` 
 
-- `# mkdir -p /mnt/{home,boot} creiamo la directory /home e la directory /boot`
+- `# mkdir -p /mnt/{home,boot}` creiamo la directory /home e la directory /boot
 
 - `# mount /dev/sda1 /mnt/boot` 
 
