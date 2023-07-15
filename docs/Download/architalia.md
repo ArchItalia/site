@@ -3,8 +3,7 @@
 ## Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
-![laptop](https://github.com/ArchItalia/site/assets/117321045/8ccd8676-8bcf-4497-ac06-1caffe4f6a65)
-
+![laptop](https://github.com/ArchItalia/site/assets/117321045/567cde75-28a0-40c5-8b32-385506908343)
 
 ### Introduzione
 
@@ -14,11 +13,6 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 <br><br>
 
-
-![1111](https://github.com/ArchItalia/site/assets/117321045/ac35f739-9bd0-449b-ba20-1ad973d25b28)
-![dwn1](https://github.com/ArchItalia/site/assets/117321045/01aa7c43-1e7e-4eac-ae29-2de8389c55ba) 
-![dwn1](https://github.com/ArchItalia/site/assets/117321045/af18968f-c25f-4a9b-ad7e-7b1c9b977d83)
-![image](https://github.com/ArchItalia/site/assets/117321045/3fb5ee96-e769-404e-8374-3a3309ba678f)
 
 
 
