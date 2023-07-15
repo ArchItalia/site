@@ -4,7 +4,6 @@
 ## Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
-![image](https://github.com/ArchItalia/site/assets/117321045/5433d665-dcc0-4f47-8cb2-3fd40ac7f8b0)
 
 
 ### Introduzione
@@ -15,11 +14,7 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 <br><br>
 
-![image](https://github.com/ArchItalia/site/assets/117321045/918ef829-2910-4b52-ab7a-4b427719e9dc)
-![Screenshot from 2023-07-15 04-13-39](https://github.com/ArchItalia/site/assets/117321045/b44b0b07-2093-48b1-ab6c-e7f4526fb4d7)
-![Screenshot from 2023-07-15 04-12-28](https://github.com/ArchItalia/site/assets/117321045/bb1ca7e7-3be6-4c47-b7a0-d21293bf3cf4)
-![Screenshot from 2023-07-15 04-11-05](https://github.com/ArchItalia/site/assets/117321045/2ea2ea2e-ef6b-4809-b5eb-2be9396d700f)
-![Screenshot from 2023-07-15 03-56-53](https://github.com/ArchItalia/site/assets/117321045/de280a21-6eeb-458a-950f-0ce59e6f6a10)
+
 
 
 
@@ -27,12 +22,12 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 !!! info "Informazioni"
     
-    * Core-2023.07.15-x86_64.iso
+    * Core-2023.07.16-x86_64.iso
     * Dimensione 1.59 GB
-    * Versione 2.0 Stable
+    * Versione 2.1 Stable
     * kernel linux-6.4.3.arch1-1
 
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1fLy2mhjPzqsyzPX8keMmRB1YasU4NPiU/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:]in arrivo entro 16-6-2023
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 <br><br>
