@@ -22,7 +22,7 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 !!! info "Informazioni"
     
-    * Core-2023.07.16-x86_64.iso
+    * Core-2023.07.15-x86_64.iso
     * Dimensione 1.59 GB
     * Versione 2.1 Stable
     * kernel linux-6.4.3.arch1-1
