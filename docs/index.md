@@ -20,6 +20,8 @@ Tutti i canali ufficiali
 
 ## Team Architalia 
 
+![teamwork](https://github.com/ArchItalia/site/assets/117321045/26acc862-534d-4b67-8c9d-8b04d2bae806)
+
 * **Jonathan Linux** - Founder
 * **Marco Buccino** - Co-Founder, Facebook Admin
 * **Ivan Karavitis** - Co-Founder, Facebook Admin
