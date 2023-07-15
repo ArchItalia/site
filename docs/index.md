@@ -12,9 +12,9 @@ In queste risorse, gli utenti possono trovare informazioni dettagliate su come u
 
 Tutti i canali ufficiali 
 
- [:fontawesome-solid-house-circle-check: Sito Ufficiale](https://architalia.github.io/site/), <a rel="me" href="https://mastodon.uno/@architalia">:fontawesome-brands-mastodon: Mastodon</a>,
- [:fontawesome-brands-facebook: Facebook Group](https://www.facebook.com/groups/architalia), [:fontawesome-brands-facebook: Facebook Page](https://www.facebook.com/architalialinux),
- [:fontawesome-brands-youtube: YouTube](https://www.youtube.com/@ArchItalia), [:fontawesome-brands-github: GitHub](https://github.com/ArchItalia), [:fontawesome-brands-telegram: Telegram](https://t.me/architalialinux)
+-  [:fontawesome-solid-house-circle-check: Sito Ufficiale](https://architalia.github.io/site/), <a rel="me" href="https://mastodon.uno/@architalia">:fontawesome-brands-mastodon: Mastodon</a>,
+- [:fontawesome-brands-facebook: Facebook Group](https://www.facebook.com/groups/architalia), [:fontawesome-brands-facebook: Facebook Page](https://www.facebook.com/architalialinux),
+- [:fontawesome-brands-youtube: YouTube](https://www.youtube.com/@ArchItalia), [:fontawesome-brands-github: GitHub](https://github.com/ArchItalia), [:fontawesome-brands-telegram: Telegram](https://t.me/architalialinux)
   
 <br>
 
