@@ -43,11 +43,11 @@ Archcraft è solo un'altra distribuzione di Linux, creata sopra a Arch Linux. Ut
 
 <br>
 
-## [Architalia Linux* (2023)](https://architalia.github.io/site/)
+## [Core (2023)](https://architalia.github.io/site/)
 
-![derivate](https://github.com/ArchItalia/site/assets/117321045/59a2d606-15e8-4082-962a-414845e07301)
+![derivate](https://github.com/ArchItalia/site/assets/117321045/f37028d4-ea0b-4754-b085-6a1151cf20d1)
 
-Architalia-live è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia.
+Core (Architalia-live) è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia.
 
 <br>
 
