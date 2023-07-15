@@ -3,7 +3,8 @@
 ## Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
-![laptop](https://github.com/ArchItalia/site/assets/117321045/567cde75-28a0-40c5-8b32-385506908343)
+![image](https://github.com/ArchItalia/site/assets/117321045/5433d665-dcc0-4f47-8cb2-3fd40ac7f8b0)
+
 
 ### Introduzione
 
@@ -20,12 +21,12 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 !!! info "Informazioni"
     
-    * architalia-2023.07.14-x86_64.iso
+    * Core-2023.07.15-x86_64.iso
     * Dimensione 1.59 GB
-    * Versione 1.0 Stable
+    * Versione 2.0 Stable
     * kernel linux-6.4.3.arch1-1
 
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1zwU76kWnaapQD8IUyW2hdtJnx8YLL5ph/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:] in arrivo
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 <br><br>
