@@ -30,7 +30,7 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
     * Versione 2.0 Stable
     * kernel linux-6.4.3.arch1-1
 
-- [Download iso :fontawesome-regular-circle-down:] in arrivo
+- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1fLy2mhjPzqsyzPX8keMmRB1YasU4NPiU/view?usp=sharing)
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 <br><br>
