@@ -20,14 +20,14 @@ Tutti i canali ufficiali
 
 ## Team Architalia 
 
-* Jonathan Linux - Founder
-* Marco Buccino - Co-Founder, Facebook Admin
-* Ivan Karavitis - Co-Founder, Facebook Admin
-* Klod Cripta - Team coordinator, Facebook Admin, Telegram Admin
-* Marco Favarotto - Facebook Admin, Telegram moderator
-* Luana - Telegram Bot manager
-* Cate - Telegram Bot manager
-* Rick Man - Youtube Manager, Facebook Admin
+* **Jonathan Linux** - Founder
+* **Marco Buccino** - Co-Founder, Facebook Admin
+* **Ivan Karavitis** - Co-Founder, Facebook Admin
+* **Klod Cripta** - Team coordinator, Facebook Admin, Telegram Admin
+* **Marco Favarotto** - Facebook Admin, Telegram moderator
+* **Luana** - Telegram Bot manager
+* **Cate** - Telegram Bot manager
+* **Rick Man** - Youtube Manager, Facebook Admin
 
 
 <br>
