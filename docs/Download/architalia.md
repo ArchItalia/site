@@ -27,7 +27,7 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
     
     * Core-2023.07.15-x86_64.iso
     * Dimensione 1.59 GB
-    * Versione 2.1 Stable
+    * Versione 2.2 Stable
     * kernel linux-6.4.3.arch1-1
 
 - [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1fLy2mhjPzqsyzPX8keMmRB1YasU4NPiU/view?usp=sharing)
