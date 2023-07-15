@@ -1,5 +1,5 @@
 
-## Architalia Linux* Community
+## Architalia Linux Community
 
 ![arc](https://github.com/ArchItalia/site/assets/117321045/9f556b02-d9da-46d5-9d7c-f5f605e930ac)
 
@@ -16,9 +16,21 @@ Tutti i canali ufficiali
  [:fontawesome-brands-facebook: Facebook Group](https://www.facebook.com/groups/architalia), [:fontawesome-brands-facebook: Facebook Page](https://www.facebook.com/architalialinux),
  [:fontawesome-brands-youtube: YouTube](https://www.youtube.com/@ArchItalia), [:fontawesome-brands-github: GitHub](https://github.com/ArchItalia), [:fontawesome-brands-telegram: Telegram](https://t.me/architalialinux)
   
-<br><br>
+<br>
+
+## Team Architalia 
+
+* Jonathan Linux - Founder
+* Marco Buccino - Co-Founder, Facebook Admin
+* Ivan Karavitis - Co-Founder, Facebook Admin
+* Klod Cripta - Team coordinator, Facebook Admin, Telegram Admin
+* Marco Favarotto - Facebook Admin, Telegram moderator
+* Luana - Telegram Bot manager
+* Cate - Telegram Bot manager
+* Rick Man - Youtube Manager, Facebook Admin
 
 
+<br>
 
 ## Supporta la Community
 
@@ -33,4 +45,4 @@ Support the Architalia community of Arch Linux by making a donation to help us g
 
 <br><br>
 
-*Other names and brands may be claimed as the property of others.
+
