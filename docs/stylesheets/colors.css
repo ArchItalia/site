@@ -7,7 +7,7 @@ a.mastodon_rel{color:var( --md-typeset-color)!important;font-weight:bold;}
 --md-default-bg-color: #f8f9fb;
 --md-code-bg-color: #dbe6ee;
 --md-code-fg-color: #3b4252;
---md-typeset-a-color: #06c;
+--md-typeset-a-color: #bf616a;
 --md-typeset-color: rgb(76, 86, 106);
 --md-tabs-active: #ffffff;
   --md-logo:url('../images/logo/logo-light.png');
