@@ -15,10 +15,9 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 <br><br>
 
-![Screenshot from 2023-07-15 18-34-43](https://github.com/ArchItalia/site/assets/117321045/4b28a7db-7758-4b73-8979-c990812a8da0)
-![Screenshot from 2023-07-15 18-31-48](https://github.com/ArchItalia/site/assets/117321045/6ae36721-0743-43bd-baab-7f7f4c43ceb8)
-
-![Screenshot from 2023-07-15 18-31-26](https://github.com/ArchItalia/site/assets/117321045/34e3c030-ec9b-4be7-ad76-435310d98b72)
+![Screenshot from 2023-07-15 23-38-15](https://github.com/ArchItalia/site/assets/117321045/d62d518b-a7d9-4888-9d9f-93c16a127d23)
+![Screenshot from 2023-07-15 23-36-03](https://github.com/ArchItalia/site/assets/117321045/e05430ab-4a8a-4deb-a49c-b659edb7f9d6)
+![Screenshot from 2023-07-15 23-33-32](https://github.com/ArchItalia/site/assets/117321045/ce78e5e1-1b95-42f3-8554-1a4e4aeefa17)
 
 
 
