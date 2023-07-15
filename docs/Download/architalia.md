@@ -1,5 +1,3 @@
-# Download live iso
-
 
 ![derivate](https://github.com/ArchItalia/site/assets/117321045/53bceac4-82c2-40e0-8a50-805061d50593)
 
