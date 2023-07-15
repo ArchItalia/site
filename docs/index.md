@@ -10,7 +10,7 @@ Gli utenti di Architalia partecipano a discussioni sui forum, chiacchierano su c
 
 In queste risorse, gli utenti possono trovare informazioni dettagliate su come utilizzare questa distribuzione, oltre a suggerimenti su come personalizzarla per le proprie esigenze. In sintesi, Architalia è una comunità animata da appassionati di Linux che uniscono le forze per supportare e promuovere Arch Linux e le sue molteplici derivazioni.
 
-Tutti i canali ufficiali 
+## Tutti i canali ufficiali 
 
 -  [:fontawesome-solid-house-circle-check: Sito Ufficiale](https://architalia.github.io/site/)   <a rel="me" href="https://mastodon.uno/@architalia">:fontawesome-brands-mastodon: Mastodon</a>
 - [:fontawesome-brands-facebook: Facebook Group](https://www.facebook.com/groups/architalia)   [:fontawesome-brands-facebook: Facebook Page](https://www.facebook.com/architalialinux) 
