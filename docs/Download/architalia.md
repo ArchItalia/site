@@ -72,8 +72,6 @@ per vedere come usare **cfdisk** leggi il [qui](https://architalia.github.io/sit
 A questo punto sara' lo script a prendere in mano la formattazione, la creazione dei sottovolumi e il montaggio.
 Prima pero' vediamo come cambiare il valore delle variabili a seconda delle proprie impostazioni in entrambi le parti **1** e **2**:
 
-Cambiare il valore all'nterno delle variabili tra virgolette, a seconda della propria configurazione, per entrambi gli scripts.
-
 <br>
 
 ```
