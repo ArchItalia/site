@@ -1,5 +1,6 @@
 
 ![Untitled](https://github.com/ArchItalia/site/assets/117321045/827e6287-3b40-4b79-94dd-3af8b5fd12a6)
+![image](https://github.com/ArchItalia/site/assets/117321045/46423091-8f55-4f47-a93e-5913eab3d502)
 
 
 ## 🇮🇹 Core (Architalia-live) 
