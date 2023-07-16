@@ -32,7 +32,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
 !!! info "Informazioni"
     
     * Core-2023.07.16-x86_64.iso
-    * Dimensione 1.59 GB
+    * Dimensione 1.41 GB
     * Versione 3.0 Stable
     * kernel linux-6.4.3.arch1-1
     * sha256sum: cb4fab5cf1bbe74596df5cbbd18d20387190f3720f17d3c255bce0e61df3d20c
