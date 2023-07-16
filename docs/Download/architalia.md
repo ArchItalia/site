@@ -141,10 +141,12 @@ Service="gdm NetworkManager firewalld bluetooth cronie reflector" # Service
 ```
 
 <br>
+Avviare il primo script `./1-parte.sh` 
 
+Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo punto dobbiamo spostarci  `cd /home` e avviare il secondo script `./2-parte.sh`:
 
-Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo punto dobbiamo spostarci e avviare il secondo script:
-
-- `# cd /home`
-- `# ./2-parte.sh`
-
+```
+# [arch-chroot]
+# cd /home
+# ./2-parte.sh
+```
