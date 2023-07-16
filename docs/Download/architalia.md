@@ -15,7 +15,17 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 <br><br>
 
+## 🇬🇧 Core (Architalia-live)
 
+> Designed for all types of users, the goal is to have a useful environment without losing the freedom to build your own system.
+
+### Introduction
+
+**Core** is a live distribution that allows for the manual installation of Arch Linux thanks to the presence of the console and scripts. At the same time, it includes a minimal Gnome shell with useful packages for easy installation management. Internet connection is established via NetworkManager, integrated into the Gnome shell, and each user can access community Architalia PDF guides saved in the `~/Guide` folder. Advanced architecture and customization options are also accessible through the use of Architalia script located in `~/Installscript`.
+
+Since **Core** is only a live distribution, additional packages such as Firefox, GParted, Git, Evince, and Nautilus are only temporarily present and are not part of the Arch Linux installation. This live distribution represents an ideal solution for those who want to experience Arch Linux's customization and manual console management without having to perform a full installation on a hard disk. The presence of a minimal Gnome shell with an intuitive user interface guarantees easy and quick access to main functions, while the ability to connect to the internet via NetworkManager offers a hassle-free network configuration. In short, with Core, users can experience the efficiency of Arch Linux in a versatile and customizable mode.
+
+<br><br>
 
 
 ### Download
@@ -41,31 +51,5 @@ Poiché **Core** è solo una live, i pacchetti aggiuntivi come Firefox, GParted,
 
 <br><br><br><br>
 
-## 🇬🇧 Core (Architalia-live)
 
-> Designed for all types of users, the goal is to have a useful environment without losing the freedom to build your own system.
 
-### Introduction
-
-**Core** is a live distribution that allows for the manual installation of Arch Linux thanks to the presence of the console and scripts. At the same time, it includes a minimal Gnome shell with useful packages for easy installation management. Internet connection is established via NetworkManager, integrated into the Gnome shell, and each user can access community Architalia PDF guides saved in the `~/Guide` folder. Advanced architecture and customization options are also accessible through the use of Architalia script located in `~/Installscript`.
-
-Since **Core** is only a live distribution, additional packages such as Firefox, GParted, Git, Evince, and Nautilus are only temporarily present and are not part of the Arch Linux installation. This live distribution represents an ideal solution for those who want to experience Arch Linux's customization and manual console management without having to perform a full installation on a hard disk. The presence of a minimal Gnome shell with an intuitive user interface guarantees easy and quick access to main functions, while the ability to connect to the internet via NetworkManager offers a hassle-free network configuration. In short, with Core, users can experience the efficiency of Arch Linux in a versatile and customizable mode.
-
-### Download
-
-!!! info "Information"
-
-    * Core-2023.07.15-x86_64.iso
-    * Size 1.59 GB
-    * Version 2.2 Stable
-    * kernel linux-6.4.3.arch1-1
-
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1fLy2mhjPzqsyzPX8keMmRB1YasU4NPiU/view?usp=sharing)
-- [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
-
-### Known Bugs
-
-!!! warning "Known Bugs"
-
-    * [2023.06.30] [Non-Critical] Long rootfs ing time in RAM.
-    * [2023.06.30] [Non-Critical] Long desktop environment boot time.
