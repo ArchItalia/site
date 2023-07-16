@@ -4,9 +4,6 @@
 ## 🇮🇹 Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 
 
-![Screenshot from 2023-07-15 18-31-07](https://github.com/ArchItalia/site/assets/117321045/b202e772-eb29-4780-a7ba-15c4fa89176f)
-
-
 ### Introduzione
 
 **Core** è una distribuzione live che consente l'installazione di Arch Linux in modo completamente manuale grazie alla presenza della console e degli script. Allo stesso tempo, include una shell minimale di Gnome con pacchetti utili per una facile gestione dell'installazione. La connessione a Internet avviene tramite NetworkManager, integrato nella shell di Gnome, e ogni utente può accedere alle guide in formato PDF della community Architalia, salvate nella cartella `~/Guide`. Architettura avanzata e opzioni di personalizzazione sono accessibili anche attraverso l'utilizzo dello script di Architalia posizionato in `~/Installscript`. 
