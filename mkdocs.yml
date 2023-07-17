@@ -48,7 +48,7 @@ nav:
 
         
   - 'Download':
-        - Architalia-live: Download/architalia.md
+        - CORE: Download/architalia.md
         - Arch Linux: Download/archlinux.md
         - Derivate: Download/Derivate.md
   - 'Scripts': 
