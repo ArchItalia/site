@@ -52,7 +52,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
 #### Video Tutorial
 
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/45GnQpOGyxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<iframe width="760" height="415" src="https://www.youtube.com/embed/45GnQpOGyxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 
 Usare **Installscript** su core e' facile gli script sono gia presenti in `~/Installscript` .
