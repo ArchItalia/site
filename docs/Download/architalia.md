@@ -188,7 +188,9 @@ una volta applicato il tema riavviare il sistema per rendere effettive le modifi
 
 per abilitare i colori nel terminale e' necessario aprire il file `/etc/pacman.conf` e decommentare la linea `#color`
 
+### Video tutorial core-theme
 
+<div><iframe width="760" height="415" src="https://www.youtube.com/embed/g4Q1b1Og8YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 
 
