@@ -1,4 +1,4 @@
-![image](https://github.com/ArchItalia/site/assets/117321045/fdb4e88d-d7e1-4c8d-a691-ced6e396f78c)
+
 ![Screenshot from 2023-07-17 02-20-16](https://github.com/ArchItalia/site/assets/117321045/7f68a893-0ba2-4de9-a3d0-b058cf471ce1)
 
 
