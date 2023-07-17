@@ -39,7 +39,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
     * Dimensione 1.41 GB
     * Versione 3.0 Stable
     * kernel linux-6.4.3.arch1-2
-    * sha256sum: cb4fab5cf1bbe74596df5cbbd18d20387190f3720f17d3c255bce0e61df3d20c
+    * sha256sum: b92482c27109af7032210e003819aa53e602d7626fe10d98618fcf353dddeab0
 
 - [Download iso :fontawesome-regular-circle-down:]
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
