@@ -169,6 +169,10 @@ Navigare alla pagina `https://extensions.gnome.org/local/` e cliccare su `Fai cl
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/9f98074d-24b5-4ae1-920e-225409709aee)
 
+Installare l'estensione `user themes` alla pagina `https://extensions.gnome.org/extension/19/user-themes/`
+
+quindi abilitare questa estensione per permettere di modificare la gnome-shell.
+
 Clonare il progetto core-theme e installare il tema:
 
 ```
