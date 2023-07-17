@@ -41,7 +41,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
     * kernel linux-6.4.3.arch1-2
     * sha256sum: b065c7314f8d9af09f17d0edf99e4061eb16b7e816690c11c1a2fb678f88b622
 
-- [Download iso :fontawesome-regular-circle-down:](#) In caricamento..
+- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1Q6I9b8dqY5OM_UFQ02k9htyXoeesSwLX/view?usp=sharing)
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 
