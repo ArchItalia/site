@@ -25,6 +25,11 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
 
 <br><br>
 
+![Screenshot from 2023-07-17 02-21-27](https://github.com/ArchItalia/site/assets/117321045/77e3bc33-7284-46ef-bcc5-467b48b0298d)
+![Screenshot from 2023-07-17 02-22-02](https://github.com/ArchItalia/site/assets/117321045/742fb29c-15fc-4058-adec-df73527b3087)
+![Screenshot from 2023-07-17 02-24-25](https://github.com/ArchItalia/site/assets/117321045/b118aa94-83bf-41fa-af56-93edae5f4a9e)
+
+
 
 ### Download
 
