@@ -37,23 +37,15 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
     
     * Core-2023.07.17-x86_64.iso
     * Dimensione 1.41 GB
-    * Versione 3.0 Stable
+    * Versione 3.1 Stable
     * kernel linux-6.4.3.arch1-2
-    * sha256sum: b92482c27109af7032210e003819aa53e602d7626fe10d98618fcf353dddeab0
+    * sha256sum: b065c7314f8d9af09f17d0edf99e4061eb16b7e816690c11c1a2fb678f88b622
 
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1Q6I9b8dqY5OM_UFQ02k9htyXoeesSwLX/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:]() In caricamento..
 - [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
+
 <br><br>
-
-### Bugs
-
-!!! warning "Bugs Conosciuti"
-
-    * [2023.06.30]  [Non Critico]  Tempo di Copia del filesystem rootfs in ram lungo. 
-    * [2023.06.30]  [Non Critico]  Tempo di avvio dell'ambiente desktop lungo. 
-
-<br><br><br><br>
 
 ### Uso di Installscript su Core
 
