@@ -1,6 +1,5 @@
 
-![Untitled](https://github.com/ArchItalia/site/assets/117321045/827e6287-3b40-4b79-94dd-3af8b5fd12a6)
-![image](https://github.com/ArchItalia/site/assets/117321045/46423091-8f55-4f47-a93e-5913eab3d502)
+![Screenshot from 2023-07-17 02-20-16](https://github.com/ArchItalia/site/assets/117321045/7f68a893-0ba2-4de9-a3d0-b058cf471ce1)
 
 
 ## 🇮🇹 Core (Architalia-live) 
