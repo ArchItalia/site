@@ -34,7 +34,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
     * Core-2023.07.16-x86_64.iso
     * Dimensione 1.41 GB
     * Versione 3.0 Stable
-    * kernel linux-6.4.3.arch1-1
+    * kernel linux-6.4.3.arch1-2
     * sha256sum: cb4fab5cf1bbe74596df5cbbd18d20387190f3720f17d3c255bce0e61df3d20c
 
 - [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1wv6OTGaHgPAb_gnlhVIaQcKbMeZ4kMWW/view?usp=sharing)
