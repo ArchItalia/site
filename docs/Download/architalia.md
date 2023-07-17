@@ -157,6 +157,11 @@ Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo p
 
 Se dopo un installazione di gnome minimal con Core volete customizzare il sistema con il tema di core ecco i passaggi da effettuare per rendere il vostro Archlinux puro un gradevole stile Nord.
 
+![core-l](https://github.com/ArchItalia/site/assets/117321045/4353a6f9-65bd-4ef2-89b4-c7929acad4f9)
+
+
+<br>
+
 ### Requisiti per applicare il tema Core:
 
 Installare gnome-tweaks: `sudo pacman -S gnome-tweaks`
@@ -173,6 +178,9 @@ Installare l'estensione `user themes` alla pagina `https://extensions.gnome.org/
 
 quindi abilitare questa estensione per permettere di modificare la gnome-shell.
 
+
+<br>
+
 ### Clonare il progetto core-theme e installare il tema:
 
 ```
@@ -184,9 +192,17 @@ quindi abilitare questa estensione per permettere di modificare la gnome-shell.
 
 una volta applicato il tema riavviare il sistema per rendere effettive le modifiche dei fonts.
 
+
+
+<br>
+
 ### abilitare i colori in gnome-terminal con la palette di Nord
 
 per abilitare i colori nel terminale e' necessario aprire il file `/etc/pacman.conf` e decommentare la linea `#color`
+
+
+
+<br>
 
 ### Video tutorial core-theme
 
