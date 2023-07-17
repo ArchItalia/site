@@ -173,7 +173,7 @@ Installare l'estensione `user themes` alla pagina `https://extensions.gnome.org/
 
 quindi abilitare questa estensione per permettere di modificare la gnome-shell.
 
-Clonare il progetto core-theme e installare il tema:
+### Clonare il progetto core-theme e installare il tema:
 
 ```
 * git clone https://github.com/ArchItalia/core-theme.git
