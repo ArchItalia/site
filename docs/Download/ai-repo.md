@@ -25,5 +25,5 @@ sudo pacman -S name-of-package
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
 ```
-in lavorazione adesso attendere..
+sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
