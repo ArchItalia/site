@@ -49,8 +49,8 @@ nav:
         - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
   - 'Core':
-        - 'Repository' Download/ai-repo.md
-        - CORE: Download/architalia.md
+        - 'Repository': Download/ai-repo.md
+        - 'Core Linux': Download/architalia.md
  
   - 'Scripts': 
         - scripts/installscript.md
