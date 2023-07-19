@@ -7,7 +7,7 @@ You can add ai-repo to any Arch-based Linux distribution.  Just add the followin
 ```
 [ai-repo]
 SigLevel = Required DatabaseOptional
-Server = https://gitlab.com/architalialinux/$repo/-/-raw/main/$arch 
+Server = https://gitlab.com/architalialinux/$repo/-/raw/main/$arch 
 ```
 
 Then, sync the repositories and update your system with:
