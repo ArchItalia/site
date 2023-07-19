@@ -1,4 +1,4 @@
-# Architalia Repository [ai-repo] 
+# Architalia Repository [ai-repo] 🇮🇹
 
 * Come aggiungere **ai-repo** al tuo Arch Linux
 
@@ -27,9 +27,9 @@ NOTA: pacman segnalerà l'importazione di una chiave PGP che è invalida o corro
 ```
 sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
+<br><br>
 
-
-# Architalia Repository [ai-repo] 
+# Architalia Repository [ai-repo] 🇬🇧
 
 * How to add **ai-repo** to your Arch Linux
 
