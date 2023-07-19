@@ -13,6 +13,8 @@ nav:
         
   - 'Arch Linux':
         - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
+        - 'Download': Download/archlinux.md
+        - 'Derivate': Download/Derivate.md
         - '🇮🇹 Installazione di Arch Linux': 'Archlinux-Guida/arch-guida.md'
         - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
         - '🇪🇸 Instalación de Arch Linux': 'en/Archlinux-Guide/guida-es.md'
@@ -46,11 +48,10 @@ nav:
         - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
         - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
-        
-  - 'Download':
+  - 'Core':
+        - 'Repository' Download/ai-repo.md
         - CORE: Download/architalia.md
-        - Arch Linux: Download/archlinux.md
-        - Derivate: Download/Derivate.md
+ 
   - 'Scripts': 
         - scripts/installscript.md
         - scripts/rsync.md
