@@ -184,7 +184,7 @@ ai-repo/core-icons-theme
 
 installa i pacchetti uno ad uno e imposta il tema con gnome-tweaks
 
-
+per il profilo nord per gnome-tweminal scarica lo script che installera il nuovo tema al terminale [nord.sh](https://raw.githubusercontent.com/ArchItalia/site/main/files/nord.sh)
 
 
 
