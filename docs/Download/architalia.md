@@ -157,57 +157,32 @@ Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo p
 
 Se dopo un installazione di gnome minimal con Core volete customizzare il sistema con il tema di core ecco i passaggi da effettuare per rendere il vostro Archlinux puro un gradevole stile Nord.
 
-![core-l](https://github.com/ArchItalia/site/assets/117321045/4353a6f9-65bd-4ef2-89b4-c7929acad4f9)
-
+![image](https://github.com/ArchItalia/site/assets/117321045/4c6d1934-a2c3-49ba-a23a-3bc4df669578)
 
 <br>
 
 ### Requisiti per applicare il tema Core:
 
-Installare gnome-tweaks: `sudo pacman -S gnome-tweaks`
+Aggiungere il repository di [architalia](https://architalia.github.io/site/Download/ai-repo/) 
 
-Installare gnome-browser-connector `sudo pacman -S gnome-browser-connector`
+### Installazione
 
-Installare firefox `sudo pacman -S firefox`
-
-Navigare alla pagina `https://extensions.gnome.org/local/` e cliccare su `Fai click qui per installare l'estensione del browser`
-
-![image](https://github.com/ArchItalia/site/assets/117321045/9f98074d-24b5-4ae1-920e-225409709aee)
-
-Installare l'estensione `user themes` alla pagina `https://extensions.gnome.org/extension/19/user-themes/`
-
-quindi abilitare questa estensione per permettere di modificare la gnome-shell.
-
-
-<br>
-
-### Clonare il progetto core-theme e installare il tema:
+puoi usare gnome-tweaks per gestire i temi `sudo pacman -S gnome-tweaks`
+cercare i pacchetti da installare per il tema completo
 
 ```
-* git clone https://github.com/ArchItalia/core-theme.git
-* cd core-theme
-* chmod +x *
-* ./install
+sudo pacman -Ss core
 ```
 
-una volta applicato il tema riavviare il sistema per rendere effettive le modifiche dei fonts.
+```
+ai-repo/architalia-fonts  
+ai-repo/core-gnome-backgrounds 
+ai-repo/core-gtk-theme 
+ai-repo/core-icons-theme 
+    
+```
 
-
-
-<br>
-
-### abilitare i colori in gnome-terminal con la palette di Nord
-
-per abilitare i colori nel terminale e' necessario aprire il file `/etc/pacman.conf` e decommentare la linea `#color`
-
-
-
-<br>
-
-### Video tutorial core-theme
-
-<div><iframe width="760" height="415" src="https://www.youtube.com/embed/g4Q1b1Og8YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-
+installa i pacchetti uno ad uno e imposta il tema con gnome-tweaks
 
 
 
