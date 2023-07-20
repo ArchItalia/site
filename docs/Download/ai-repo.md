@@ -1,6 +1,6 @@
 # Architalia Repository [ai-repo] 🇮🇹
 
-* Come aggiungere **ai-repo** al tuo Arch Linux
+* Come aggiungere [**ai-repo**](https://gitlab.com/architalialinux/ai-repo/-/tree/main/) al tuo Arch Linux
 
 È possibile aggiungere ai-repo a qualsiasi distribuzione Linux basata su Arch. Aggiungi semplicemente le seguenti righe alla fine di **/etc/pacman.conf**:
 
