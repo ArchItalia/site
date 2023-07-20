@@ -1,4 +1,4 @@
-
+![image](https://github.com/ArchItalia/site/assets/117321045/f99ca199-a2d8-499b-8cec-8870764e5b7c)
 ![Screenshot from 2023-07-17 02-20-16](https://github.com/ArchItalia/site/assets/117321045/7f68a893-0ba2-4de9-a3d0-b058cf471ce1)
 
 
@@ -157,7 +157,8 @@ Alla fine del primo script ci ritroveremo direttamente in **chroot**, a questo p
 
 Se dopo un installazione di gnome minimal con Core volete customizzare il sistema con il tema di core ecco i passaggi da effettuare per rendere il vostro Archlinux puro un gradevole stile Nord.
 
-![image](https://github.com/ArchItalia/site/assets/117321045/4c6d1934-a2c3-49ba-a23a-3bc4df669578)
+![image](https://github.com/ArchItalia/site/assets/117321045/d3a9aeb6-4e27-495c-ae4a-33f54fcad94e)
+
 
 <br>
 
