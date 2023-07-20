@@ -183,7 +183,15 @@ ai-repo/core-icons-theme
     
 ```
 
-installa i pacchetti uno ad uno e imposta il tema con gnome-tweaks
+installa i pacchetti uno ad uno e imposta il tema con gnome-tweaks, nota: per far funzionare gtk-4.0 su nautilus, text-editor etc e' necessario copiare il tema gtk4.0 installato 
+
+```
+sudo cp -rp /etc/gtk-4.0 /home/$USER/.config/
+```
+![image](https://github.com/ArchItalia/site/assets/117321045/d8f68489-2833-4751-9a80-95b349c9b05e)
+
+<br><br>
+
 
 per il profilo nord per gnome-terminal scarica lo script che installera il nuovo tema al terminale [nord.sh](https://raw.githubusercontent.com/ArchItalia/site/main/files/nord.sh)
 
