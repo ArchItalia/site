@@ -27,6 +27,11 @@ NOTA: pacman segnalerà l'importazione di una chiave PGP che è invalida o corro
 ```
 sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
+
+## Server log 
+[Verifica lo stato dello script ai-brain che gestisce il repository](https://gitlab.com/architalialinux/ai-repo#server-logs)
+
+
 <br><br>
 
 # Architalia Repository [ai-repo] 🇬🇧
@@ -59,5 +64,4 @@ NOTE: Pacman will complain about importing a PGP key that is either invalid or c
 sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
 
-## Server log 
-[Verifica lo stato dello script ai-brain che gestisce il repository](https://gitlab.com/architalialinux/ai-repo#server-logs)
+
