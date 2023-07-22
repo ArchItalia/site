@@ -58,3 +58,6 @@ NOTE: Pacman will complain about importing a PGP key that is either invalid or c
 ```
 sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
+
+## Server log 
+[Verifica lo stato dello script ai-brain che gestisce il repository](https://gitlab.com/architalialinux/ai-repo#server-logs)
