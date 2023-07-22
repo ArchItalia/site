@@ -1,5 +1,17 @@
 
 ![Screenshot from 2023-07-17 02-20-16](https://github.com/ArchItalia/site/assets/117321045/7f68a893-0ba2-4de9-a3d0-b058cf471ce1)
+### Download
+
+!!! info "Informazioni"
+    
+    * Core-2023.07.23-x86_64.iso
+    * Dimensione 1.58 GB
+    * Versione 3.2 Stable
+    * kernel linux-6.4.4.arch1-1
+    * sha256sum: cbd16782edcf0c44a5614e159653e0e7b914af1f48a220e35abf1bf2bc749722
+
+- [Download iso :fontawesome-regular-circle-down:]()
+- [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 
 ## 🇮🇹 Core (Architalia-live) 
@@ -31,18 +43,6 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
 
 
 
-### Download
-
-!!! info "Informazioni"
-    
-    * Core-2023.07.17-x86_64.iso
-    * Dimensione 1.58 GB
-    * Versione 3.1 Stable
-    * kernel linux-6.4.3.arch1-2
-    * sha256sum: b065c7314f8d9af09f17d0edf99e4061eb16b7e816690c11c1a2fb678f88b622
-
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1Q6I9b8dqY5OM_UFQ02k9htyXoeesSwLX/view?usp=sharing)
-- [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
 
 
 <br><br>
