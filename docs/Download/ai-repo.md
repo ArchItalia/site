@@ -30,15 +30,17 @@ sudo pacman-key --lsign-key AEA0A2E06D592805
 
 ## 🟢 Server logs:
 - 11 Packages
-- 24-07-2023 13:09:25 **architalia-fonts** 1.0 version already updated
-- 24-07-2023 13:09:25 **clean** 2.2 version already updated
-- 24-07-2023 13:09:25 **core-gnome-backgrounds** 1.3 version already updated
-- 24-07-2023 13:09:25 **core-gtk-theme** 1.3 version already updated
-- 24-07-2023 13:09:25 **core-icons-theme** 1.0 version already updated
-- 24-07-2023 13:09:25 **yay** 12.1.0 version already updated
-- 24-07-2023 13:09:25 **text-engine** 0.1.1 version already updated
-- 24-07-2023 13:09:26 **extension-manager** 0.4.1 > 0.4.2 just updated 🔹
-- 24-07-2023 13:09:34 **libbacktrace-git** 75 version already updated
-- 24-07-2023 13:09:34 **timeshift** 23.07.1 version already updated
-- 24-07-2023 13:09:45 **calamares** 3.2.62 version already updated
+- 24-07-2023 15:41:17 **architalia-fonts** 1.0 version already updated
+- 24-07-2023 15:41:17 **clean** 2.2 version already updated
+- 24-07-2023 15:41:17 **core-gnome-backgrounds** 1.3 version already updated
+- 24-07-2023 15:41:17 **core-gtk-theme** 1.3 version already updated
+- 24-07-2023 15:41:17 **core-icons-theme** 1.0 version already updated
+- 24-07-2023 15:41:17 **yay** 12.1.0 version already updated
+- 24-07-2023 15:41:18 **text-engine** 0.1.1 version already updated
+- 24-07-2023 15:41:18 **extension-manager** 0.4.2 version already updated
+- 24-07-2023 15:41:19 **libbacktrace-git** 75 version already updated
+- 24-07-2023 15:41:19 **timeshift** 23.07.1 version already updated
+- 24-07-2023 15:41:19 **calamares** 3.2.62 version already updated
+- 24-07-2023 15:41:19 **mkinitcpio-openswap**  > 0.1.0 just updated 🔹
+- 24-07-2023 15:41:21 **ckbcomp**  > 1.221 just updated 🔹
  - [Generate by the 🤖 ai-brain script](https://gitlab.com/architalialinux/ai-repo/-/blob/main/ai-brain)
