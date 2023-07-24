@@ -14,6 +14,7 @@
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
 - [Repo :fontawesome-brands-gitlab:](https://gitlab.com/architalialinux/ai-repo)
 
+<br>
 
 ## 🇮🇹 Core (Architalia-live) 
 > Pensata per tutti i tipi di utenti, obbiettivo avere un ambiente utile senza perdere la liberta' di costruzione del proprio sistema. 

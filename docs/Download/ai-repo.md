@@ -1,44 +1,6 @@
-# Architalia Repository [ai-repo] 🇮🇹
+# Architalia Repository [ai-repo] for Core Linux
 
-* Come aggiungere [**ai-repo**](https://gitlab.com/architalialinux/ai-repo/-/tree/main/) al tuo Arch Linux
-
-È possibile aggiungere ai-repo a qualsiasi distribuzione Linux basata su Arch. Aggiungi semplicemente le seguenti righe alla fine di **/etc/pacman.conf**:
-
-```
-[ai-repo]
-SigLevel = Required DatabaseOptional
-Server = https://gitlab.com/architalialinux/$repo/-/raw/main/$arch 
-```
-
-Quindi, sincronizza i repository e aggiorna il sistema con:
-
-```
-sudo pacman -Syyu
-```
-
-E, quindi:
-
-```
-sudo pacman -S nome-pacchetto
-```
-
-NOTA: pacman segnalerà l'importazione di una chiave PGP che è invalida o corrotta. Il problema può essere risolto firmando localmente la chiave importata:
-
-```
-sudo pacman-key --lsign-key AEA0A2E06D592805
-```
-
-## Server log 
-[Verifica lo stato dello script ai-brain che gestisce il repository](https://gitlab.com/architalialinux/ai-repo#server-logs)
-
-
-<br><br>
-
-# Architalia Repository [ai-repo] 🇬🇧
-
-* How to add **ai-repo** to your Arch Linux
-
-You can add ai-repo to any Arch-based Linux distribution.  Just add the following lines to the end of **/etc/pacman.conf**:
+ai-repo is a repository of Arch Linux packages that was created primarily for Core Linux, which is still a work-in-progress and not a real thing yet.
 
 ```
 [ai-repo]
@@ -65,3 +27,17 @@ sudo pacman-key --lsign-key AEA0A2E06D592805
 ```
 
 
+
+## 🟢 Server logs:
+- 11 Packages
+- 24-07-2023 12:06:58 **architalia-fonts** 1.0 version already updated
+- 24-07-2023 12:06:58 **clean** 2.2 version already updated
+- 24-07-2023 12:06:58 **core-gnome-backgrounds** 1.2 version already updated
+- 24-07-2023 12:06:58 **core-gtk-theme** 1.8 version already updated
+- 24-07-2023 12:06:58 **core-icons-theme** 1.0 version already updated
+- 24-07-2023 12:06:58 **yay** 12.1.0 version already updated
+- 24-07-2023 12:06:58 **text-engine** 0.1.1 version already updated
+- 24-07-2023 12:06:59 **extension-manager** 0.4.1 > 0.4.2 just updated 🔹
+- 24-07-2023 12:07:08 **libbacktrace-git** 75 version already updated
+- 24-07-2023 12:07:08 **timeshift** 23.07.1 version already updated
+- 24-07-2023 12:07:08 **calamares** 3.2.62 version already updated

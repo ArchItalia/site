@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Author : 
+# Date: 
+# Version 1.0.0: 
+#
+
+git add $HOME/Development/site/*
+git commit -m "🤖 Updated by the ai-brain script."
+git push
+
