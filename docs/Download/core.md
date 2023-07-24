@@ -1,8 +1,9 @@
 
 
-### Download
+# Core Linux
 
-!!! info "Informazioni"
+!!! info "Informazioni"![Screenshot from 2023-07-24 11-19-46](https://github.com/ArchItalia/site/assets/117321045/ecb4eb62-96b3-482e-a798-b25bdba6d357)
+
     
     * Core-2023.07.22-x86_64.iso
     * Dimensione 1.58 GB
