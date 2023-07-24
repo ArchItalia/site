@@ -1,5 +1,5 @@
 
-![Screenshot from 2023-07-17 02-20-16](https://github.com/ArchItalia/site/assets/117321045/7f68a893-0ba2-4de9-a3d0-b058cf471ce1)
+
 ### Download
 
 !!! info "Informazioni"
@@ -36,16 +36,6 @@ Introduction
 **Core** is a live distribution that allows for the manual installation of Arch Linux thanks to the presence of the console and scripts. At the same time, it includes a minimal Gnome shell with useful packages for easy installation management. Internet connection is established via NetworkManager, integrated into the Gnome shell, and each user can access community Architalia PDF guides saved in the `~/Guide` folder. Advanced architecture and customization options are also accessible through the use of Architalia script located in `~/Installscript`.
 
 Since **Core** is only a live distribution, additional packages such as Firefox, GParted, Git, Evince, and Nautilus are only temporarily present and are not part of the Arch Linux installation. This live distribution represents an ideal solution for those who want to experience Arch Linux's customization and manual console management without having to perform a full installation on a hard disk. The presence of a minimal Gnome shell with an intuitive user interface guarantees easy and quick access to main functions, while the ability to connect to the internet via NetworkManager offers a hassle-free network configuration. In short, with Core, users can experience the efficiency of Arch Linux in a versatile and customizable mode.
-
-<br><br>
-
-![Screenshot from 2023-07-17 02-21-27](https://github.com/ArchItalia/site/assets/117321045/77e3bc33-7284-46ef-bcc5-467b48b0298d)
-![Screenshot from 2023-07-17 02-22-02](https://github.com/ArchItalia/site/assets/117321045/742fb29c-15fc-4058-adec-df73527b3087)
-![Screenshot from 2023-07-17 02-24-25](https://github.com/ArchItalia/site/assets/117321045/b118aa94-83bf-41fa-af56-93edae5f4a9e)
-
-
-
-
 
 <br><br>
 
