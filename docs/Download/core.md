@@ -1,8 +1,8 @@
 
-
 # Core Linux
 
-![Screenshot from 2023-07-24 11-19-46](https://github.com/ArchItalia/site/assets/117321045/ecb4eb62-96b3-482e-a798-b25bdba6d357)
+![image](https://github.com/ArchItalia/site/assets/117321045/c63e1873-8d35-4618-866e-ef5ec97ad7d3)
+
 
 !!! info "Informazioni"
 
