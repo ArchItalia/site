@@ -11,7 +11,8 @@
     * sha256sum: cbd16782edcf0c44a5614e159653e0e7b914af1f48a220e35abf1bf2bc749722
 
 - [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1mOvo4MeTkN6zBdGvNBZLV3DFvYhCoq2L/view?usp=sharing)
-- [Github :fontawesome-solid-code-branch:](https://github.com/ArchItalia/architalia-live.git)
+- [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
+- [Repo :fontawesome-brands-gitlab:](https://gitlab.com/architalialinux/ai-repo)
 
 
 ## 🇮🇹 Core (Architalia-live) 
