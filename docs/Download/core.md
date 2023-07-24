@@ -191,6 +191,47 @@ sudo cp -rp /etc/gtk-4.0 /home/$USER/.config/
 per il profilo nord per gnome-terminal scarica lo script che installera il nuovo tema al terminale [nord.sh](https://raw.githubusercontent.com/ArchItalia/site/main/files/nord.sh)
 
 
+# Core Theme
+
+If you have installed a minimal GNOME with Core and want to customize your Archlinux system with the Core theme, follow these steps to give your pure Archlinux a pleasant Nord style.
+
+![image](https://github.com/ArchItalia/site/assets/117321045/d3a9aeb6-4e27-495c-ae4a-33f54fcad94e)
+
+### Requirements to apply the Core theme:
+
+Add the [architalia](https://architalia.github.io/site/Download/ai-repo/) repository.
+
+### Installation
+
+You can use `gnome-tweaks` to manage themes:
+
+```
+sudo pacman -S gnome-tweaks
+```
+
+Then search for the packages to install for the complete theme:
+
+```
+sudo pacman -Ss core
+```
+
+```
+ai-repo/architalia-fonts  
+ai-repo/core-gnome-backgrounds 
+ai-repo/core-gtk-theme 
+ai-repo/core-icons-theme 
+```
+
+Install the packages one by one and set the theme with `gnome-tweaks`. Note: To get `gtk-4.0` to work on `nautilus`, `text editor`, etc. you need to copy the installed `gtk4.0` theme:
+
+```
+sudo cp -rp /etc/gtk-4.0 /home/$USER/.config/
+```
+![image](https://github.com/ArchItalia/site/assets/117321045/d8f68489-2833-4751-9a80-95b349c9b05e)
+
+For the Nord profile for gnome-terminal, download the script that will install the new theme to the terminal: [nord.sh](https://raw.githubusercontent.com/ArchItalia/site/main/files/nord.sh).
+
+
 
 
 
