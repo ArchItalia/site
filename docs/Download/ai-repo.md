@@ -30,22 +30,22 @@ sudo pacman-key --lsign-key AEA0A2E06D592805
 
 ## 🟢 Server logs:
 - 18 Packages
-- 26-07-2023 16:21:41 **architalia-fonts** 1.0 version already updated
-- 26-07-2023 16:21:41 **clean** 2.2 version already updated
-- 26-07-2023 16:21:41 **core-gnome-backgrounds** 1.5 version already updated
-- 26-07-2023 16:21:41 **core-gtk-theme** 1.3 version already updated
-- 26-07-2023 16:21:41 **core-icons-theme** 1.0 version already updated
-- 26-07-2023 16:21:41 **yay** 12.1.0 version already updated
-- 26-07-2023 16:21:42 **text-engine** 0.1.0 > 0.1.1 just updated 🔹
-- 26-07-2023 16:21:47 **extension-manager** 0.4.2 version already updated
-- 26-07-2023 16:21:47 **libbacktrace-git** 75 version already updated
-- 26-07-2023 16:21:48 **timeshift** 23.07.1 version already updated
-- 26-07-2023 16:21:48 **calamares** 3.2.62 version already updated
-- 26-07-2023 16:21:48 **mkinitcpio-openswap** 0.1.0 version already updated
-- 26-07-2023 16:21:49 **ckbcomp** 1.221 version already updated
-- 26-07-2023 16:21:49 **core-calamares-settings** 2.0 version already updated
-- 26-07-2023 16:21:49 **core-keyring** 1.2 version already updated
-- 26-07-2023 16:21:49 **gnome-shell-extension-desktop-icons-ng** 47.0.3 version already updated
-- 26-07-2023 16:21:49 **core-setup** 1.0 version already updated
-- 26-07-2023 16:21:49 **core-extensions-base** 1.0 version already updated
+- 26-07-2023 16:23:02 **architalia-fonts** 1.0 version already updated
+- 26-07-2023 16:23:02 **calamares** 3.2.62 version already updated
+- 26-07-2023 16:23:03 **ckbcomp** 1.221 version already updated
+- 26-07-2023 16:23:03 **clean** 2.2 version already updated
+- 26-07-2023 16:23:03 **core-calamares-settings** 2.0 version already updated
+- 26-07-2023 16:23:03 **core-extensions-base** 1.0 version already updated
+- 26-07-2023 16:23:03 **core-gnome-backgrounds** 1.5 version already updated
+- 26-07-2023 16:23:03 **core-setup** 1.0 version already updated
+- 26-07-2023 16:23:03 **core-gtk-theme** 1.3 version already updated
+- 26-07-2023 16:23:03 **core-icons-theme** 1.0 version already updated
+- 26-07-2023 16:23:03 **core-keyring** 1.2 version already updated
+- 26-07-2023 16:23:03 **gnome-shell-extension-desktop-icons-ng** 47.0.3 version already updated
+- 26-07-2023 16:23:04 **extension-manager** 0.4.2 version already updated
+- 26-07-2023 16:23:04 **libbacktrace-git** 75 version already updated
+- 26-07-2023 16:23:04 **mkinitcpio-openswap** 0.1.0 version already updated
+- 26-07-2023 16:23:05 **text-engine** 0.1.0 > 0.1.1 just updated 🔹
+- 26-07-2023 16:23:10 **timeshift** 23.07.1 version already updated
+- 26-07-2023 16:23:10 **yay** 12.1.0 version already updated
  - [Generate by the 🤖 ai-brain script](https://gitlab.com/architalialinux/ai-repo/-/blob/main/ai-brain)
