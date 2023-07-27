@@ -17,7 +17,7 @@
     * kernel linux-6.4.6.arch1-1
     * sha256sum: 
 
-- [Download iso :fontawesome-regular-circle-down:](https://drive.google.com/file/d/1mOvo4MeTkN6zBdGvNBZLV3DFvYhCoq2L/view?usp=sharing)
+- [Download iso :fontawesome-regular-circle-down:](#) non disponibile ancora / not available yet
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
 - [Repo :fontawesome-brands-gitlab:](https://gitlab.com/architalialinux/ai-repo)
 
