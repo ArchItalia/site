@@ -49,7 +49,7 @@ nav:
         - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
   - 'Core':
-        - 'Core Linux': Download/core.md
+        - 'Core Linux': Download/manutenzione.md
         - 'Repository': Download/ai-repo.md
         
  
