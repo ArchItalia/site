@@ -48,8 +48,8 @@ nav:
         - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
         - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
-  - 'Core':
-        - 'Core Linux': Download/manutenzione.md
+  - 'Core Linux':
+        - 'Download': Download/core.md
         - 'Repository': Download/ai-repo.md
         
  
