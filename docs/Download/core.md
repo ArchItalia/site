@@ -53,7 +53,7 @@ Since **Core** is only a live distribution, additional packages such as Firefox,
 Usare **Installscript** su core e' facile gli script sono gia presenti in `~/Installscript` .
 Sono divisi in installazione per Arch Linux vanilla opure la versione di core linux basata su Arch Linux puro, all'interno dei quali sono presenti due versioni una per installazioni bios/mbr e una per UEFI.
 
-I passaggi per usare gli script sono semplici si inizia con la preparazione del disco attraverso o gparted o la console con cfdisk,
+I passaggi per usare gli script sono semplici si inizia con la preparazione del disco attraverso  gparted o la console con cfdisk,
 nel caso degli script bios/mbr sara' necessario creare 2 partizioni una swap e una root, nel caso della versione uefi in file system btrfs con zram, e' necessario preparare tre partizioni EFI, root e home.
 
 Esempio di modifica degli script in Uefi, con la modifica dei valori nelle variabili degli script per inserire i propri dati.
