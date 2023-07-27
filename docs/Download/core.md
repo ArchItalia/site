@@ -45,7 +45,13 @@ seguire le indicazioni per configurare l'installazione di Core Linux.
 **Core Linux** offre una configurazione personalizzata che include gia' la presenza di alcuni pacchetti utili: come **yay**, **timeshift**, e altri pacchetti mantenuti dal proprio repository [**ai-repo**](https://architalia.github.io/site/Download/ai-repo/), l'ambiente grafico e' una versione minimizzata di **Gnome**, la quale predispone delle estensioni base che permettono un uso piu comodo come **Arch Linux updates indicator** che e' gia configurato per la gestione dei pacchetti ufficiali e di AUR attraverso lo script **updates** di Core Linux, **AppIndicator** per avere la funzione del vassoio di sistema sulla topbar, **Night Theme Switcher** per cambiare automaticamente dal tema chiaro al tema scuro, **desktop-icons-ng** per le icone sul desktop, molte altre funzioni e pacchetti saranno aggiunti con l'evoluzione della distribuzione.  
 
 
-Il filesystem usato e' **btrfs** con la creazione dei sottovolumi **@** e **@home**, per la gestione della swap viene installato **zram generator**. 
+Il filesystem usato e' **btrfs** con la creazione dei sottovolumi **@** e **@home**, per la gestione della swap viene installato **zram generator**.
+<br>
+
+![Screenshot from 2023-07-27 20-54-10](https://github.com/ArchItalia/site/assets/117321045/19125ab4-201e-4af2-a07b-3a4ea1117f84)
+
+
+Per la manutenzione del sistema e' installato **clean** disponibile usando il comando `clean`
 
 <br>
 
@@ -70,3 +76,9 @@ follow the directions to configure the installation of Core Linux.
 **Core Linux** offers a customized configuration that already includes the presence of some useful packages such as **yay**, **timeshift**, and other packages maintained by its own repository [**ai-repo**](https://architalia.github.io/site/Download/ai-repo/), the graphical environment is a minimized version of **Gnome**, which provides basic extensions that allow for more convenient use, such as **Arch Linux updates indicator** which is already set up for managing official packages and AUR through the Core Linux **updates** script, **AppIndicator** to have the system tray function on the top bar, **Night Theme Switcher** to automatically switch from light mode to dark mode, **desktop-icons-ng** for desktop icons, many other functions and packages will be added with the evolution of the distribution.
 
 The filesystem used is **btrfs** with the creation of the subvolumes **@** and **@home**, for the management of swap, **zram generator** is installed.
+<br>
+
+![Screenshot from 2023-07-27 20-54-10](https://github.com/ArchItalia/site/assets/117321045/19125ab4-201e-4af2-a07b-3a4ea1117f84)
+
+
+For system maintenance, **clean** is installed and available using the `clean` command.
