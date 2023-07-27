@@ -45,3 +45,26 @@ seguire le indicazioni per configurare l'installazione di Core Linux.
 
 Il filesystem usato e' **btrfs** con la creazione dei sottovolumi **@** e **@home**, per la gestione della swap viene installato **zram generator**. 
 
+<br>
+
+# What is Core Linux
+
+**Core Linux** is a lightweight and minimal Linux distribution based on Arch Linux. It focuses on simplicity and speed, providing only the essential packages for the proper functioning of the operating system. Core Linux is only available for 64-bit architectures and is designed to be customizable and configured by the user according to their needs. Additionally, Core Linux is also an official Linux distribution of the Architalia community.
+
+# Installing Core Linux
+
+**Core Linux** offers the possibility to run a raw installation of pure Arch Linux using the console in a comfortable and organized environment of useful tools, it is possible to import your own guides or scripts to be run through the live based on Arch Linux. To install the Core Linux version with its minimal but organized environment, you can use the **installcore** application from the menu, or simply type `installcore` in the console and start the installation process.
+
+![Screenshot from 2023-07-27 16-09-50](https://github.com/ArchItalia/site/assets/117321045/1f56011f-757d-4ca0-9b65-1574fe0b1ce1)
+
+follow the directions to configure the installation of Core Linux.
+
+![Screenshot from 2023-07-27 16-10-03](https://github.com/ArchItalia/site/assets/117321045/444b36e2-9a8e-4868-a38f-b6d713cf8d9a)
+
+# Configuring Core Linux
+
+![image](https://github.com/ArchItalia/site/assets/117321045/95d8cd5c-1e1d-46da-af41-99462d521c4f)
+
+**Core Linux** offers a customized configuration that already includes the presence of some useful packages such as **yay**, **timeshift**, and other packages maintained by its own repository [**ai-repo**](https://architalia.github.io/site/Download/ai-repo/), the graphical environment is a minimized version of **Gnome**, which provides basic extensions that allow for more convenient use, such as **Arch Linux updates indicator** which is already set up for managing official packages and AUR through the Core Linux **updates** script, **AppIndicator** to have the system tray function on the top bar, **Night Theme Switcher** to automatically switch from light mode to dark mode, **desktop-icons-ng** for desktop icons, many other functions and packages will be added with the evolution of the distribution.
+
+The filesystem used is **btrfs** with the creation of the subvolumes **@** and **@home**, for the management of swap, **zram generator** is installed.
