@@ -1,7 +1,9 @@
 
 # Core Linux
 
-![image](https://github.com/ArchItalia/site/assets/117321045/c63e1873-8d35-4618-866e-ef5ec97ad7d3)
+![image](https://github.com/ArchItalia/site/assets/117321045/de8b9083-7d18-4ead-a0b4-d4a0c4e7a739)
+
+
 
 
 !!! info "Informazioni"
@@ -35,6 +37,11 @@ seguire le indicazioni per configurare l'installazione di Core Linux.
 
 # Configurazione di Core Linux 
 
-**Core Linux** offre una configurazione personalizzata che include gia' la presenza di alcuni pacchetti utili: come **yay**, **timeshift**, e altri pacchetti mantenuti dal proprio repository [**ai-repo**](https://architalia.github.io/site/Download/ai-repo/), l'ambiente grafico e' una versione minimizzata di **Gnome**, il filesystem usato e' **btrfs** con la creazione dei sottovolumi **@** e **@home**, per la gestione della swap viene installato **zram generator**. l'ambiente grafico predispone delle estensioni base che permettono un uso piu comodo di gnome come **Arch Linux updates indicator** che e' gia configurato per la gestione dei pacchetti ufficiali e di AUR attraverso lo script **updates** di Core Linux, 
+![image](https://github.com/ArchItalia/site/assets/117321045/95d8cd5c-1e1d-46da-af41-99462d521c4f)
 
+
+**Core Linux** offre una configurazione personalizzata che include gia' la presenza di alcuni pacchetti utili: come **yay**, **timeshift**, e altri pacchetti mantenuti dal proprio repository [**ai-repo**](https://architalia.github.io/site/Download/ai-repo/), l'ambiente grafico e' una versione minimizzata di **Gnome**, la quale predispone delle estensioni base che permettono un uso piu comodo come **Arch Linux updates indicator** che e' gia configurato per la gestione dei pacchetti ufficiali e di AUR attraverso lo script **updates** di Core Linux, **AppIndicator** per avere la funzione del vassoio di sistema sulla topbar, **Night Theme Switcher** per cambiare automaticamente dal tema chiaro al tema scuro, **desktop-icons-ng** per le icone sul desktop, molte altre funzioni e pacchetti saranno aggiunti con l'evoluzione della distribuzione.  
+
+
+Il filesystem usato e' **btrfs** con la creazione dei sottovolumi **@** e **@home**, per la gestione della swap viene installato **zram generator**. 
 
