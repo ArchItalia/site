@@ -11,7 +11,7 @@
     
     * Core-2023.07.27-x86_64.iso
     * Dimensione 1.58 GB
-    * Versione 3.2 Stable
+    * Versione 2023.7 Stable
     * kernel linux-6.4.6.arch1-1
     * sha256sum: 
 
