@@ -10,14 +10,14 @@
 
 !!! info "Informazioni"
 
-    
-    * Core-2023.07.27-x86_64.iso
-    * Dimensione 1.58 GB
-    * Versione 2023.7 Stable
-    * kernel linux-6.4.6.arch1-1
+    - non disponibile ancora / not available yet
+    * Core-2023.00.00-x86_64.iso
+    * Dimensione
+    * Versione
+    * kernel 
     * sha256sum: 
 
-- [Download iso :fontawesome-regular-circle-down:](#) non disponibile ancora / not available yet
+- [Download iso :fontawesome-regular-circle-down:](#) 
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
 - [Repo :fontawesome-brands-gitlab:](https://gitlab.com/architalialinux/ai-repo)
 
