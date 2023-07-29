@@ -23,11 +23,11 @@
 
 <br>
 
-# Cos'è Core Linux 🇮🇹
+## Cos'è Core Linux 🇮🇹
 
 **Core Linux** è una distribuzione Linux leggera e minimale basata su Arch Linux. Si concentra sulla semplicità e sulla velocità, fornendo solo i pacchetti essenziali per il funzionamento del sistema operativo. Core Linux è disponibile solo per architetture a 64 bit ed è progettato per essere personalizzato e configurato dall'utente secondo le proprie esigenze. Inoltre, Core Linux è anche una distribuzione Linux ufficiale della comunita' Architalia.
 
-# Installazione di Core Linux
+## Installazione di Core Linux
 
 **Core Linux** offre la possibilita' di eseguire un installazione cruda di Arch Linux puro usando direttamente la console in un ambiente comodo e organizzato di strumenti utili, e' possibile importare delle proprie guide o script da eseguire attraverso la live basata su Arch Linux. Per installare la versione di Core Linux con il suo ambiente minimale ma organizzato e' possibile usare dal menu applicazioni **installcore**, o semplicemente digitare in console `installcore` e avviare lo strumeto di installazione.
 
@@ -37,7 +37,7 @@ seguire le indicazioni per configurare l'installazione di Core Linux.
 
 ![Screenshot from 2023-07-27 16-10-03](https://github.com/ArchItalia/site/assets/117321045/444b36e2-9a8e-4868-a38f-b6d713cf8d9a)
 
-# Configurazione di Core Linux 
+## Configurazione di Core Linux 
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/95d8cd5c-1e1d-46da-af41-99462d521c4f)
 
@@ -55,11 +55,11 @@ Per la manutenzione del sistema e' installato **clean** disponibile usando il co
 
 <br>
 
-# What is Core Linux 🇬🇧
+## What is Core Linux 🇬🇧
 
 **Core Linux** is a lightweight and minimal Linux distribution based on Arch Linux. It focuses on simplicity and speed, providing only the essential packages for the proper functioning of the operating system. Core Linux is only available for 64-bit architectures and is designed to be customizable and configured by the user according to their needs. Additionally, Core Linux is also an official Linux distribution of the Architalia community.
 
-# Installing Core Linux
+## Installing Core Linux
 
 **Core Linux** offers the possibility to run a raw installation of pure Arch Linux using the console in a comfortable and organized environment of useful tools, it is possible to import your own guides or scripts to be run through the live based on Arch Linux. To install the Core Linux version with its minimal but organized environment, you can use the **installcore** application from the menu, or simply type `installcore` in the console and start the installation process.
 
@@ -69,7 +69,7 @@ follow the directions to configure the installation of Core Linux.
 
 ![Screenshot from 2023-07-27 16-10-03](https://github.com/ArchItalia/site/assets/117321045/444b36e2-9a8e-4868-a38f-b6d713cf8d9a)
 
-# Configuring Core Linux
+## Configuring Core Linux
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/95d8cd5c-1e1d-46da-af41-99462d521c4f)
 
