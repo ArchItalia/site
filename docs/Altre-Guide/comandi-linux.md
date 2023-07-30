@@ -30,6 +30,8 @@ In altri file l'utente sarà definito da:
 * Una **password**, che verrà crittografata prima di essere memorizzata (`/etc/shadow`).
 * Un **prompt dei comandi**, o __prompt__ login, che sarà simboleggiato da un `#` per gli amministratori e da un `$` per gli altri utenti (`/etc/profile`).
 
+Il comando `passwd` è un comando di sistema utilizzato per modificare la password dell'utente corrente o di un altro utente specificato. L'utente che utilizza il comando deve avere i privilegi di amministratore per poter modificare la password di un altro utente. Il comando passwd richiederà all'utente di inserire la vecchia password e quindi di inserire e confermare la nuova password. La password inserita non verrà mostrata sullo schermo per motivi di sicurezza.
+
 A seconda della politica di sicurezza implementata sul sistema, la password dovrà contenere un certo numero di caratteri e soddisfare determinati requisiti di complessità.
 
 Tra gli interpreti di comando esistenti, la **Bourne-Again Shell** (`/bin/bash`) è quella utilizzata più frequentemente. È assegnata per impostazione predefinita ai nuovi utenti. Per vari motivi, gli utenti avanzati di Linux possono scegliere shell alternative tra la Korn Shell (`ksh`), la C Shell (`csh`), etc.
