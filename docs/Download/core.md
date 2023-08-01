@@ -1,7 +1,6 @@
 
 # Core Linux
 
-Disponibile solo la live con installscript, installcore e' in fase di sviluppo
 
 ![image](https://github.com/ArchItalia/site/assets/117321045/bc23d69f-66da-4023-86d6-c59404759c62)
 
@@ -9,12 +8,12 @@ Disponibile solo la live con installscript, installcore e' in fase di sviluppo
 
 !!! info "Informazioni"
 
-    - (solo live) / not available yet (only live)
+    - not available yet
     * Core-2023.08.01-x86_64.iso
     * Dimensione: 1.75 GB
     * Versione: 2023.8
     * kernel: 6.4.7-arch1-1
-    * sha256sum: 8f3e7bad3094223168af5f054eee1123fc677dc4c2b361f9f0436e39d3b5197c
+    * sha256sum: 
 
 - [Download iso :fontawesome-regular-circle-down:](#) non disponibile 
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
