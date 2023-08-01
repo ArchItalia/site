@@ -1,10 +1,9 @@
-![image](https://github.com/ArchItalia/site/assets/117321045/1255bbb7-1a75-429a-bdd6-001058cb71e7)
+
 # Core Linux
 
 Disponibile solo la live con installscript, installcore e' in fase di sviluppo
 
-![image](https://github.com/ArchItalia/site/assets/117321045/2d40846a-ed8f-4455-b7c4-f7be8f92b95e)
-
+![image](https://github.com/ArchItalia/site/assets/117321045/f11195a0-9274-4d14-9d1d-5ebb9c6f1153)
 
 
 !!! info "Informazioni"
