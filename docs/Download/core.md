@@ -7,12 +7,12 @@
 
 !!! info "Informazioni"
 
-    - not available yet
+    
     * Core-2023.08.01-x86_64.iso
     * Dimensione: 1.75 GB
-    * Versione: 2023.8
+    * Versione: 2023.8 beta
     * kernel: 6.4.7-arch1-1
-    * sha256sum: 
+    * sha256sum: c5a6c40bad3af7daf046e080504ea7a2e159d4b168bd853238e0aa1397c556ee
 
 - [Download iso :fontawesome-regular-circle-down:](#) non disponibile 
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
