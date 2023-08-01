@@ -25,6 +25,7 @@
 * Installer: **installcore** solo con connessione attiva  
 * filesystem btrfs @ @home partizione separata
 * zram incluso
+* pacchetti inclusi: firefox yay timeshift extension-manager evince eog gparted gsmartcontrol mpv gnome-calculator gnome-clocks gnome-calendar htop gnome-system-monitor vim
 
 <br>
 
