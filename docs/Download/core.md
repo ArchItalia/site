@@ -20,6 +20,14 @@
 
 <br>
 
+* base: arch linux 
+* kernel: linux
+* Installer: **installcore** solo con connessione attiva  
+* filesystem btrfs @ @home [artizione separata
+* zram incluso
+
+<br>
+
 ## Cos'è Core Linux 🇮🇹
 
 **Core Linux** è una distribuzione Linux leggera e minimale basata su Arch Linux. Si concentra sulla semplicità e sulla velocità, fornendo solo i pacchetti essenziali per il funzionamento del sistema operativo. Core Linux è disponibile solo per architetture a 64 bit ed è progettato per essere personalizzato e configurato dall'utente secondo le proprie esigenze. Inoltre, Core Linux è anche una distribuzione Linux ufficiale della comunita' Architalia.
