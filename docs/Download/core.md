@@ -23,7 +23,7 @@
 * base: arch linux 
 * kernel: linux
 * Installer: **installcore** solo con connessione attiva  
-* filesystem btrfs @ @home [artizione separata
+* filesystem btrfs @ @home partizione separata
 * zram incluso
 
 <br>
