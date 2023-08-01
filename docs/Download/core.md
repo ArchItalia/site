@@ -1,8 +1,8 @@
 
 # Core Linux
 
+![image](https://github.com/ArchItalia/site/assets/117321045/7572e9c5-c91f-428e-9d8f-f952f7227eb0)
 
-![image](https://github.com/ArchItalia/site/assets/117321045/bc23d69f-66da-4023-86d6-c59404759c62)
 
 
 
