@@ -22,7 +22,8 @@
 
 * base: arch linux 
 * kernel: linux
-* Installer: **installcore** solo con connessione attiva  
+* Installer: **installcore** solo con connessione attiva
+* repositories: core, extra, ai-repo
 * filesystem btrfs @ @home partizione separata
 * zram incluso
 * pacchetti inclusi: clean firefox yay timeshift extension-manager evince eog gparted gsmartcontrol mpv gnome-calculator gnome-clocks gnome-calendar htop gnome-system-monitor vim firewalld cronie reflector
