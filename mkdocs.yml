@@ -48,7 +48,7 @@ nav:
         - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
         - 'NordVPN': 'Altre-Guide/nordvpn.md'
 
-  - 'Core Linux': https://github.com/architalia/site
+  - 'Core Linux': https://architalia.github.io/core/
         
  
   - 'Scripts': 
