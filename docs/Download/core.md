@@ -3,7 +3,8 @@
 
 Disponibile solo la live con installscript, installcore e' in fase di sviluppo
 
-![image](https://github.com/ArchItalia/site/assets/117321045/f11195a0-9274-4d14-9d1d-5ebb9c6f1153)
+![image](https://github.com/ArchItalia/site/assets/117321045/bc23d69f-66da-4023-86d6-c59404759c62)
+
 
 
 !!! info "Informazioni"
