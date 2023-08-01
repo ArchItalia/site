@@ -24,6 +24,6 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 
 ## Core Linux Download
 
-* [**Core-2023.08.01-x86_64.iso**](#) [not yet available]is the available image file that has a size of 1.75 GB, running on kernel 6.4.7-arch1-1. 
+* [**Core-2023.08.01-x86_64.iso**](#) [not yet available] is the available image file that has a size of 1.75 GB, running on kernel 6.4.7-arch1-1. 
 * The **sha256sum** is `c5a6c40bad3af7daf046e080504ea7a2e159d4b168bd853238e0aa1397c556ee`. 
 
