@@ -16,7 +16,7 @@ Disponibile solo la live con installscript, installcore e' in fase di sviluppo
     * kernel: 6.4.7-arch1-1
     * sha256sum: 8f3e7bad3094223168af5f054eee1123fc677dc4c2b361f9f0436e39d3b5197c
 
-- [Download iso :fontawesome-regular-circle-down:](#) 
+- [Download iso :fontawesome-regular-circle-down:](#) non disponibile 
 - [Github :fontawesome-brands-github:](https://github.com/ArchItalia/core-linux)
 - [Repo :fontawesome-brands-gitlab:](https://gitlab.com/architalialinux/ai-repo)
 
