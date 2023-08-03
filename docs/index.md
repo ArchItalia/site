@@ -31,7 +31,7 @@ In queste risorse, gli utenti possono trovare informazioni dettagliate su come u
 * **Jonathan Linux** - Founder
 * **Marco Buccino** - Co-Founder, Facebook Admin
 * **Ivan Karavitis** - Co-Founder, Facebook Admin
-* **Klod Cripta** - Team coordinator, Facebook Admin, Telegram Admin
+* **Klod Cripta** - Team coordinator, Facebook Admin, Telegram Admin, Core Linux beta tester
 * **Marco Favarotto** - Facebook Admin, Telegram moderator
 * **Luana** - Telegram Bot manager
 * **Cate** - Telegram Bot manager
