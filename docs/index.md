@@ -33,7 +33,7 @@ In queste risorse, gli utenti possono trovare informazioni dettagliate su come u
 * **Ivan Karavitis** - Co-Founder, Facebook Admin
 * **Klod Cripta** - Team coordinator, Facebook Admin, Telegram Admin, Core Linux beta tester
 * **Marco Favarotto** - Facebook Admin, Telegram moderator
-* **Luana** - Telegram Bot manager
+* **Luana** - Telegram Bot manager, Telegram moderator
 * **Cate** - Telegram Bot manager
 * **Rick Man** - Youtube Manager, Facebook Admin
 
