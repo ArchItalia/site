@@ -36,6 +36,7 @@ In queste risorse, gli utenti possono trovare informazioni dettagliate su come u
 * **Luana** - Telegram Bot manager, Telegram moderator
 * **Cate** - Telegram Bot manager
 * **Rick Man** - Youtube Manager, Facebook Admin
+* **Marco Giannini** - Reviewer, Promoter, supporter, owner at [Marcos's Box](https://www.marcosbox.org/)
 
 
 <br>
