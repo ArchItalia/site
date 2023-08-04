@@ -23,7 +23,7 @@ Target=nvidia
 Description=Update Nvidia module in initcpio
 Depends=mkinitcpio
 When=PostTransaction
-Exec=/usr/bin/mkinitcpio -P`
+Exec=/usr/bin/mkinitcpio -P
 ```
 <br><br><br>
 
