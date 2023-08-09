@@ -27,9 +27,9 @@ Exec=/usr/bin/mkinitcpio -P
 ```
 <br><br><br>
 
-Creiamo il file blacklist per **nouveau**.
+Creiamo il file blacklist per **nouveau** da root.
 
-`$ echo "blacklist nouveau" > /etc/modprobe.d/blacklist-nvidia-nouveau.conf`
+`# echo "blacklist nouveau" > /etc/modprobe.d/blacklist-nvidia-nouveau.conf`
 
 <br><br><br>
 
