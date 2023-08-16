@@ -1,0 +1,102 @@
+ /*extra css architalia*/
+
+ 
+ *{
+ font-family: 'Architalia Text';
+ }
+
+
+body {
+
+}
+
+
+
+p, li{
+  font-size: 18px!important;
+  font-weight:400;
+  line-height: 1.6;
+}
+
+li.md-source__fact.md-source__fact--stars {
+  font-size: 14px !important;
+}
+li.md-source__fact.md-source__fact--forks{
+ font-size: 14px !important;
+}
+
+.md-source {
+  font-size:18px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+a.md-nav__link{
+  font-size: 16px!important;
+  line-height: 1.4;
+  
+}
+
+a.md-tabs__link{
+ font-size: 16px!important;
+ font-weight:bold!important;
+}
+
+code, pre {
+  font-family: 'Architalia mono';
+  font-weight:bold;
+  font-size: 15px!important;
+  line-height: 1.6;
+}
+ 
+.md-banner__inner.md-grid.md-typeset p {
+  font-size: 16px !important;
+}
+ 
+.md-banner{
+ background-color: var(--md-banner-color);
+ color: var(--md-typeset-color)
+} 
+ 
+.md-header__topic:first-child{
+font-weight:bold;
+}
+
+
+
+small {
+  font-size: 16px;
+}
+ 
+ 
+ .md-copyright{
+ font-size:16px;
+ }
+ 
+
+
+.md-typeset code {
+font-size: .86em;
+padding:5px
+}
+
+img[alt=iso] { width: 200px; }
+img[alt=dwn] { width: 50%; }
+img[alt=derivate] { height: 64px; }
+
+
+.md-typeset .admonition, .md-typeset details {
+  color: var(--md-admonition-fg-color);
+  font-size: .75rem;
+}
+
+.homelogo{
+ background-image: var(--md-logo);
+ height:40px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ }
+
+
+
+

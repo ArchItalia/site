@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: 'Architalia Text';
+  src:url('../assets/architalia fonts/Architalia-Regular.woff') format('woff'),
+      url('../assets/architalia fonts/Architalia-Regular.ttf') format('truetype'),
+      url('../assets/architalia fonts/Architalia-Regular.otf') format('opentype'),
+      url('../assets/architalia fonts/Architalia-Regular.woff2') format('woff2');
+  font-weight:400;
+}
+
+
+@font-face {
+  font-family: 'Architalia Text';
+  src:url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff') format('woff'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.ttf') format('truetype'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.otf') format('opentype'),
+      url('../assets/architalia fonts/ArchitaliaTextMedium-Regular.woff2') format('woff2');
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: 'Architalia mono';
+  src:url('../assets/architalia fonts/Architalia-Mono.woff') format('woff'),
+      url('../assets/architalia fonts/Architalia-Mono.ttf') format('truetype'),
+      url('../assets/architalia fonts/Architalia-Mono.otf') format('opentype'),
+      url('../assets/architalia fonts/Architalia-Mono.woff2') format('woff2');
+  font-weight:normal;
+}
+
