@@ -35,7 +35,7 @@ In queste risorse, gli utenti possono trovare informazioni dettagliate su come u
 * **Marco Favarotto** - Facebook Admin, Telegram moderator
 * **Luana** - Telegram Bot manager, Telegram moderator
 * **Cate** - Telegram Bot manager
-* **Riccardo Arreghini** - Youtube Manager, Facebook Admin, owner at [Rick Man](https://www.youtube.com/@riccardorikman)
+* **Riccardo Arreghini** - Youtube Manager, Facebook Admin, owner at [Rik Man](https://www.youtube.com/@riccardorikman)
 * **Marco Giannini** - Reviewer, Promoter, supporter, owner at [Marcos's Box](https://www.marcosbox.org/)
 
 
